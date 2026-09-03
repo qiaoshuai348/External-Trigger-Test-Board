@@ -1,0 +1,430 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323.2.18 
+Compiled: Mar 16 2022.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\T35_FRAMEWORK.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0215748 seconds.
+	VDB Netlist Checker took 0.015625 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 49.388 MB, end = 49.4 MB, delta = 0.012 MB
+	VDB Netlist Checker peak virtual memory usage = 77.08 MB
+VDB Netlist Checker resident set memory usage: begin = 58.056 MB, end = 58.3 MB, delta = 0.244 MB
+	VDB Netlist Checker peak resident set memory usage = 60.972 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'outflow\T35_FRAMEWORK.interface.csv'.
+Successfully processed interface constraints file "outflow\T35_FRAMEWORK.interface.csv".
+Creating interface clock buffer CMOSPLL_CMOSCLKOUT~CLKBUF.
+Creating interface clock buffer sysclk~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #1(ddrrefclk) has no fanout.
+Removing input.
+logical_block #3(USB_RESET) has no fanout.
+Removing input.
+logical_block #5(MUX_GPIO1_IN) has no fanout.
+Removing input.
+logical_block #7(MUX_GPIO3_IN) has no fanout.
+Removing input.
+logical_block #8(MUX_GPIO4_IN) has no fanout.
+Removing input.
+logical_block #9(TP_GPIO5_IN) has no fanout.
+Removing input.
+logical_block #10(TP_GPIO6_IN) has no fanout.
+Removing input.
+logical_block #11(TP_GPIO7_IN) has no fanout.
+Removing input.
+logical_block #12(TP_GPIO8_IN) has no fanout.
+Removing input.
+logical_block #39(fx3_ctl6) has no fanout.
+Removing input.
+logical_block #40(fx3_ctl4) has no fanout.
+Removing input.
+logical_block #41(fx3_ctl5) has no fanout.
+Removing input.
+logical_block #42(fx3_ctl7) has no fanout.
+Removing input.
+logical_block #77(CMOS_CTL1_IN) has no fanout.
+Removing input.
+logical_block #78(CMOS_CTL2_IN) has no fanout.
+Removing input.
+logical_block #79(CMOS_CTL3_IN) has no fanout.
+Removing input.
+logical_block #80(CMOS_CTL4_IN) has no fanout.
+Removing input.
+logical_block #81(CMOS_CTL5_IN) has no fanout.
+Removing input.
+logical_block #82(CMOS_XHS_IN) has no fanout.
+Removing input.
+logical_block #83(CMOS_XVS_IN) has no fanout.
+Removing input.
+logical_block #84(CMOS_AMPV_IN) has no fanout.
+Removing input.
+logical_block #85(CMOS_TECEN_IN) has no fanout.
+Removing input.
+logical_block #86(CMOS_XCLR_IN) has no fanout.
+Removing input.
+logical_block #87(CMOS_XMASTER_IN) has no fanout.
+Removing input.
+logical_block #88(CMOS_XTRIG_IN) has no fanout.
+Removing input.
+logical_block #129(syspll_LOCKED) has no fanout.
+Removing input.
+logical_block #131(CMOSPLL_LOCKED) has no fanout.
+Removing input.
+logical_block #135(mipi_rx_inst1_CNT[3]) has no fanout.
+Removing input.
+logical_block #136(mipi_rx_inst1_CNT[2]) has no fanout.
+Removing input.
+logical_block #137(mipi_rx_inst1_CNT[1]) has no fanout.
+Removing input.
+logical_block #138(mipi_rx_inst1_CNT[0]) has no fanout.
+Removing input.
+logical_block #212(mipi_rx_inst1_ERROR[8]) has no fanout.
+Removing input.
+logical_block #213(mipi_rx_inst1_ERROR[7]) has no fanout.
+Removing input.
+logical_block #214(mipi_rx_inst1_ERROR[6]) has no fanout.
+Removing input.
+logical_block #231(mipi_rx_inst1_ULPS[3]) has no fanout.
+Removing input.
+logical_block #232(mipi_rx_inst1_ULPS[2]) has no fanout.
+Removing input.
+logical_block #233(mipi_rx_inst1_ULPS[1]) has no fanout.
+Removing input.
+logical_block #234(mipi_rx_inst1_ULPS[0]) has no fanout.
+Removing input.
+logical_block #235(mipi_rx_inst1_ULPS_CLK) has no fanout.
+Removing input.
+logical_block #237(mipi_rx_inst1_VC[1]) has no fanout.
+Removing input.
+logical_block #256(DDR_CTRL_BID_0[7]) has no fanout.
+Removing input.
+logical_block #257(DDR_CTRL_BID_0[6]) has no fanout.
+Removing input.
+logical_block #258(DDR_CTRL_BID_0[5]) has no fanout.
+Removing input.
+logical_block #259(DDR_CTRL_BID_0[4]) has no fanout.
+Removing input.
+logical_block #260(DDR_CTRL_BID_0[3]) has no fanout.
+Removing input.
+logical_block #261(DDR_CTRL_BID_0[2]) has no fanout.
+Removing input.
+logical_block #262(DDR_CTRL_BID_0[1]) has no fanout.
+Removing input.
+logical_block #263(DDR_CTRL_BID_0[0]) has no fanout.
+Removing input.
+logical_block #264(DDR_CTRL_BVALID_0) has no fanout.
+Removing input.
+logical_block #393(DDR_CTRL_RID_0[7]) has no fanout.
+Removing input.
+logical_block #394(DDR_CTRL_RID_0[6]) has no fanout.
+Removing input.
+logical_block #395(DDR_CTRL_RID_0[5]) has no fanout.
+Removing input.
+logical_block #396(DDR_CTRL_RID_0[4]) has no fanout.
+Removing input.
+logical_block #397(DDR_CTRL_RID_0[3]) has no fanout.
+Removing input.
+logical_block #398(DDR_CTRL_RID_0[2]) has no fanout.
+Removing input.
+logical_block #399(DDR_CTRL_RID_0[1]) has no fanout.
+Removing input.
+logical_block #400(DDR_CTRL_RID_0[0]) has no fanout.
+Removing input.
+logical_block #402(DDR_CTRL_RRESP_0[1]) has no fanout.
+Removing input.
+logical_block #403(DDR_CTRL_RRESP_0[0]) has no fanout.
+Removing input.
+Pass 0: Swept away 59 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 59 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 59 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\T35_FRAMEWORK.vdb".
+Netlist pre-processing took 0.555084 seconds.
+	Netlist pre-processing took 0.375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.432 MB, end = 67.224 MB, delta = 54.792 MB
+	Netlist pre-processing peak virtual memory usage = 546.44 MB
+Netlist pre-processing resident set memory usage: begin = 21.928 MB, end = 74.856 MB, delta = 52.928 MB
+	Netlist pre-processing peak resident set memory usage = 544.156 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "work_pnr\T35_FRAMEWORK.net_proto" took 0.006 seconds
+Creating IO constraints file 'work_pnr\T35_FRAMEWORK.io_place'
+Packing took 0.0328016 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 39.664 MB, end = 46.676 MB, delta = 7.012 MB
+	Packing peak virtual memory usage = 546.44 MB
+Packing resident set memory usage: begin = 46.764 MB, end = 54.644 MB, delta = 7.88 MB
+	Packing peak resident set memory usage = 544.156 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file work_pnr\T35_FRAMEWORK.net_proto
+Read proto netlist for file "work_pnr\T35_FRAMEWORK.net_proto" took 0.002 seconds
+Setup net and block data structure took 0.136 seconds
+Packed netlist loading took 0.150854 seconds.
+	Packed netlist loading took 0.125 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 46.676 MB, end = 140.212 MB, delta = 93.536 MB
+	Packed netlist loading peak virtual memory usage = 546.44 MB
+Packed netlist loading resident set memory usage: begin = 54.648 MB, end = 144.452 MB, delta = 89.804 MB
+	Packed netlist loading peak resident set memory usage = 544.156 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+WARNING(1): [SDC line 23] Specified get_ports name or regular expression "ddrrefclk" does not correspond to any ports.
+WARNING(2): [SDC line 31] Clock name or regular expression (ddrpll_CLKOUT) does not correspond to any nets.
+If you'd like to create a virtual clock, use the '-name' keyword without providing any target clock.
+Unable to create clock due to warning found
+WARNING(3): [SDC line 77] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[3]" does not correspond to any ports.
+WARNING(4): [SDC line 77] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[2]" does not correspond to any ports.
+WARNING(5): [SDC line 77] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[1]" does not correspond to any ports.
+WARNING(6): [SDC line 77] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[0]" does not correspond to any ports.
+WARNING(7): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(8): [SDC line 78] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[3]" does not correspond to any ports.
+WARNING(9): [SDC line 78] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[2]" does not correspond to any ports.
+WARNING(10): [SDC line 78] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[1]" does not correspond to any ports.
+WARNING(11): [SDC line 78] Specified get_ports name or regular expression "mipi_rx_inst1_CNT[0]" does not correspond to any ports.
+WARNING(12): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(13): [SDC line 83] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS_CLK" does not correspond to any ports.
+WARNING(14): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(15): [SDC line 84] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS_CLK" does not correspond to any ports.
+WARNING(16): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(17): [SDC line 85] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[3]" does not correspond to any ports.
+WARNING(18): [SDC line 85] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[2]" does not correspond to any ports.
+WARNING(19): [SDC line 85] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[1]" does not correspond to any ports.
+WARNING(20): [SDC line 85] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[0]" does not correspond to any ports.
+WARNING(21): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(22): [SDC line 86] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[3]" does not correspond to any ports.
+WARNING(23): [SDC line 86] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[2]" does not correspond to any ports.
+WARNING(24): [SDC line 86] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[1]" does not correspond to any ports.
+WARNING(25): [SDC line 86] Specified get_ports name or regular expression "mipi_rx_inst1_ULPS[0]" does not correspond to any ports.
+WARNING(26): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(27): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(28): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(29): [SDC line 133] Specified get_ports name or regular expression "DDR_CTRL_BVALID_0" does not correspond to any ports.
+WARNING(30): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(31): [SDC line 134] Specified get_ports name or regular expression "DDR_CTRL_BVALID_0" does not correspond to any ports.
+WARNING(32): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(33): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+No ports found in design
+WARNING(34): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(35): [SDC line 141] Specified get_ports name or regular expression "DDR_CTRL_RRESP_0[1]" does not correspond to any ports.
+WARNING(36): [SDC line 141] Specified get_ports name or regular expression "DDR_CTRL_RRESP_0[0]" does not correspond to any ports.
+WARNING(37): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+WARNING(38): [SDC line 142] Specified get_ports name or regular expression "DDR_CTRL_RRESP_0[1]" does not correspond to any ports.
+WARNING(39): [SDC line 142] Specified get_ports name or regular expression "DDR_CTRL_RRESP_0[0]" does not correspond to any ports.
+WARNING(40): Unable to set input delay due to warnings found
+Unable to set input delay due to warning found
+
+SDC file 'SRC/T35TOP_SDC.sdc' parsed successfully.
+5 clocks (including virtual clocks), 442 inputs and 486 outputs were constrained.
+
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 3.18597 seconds.
+	BuildGraph process took 3.07812 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 201.712 MB, end = 722.904 MB, delta = 521.192 MB
+	BuildGraph process peak virtual memory usage = 729.628 MB
+BuildGraph process resident set memory usage: begin = 205.568 MB, end = 713.568 MB, delta = 508 MB
+	BuildGraph process peak resident set memory usage = 720.204 MB
+check rr_graph process took 0.045307 seconds.
+	check rr_graph process took 0.046875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 777.836 MB, end = 777.836 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 792.884 MB
+check rr_graph process resident set memory usage: begin = 768.396 MB, end = 768.432 MB, delta = 0.036 MB
+	check rr_graph process peak resident set memory usage = 783.396 MB
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'outflow\T35_FRAMEWORK.interface.csv'.
+Successfully processed interface constraints file "outflow\T35_FRAMEWORK.interface.csv".
+Writing IO placement constraints to 'outflow\T35_FRAMEWORK.interface.io'.
+
+Reading placement constraints from 'outflow\T35_FRAMEWORK.interface.io'.
+
+Reading placement constraints from 'work_pnr\T35_FRAMEWORK.io_place'.
+WARNING(41): Clock input pad, syspll_CLKOUT25, of net, syspll_CLKOUT25, drives both clock buffer and logic. Expect extra clock skew.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+Found 14 synchronizers as follows: 
+	Synchronizer 0:  Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 1:  Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 2:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[9]~FF
+	Synchronizer 3:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[7]~FF_frt_1
+	Synchronizer 4:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[6]~FF_frt_2
+	Synchronizer 5:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[5]~FF_frt_3
+	Synchronizer 6:  fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 7:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[4]~FF_frt_4
+	Synchronizer 8:  gps_decoder_inst/u_GPS_FIFO/u_efx_fifo_top/genblk2.rd_rst[0]~FF gps_decoder_inst/u_GPS_FIFO/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 9:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 10:  gps_decoder_inst/u_GPS_FIFO/u_efx_fifo_top/genblk2.wr_rst[0]~FF gps_decoder_inst/u_GPS_FIFO/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 11:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 12:  fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 13:  Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.waddr_cntr_gry_sync[8]~FF_frt_0
+NumRegions 1
+Timer::BuildGraph: ============ Cutting edge BACK edge from MuxGpio_SignalSwitch_inst/i38:I[1] to MuxGpio_SignalSwitch_inst/i38:O
+Timer::BuildGraph: ============ Cutting edge BACK edge from MuxGpio_SignalSwitch_inst/i40:I[1] to MuxGpio_SignalSwitch_inst/i40:O
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      914452            1174         4.9%
+          2      559803            1133         7.3%
+          3      241964            1174        14.8%
+          4      171062            1167        24.4%
+          5      176925            1374        30.9%
+          6      187011            1378        38.5%
+          7      164665            1371        45.6%
+          8      167599            1384        53.1%
+          9      144850             135        58.1%
+         10      146367             377        65.0%
+         11      149951             198        68.7%
+         12      153342             512        71.0%
+         13      152149             106        72.1%
+         14      160995             -89        73.4%
+         15      163927             704        74.4%
+         16      158379             161        75.3%
+         17      157894             673        78.1%
+         18      157086             200        79.9%
+         19      153650             201        81.4%
+         20      147412             381        83.0%
+         21      149376            -138        84.7%
+         22      137305             455        84.7%
+         23      130594            -371        87.2%
+         24      131149            -412        88.6%
+         25      131390            -637        89.0%
+         26      129000            -477        89.4%
+         27      130004            -597        90.2%
+         28      129204            -305        91.1%
+         29      129833           -1367        92.0%
+         30      129385           -1310        92.8%
+         31      129854            -272        93.7%
+         32      129126            -280        94.9%
+         33      129391            -733        95.4%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      137305           11566        30.0
+          1      107224           13001        30.0
+          2       79449           11088        30.0
+          3       79030           10572        30.0
+          4       71075            9767        30.0
+          5       67562            9369        30.0
+          6       63589            9362        30.0
+          7       62972            9362        30.0
+          8       59860            9121        30.0
+          9       59332            9113        30.0
+         10       57361            9113        30.0
+         11       56827            9113        30.0
+         12       55537            9209        30.0
+         13       54440            8978        30.0
+         14       53262            8978        30.0
+         15       52412            8978        30.0
+         16       51388            8978        30.0
+         17       51078            8708        29.8
+         18       50109            8708        29.6
+         19       49746            8708        29.2
+         20       49274            8708        28.8
+         21       48205            8708        28.3
+         22       47674            8708        27.8
+         23       47231            8711        27.2
+         24       46648            8711        26.7
+         25       46666            8711        26.1
+         26       46042            9642        25.6
+         27       45218            8845        24.9
+         28       44641            8845        24.3
+         29       44485            8836        23.6
+         30       43829            8836        22.9
+         31       43842            8690        22.2
+         32       42419            8690        21.6
+         33       42581            8691        20.9
+         34       41588            8692        20.2
+         35       41647            8621        19.6
+         36       40909            8663        18.9
+         37       40874            8663        18.2
+         38       40142            8613        17.6
+         39       40313            8763        17.0
+         40       39680            8763        16.4
+         41       40139            8763        15.8
+         42       39102            8763        15.1
+         43       39202            8763        14.5
+         44       38331            8613        13.9
+         45       38662            8613        13.3
+         46       38118            8613        12.8
+         47       38452            8613        11.9
+Starting incremental timing annealer
+Starting incremental timing quench 1 with temperature 0.1 and 1 moves per pass
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       45819            8613        30.0
+          1       45573            8613        30.0
+          2       48661            8613        28.3
+          3       47259            8613        26.3
+          4       46290            8446        24.5
+          5       45538            8446        22.7
+          6       45024            8446        21.1
+          7       44500            8446        19.6
+          8       43912            8446        18.2
+          9       43406            8446        17.0
+         10       42982            8446        15.8
+         11       42591            8446        14.7
+         12       42113            8446        13.7
+         13       41495            8446        12.8
+         14       41102            8446        12.0
+         15       40496            8446        11.2
+         16       39939            8446        10.3
+Placement successful: 7103 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.15811 at 126,62
+Congestion-weighted HPWL per net: 4.63558
+
+Reading placement constraints from 'outflow/T35_FRAMEWORK.qplace'.
+[TimingCost::InitializeTimingData]
+Finished Realigning Types (1778 blocks needed type change)
+[TimingCost::InitializeTimingData]
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 8.25926 ns
+Successfully created FPGA place file 'outflow\T35_FRAMEWORK.place'
+Placement took 27.6491 seconds.
+	Placement took 59.7031 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 140.212 MB, end = 315.824 MB, delta = 175.612 MB
+	Placement peak virtual memory usage = 976.62 MB
+Placement resident set memory usage: begin = 144.464 MB, end = 307.588 MB, delta = 163.124 MB
+	Placement peak resident set memory usage = 962.476 MB
+***** Ending stage placement *****

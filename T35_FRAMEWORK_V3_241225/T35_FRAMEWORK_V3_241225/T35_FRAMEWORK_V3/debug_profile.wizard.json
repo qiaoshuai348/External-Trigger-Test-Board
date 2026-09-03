@@ -1,0 +1,1625 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "a555af42c5e548ca92ea07a77d04acf5",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 32,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "mipicsi_rxctrl_inst/frame_ed",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/frame_st",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/line_ed",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/line_st",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_DPHY_RSTN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_VALID",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxhsyncvld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxvld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxvsyncvld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_CNT",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_TYPE",
+                    "width": 6,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_ERROR",
+                    "width": 18,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/vob_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/vob_cntx",
+                    "width": 16,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/vob_cnty",
+                    "width": 16,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipi_rx_inst1_VC",
+                    "width": 2,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/pix_cntx",
+                    "width": 14,
+                    "probe_type": 2
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/pix_cnty",
+                    "width": 16,
+                    "probe_type": 2
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rx_inst1_DATA",
+                    "width": 64,
+                    "probe_type": 2
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT100",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "frame_ed",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "frame_st",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "line_ed",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "line_st",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "mipi_rx_inst1_DPHY_RSTN",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "mipi_rx_inst1_VALID",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "mipi_rxhsyncvld",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "mipi_rxvld",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "mipi_rxvsyncvld",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "mipi_rx_inst1_CNT[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "mipi_rx_inst1_CNT[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "mipi_rx_inst1_CNT[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "mipi_rx_inst1_CNT[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[0]",
+                        "net": "mipi_rx_inst1_TYPE[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[1]",
+                        "net": "mipi_rx_inst1_TYPE[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[2]",
+                        "net": "mipi_rx_inst1_TYPE[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[3]",
+                        "net": "mipi_rx_inst1_TYPE[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[4]",
+                        "net": "mipi_rx_inst1_TYPE[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[5]",
+                        "net": "mipi_rx_inst1_TYPE[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[0]",
+                        "net": "mipi_rx_inst1_ERROR[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[1]",
+                        "net": "mipi_rx_inst1_ERROR[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[2]",
+                        "net": "mipi_rx_inst1_ERROR[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[3]",
+                        "net": "mipi_rx_inst1_ERROR[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[4]",
+                        "net": "mipi_rx_inst1_ERROR[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[5]",
+                        "net": "mipi_rx_inst1_ERROR[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[6]",
+                        "net": "mipi_rx_inst1_ERROR[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[7]",
+                        "net": "mipi_rx_inst1_ERROR[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[8]",
+                        "net": "mipi_rx_inst1_ERROR[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[9]",
+                        "net": "mipi_rx_inst1_ERROR[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[10]",
+                        "net": "mipi_rx_inst1_ERROR[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[11]",
+                        "net": "mipi_rx_inst1_ERROR[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[12]",
+                        "net": "mipi_rx_inst1_ERROR[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[13]",
+                        "net": "mipi_rx_inst1_ERROR[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[14]",
+                        "net": "mipi_rx_inst1_ERROR[14]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[15]",
+                        "net": "mipi_rx_inst1_ERROR[15]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[16]",
+                        "net": "mipi_rx_inst1_ERROR[16]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[17]",
+                        "net": "mipi_rx_inst1_ERROR[17]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "vob_flag",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[0]",
+                        "net": "vob_cntx[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[1]",
+                        "net": "vob_cntx[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[2]",
+                        "net": "vob_cntx[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[3]",
+                        "net": "vob_cntx[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[4]",
+                        "net": "vob_cntx[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[5]",
+                        "net": "vob_cntx[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[6]",
+                        "net": "vob_cntx[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[7]",
+                        "net": "vob_cntx[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[8]",
+                        "net": "vob_cntx[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[9]",
+                        "net": "vob_cntx[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[10]",
+                        "net": "vob_cntx[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[11]",
+                        "net": "vob_cntx[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[12]",
+                        "net": "vob_cntx[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[13]",
+                        "net": "vob_cntx[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[14]",
+                        "net": "vob_cntx[14]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[15]",
+                        "net": "vob_cntx[15]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[0]",
+                        "net": "vob_cnty[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[1]",
+                        "net": "vob_cnty[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[2]",
+                        "net": "vob_cnty[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[3]",
+                        "net": "vob_cnty[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[4]",
+                        "net": "vob_cnty[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[5]",
+                        "net": "vob_cnty[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[6]",
+                        "net": "vob_cnty[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[7]",
+                        "net": "vob_cnty[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[8]",
+                        "net": "vob_cnty[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[9]",
+                        "net": "vob_cnty[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[10]",
+                        "net": "vob_cnty[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[11]",
+                        "net": "vob_cnty[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[12]",
+                        "net": "vob_cnty[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[13]",
+                        "net": "vob_cnty[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[14]",
+                        "net": "vob_cnty[14]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[15]",
+                        "net": "vob_cnty[15]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[0]",
+                        "net": "mipi_rx_inst1_VC[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe15[1]",
+                        "net": "mipi_rx_inst1_VC[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16[0]",
+                        "net": "pix_cntx[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[1]",
+                        "net": "pix_cntx[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[2]",
+                        "net": "pix_cntx[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[3]",
+                        "net": "pix_cntx[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[4]",
+                        "net": "pix_cntx[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[5]",
+                        "net": "pix_cntx[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[6]",
+                        "net": "pix_cntx[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[7]",
+                        "net": "pix_cntx[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[8]",
+                        "net": "pix_cntx[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[9]",
+                        "net": "pix_cntx[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[10]",
+                        "net": "pix_cntx[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[11]",
+                        "net": "pix_cntx[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[12]",
+                        "net": "pix_cntx[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16[13]",
+                        "net": "pix_cntx[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[0]",
+                        "net": "pix_cnty[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[1]",
+                        "net": "pix_cnty[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[2]",
+                        "net": "pix_cnty[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[3]",
+                        "net": "pix_cnty[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[4]",
+                        "net": "pix_cnty[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[5]",
+                        "net": "pix_cnty[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[6]",
+                        "net": "pix_cnty[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[7]",
+                        "net": "pix_cnty[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[8]",
+                        "net": "pix_cnty[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[9]",
+                        "net": "pix_cnty[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[10]",
+                        "net": "pix_cnty[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[11]",
+                        "net": "pix_cnty[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[12]",
+                        "net": "pix_cnty[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[13]",
+                        "net": "pix_cnty[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[14]",
+                        "net": "pix_cnty[14]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[15]",
+                        "net": "pix_cnty[15]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[0]",
+                        "net": "mipi_rx_inst1_DATA[0]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[1]",
+                        "net": "mipi_rx_inst1_DATA[1]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[2]",
+                        "net": "mipi_rx_inst1_DATA[2]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[3]",
+                        "net": "mipi_rx_inst1_DATA[3]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[4]",
+                        "net": "mipi_rx_inst1_DATA[4]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[5]",
+                        "net": "mipi_rx_inst1_DATA[5]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[6]",
+                        "net": "mipi_rx_inst1_DATA[6]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[7]",
+                        "net": "mipi_rx_inst1_DATA[7]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[8]",
+                        "net": "mipi_rx_inst1_DATA[8]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[9]",
+                        "net": "mipi_rx_inst1_DATA[9]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[10]",
+                        "net": "mipi_rx_inst1_DATA[10]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[11]",
+                        "net": "mipi_rx_inst1_DATA[11]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[12]",
+                        "net": "mipi_rx_inst1_DATA[12]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[13]",
+                        "net": "mipi_rx_inst1_DATA[13]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[14]",
+                        "net": "mipi_rx_inst1_DATA[14]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[15]",
+                        "net": "mipi_rx_inst1_DATA[15]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[16]",
+                        "net": "mipi_rx_inst1_DATA[16]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[17]",
+                        "net": "mipi_rx_inst1_DATA[17]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[18]",
+                        "net": "mipi_rx_inst1_DATA[18]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[19]",
+                        "net": "mipi_rx_inst1_DATA[19]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[20]",
+                        "net": "mipi_rx_inst1_DATA[20]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[21]",
+                        "net": "mipi_rx_inst1_DATA[21]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[22]",
+                        "net": "mipi_rx_inst1_DATA[22]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[23]",
+                        "net": "mipi_rx_inst1_DATA[23]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[24]",
+                        "net": "mipi_rx_inst1_DATA[24]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[25]",
+                        "net": "mipi_rx_inst1_DATA[25]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[26]",
+                        "net": "mipi_rx_inst1_DATA[26]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[27]",
+                        "net": "mipi_rx_inst1_DATA[27]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[28]",
+                        "net": "mipi_rx_inst1_DATA[28]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[29]",
+                        "net": "mipi_rx_inst1_DATA[29]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[30]",
+                        "net": "mipi_rx_inst1_DATA[30]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[31]",
+                        "net": "mipi_rx_inst1_DATA[31]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[32]",
+                        "net": "mipi_rx_inst1_DATA[32]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[33]",
+                        "net": "mipi_rx_inst1_DATA[33]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[34]",
+                        "net": "mipi_rx_inst1_DATA[34]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[35]",
+                        "net": "mipi_rx_inst1_DATA[35]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[36]",
+                        "net": "mipi_rx_inst1_DATA[36]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[37]",
+                        "net": "mipi_rx_inst1_DATA[37]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[38]",
+                        "net": "mipi_rx_inst1_DATA[38]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[39]",
+                        "net": "mipi_rx_inst1_DATA[39]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[40]",
+                        "net": "mipi_rx_inst1_DATA[40]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[41]",
+                        "net": "mipi_rx_inst1_DATA[41]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[42]",
+                        "net": "mipi_rx_inst1_DATA[42]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[43]",
+                        "net": "mipi_rx_inst1_DATA[43]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[44]",
+                        "net": "mipi_rx_inst1_DATA[44]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[45]",
+                        "net": "mipi_rx_inst1_DATA[45]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[46]",
+                        "net": "mipi_rx_inst1_DATA[46]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[47]",
+                        "net": "mipi_rx_inst1_DATA[47]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[48]",
+                        "net": "mipi_rx_inst1_DATA[48]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[49]",
+                        "net": "mipi_rx_inst1_DATA[49]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[50]",
+                        "net": "mipi_rx_inst1_DATA[50]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[51]",
+                        "net": "mipi_rx_inst1_DATA[51]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[52]",
+                        "net": "mipi_rx_inst1_DATA[52]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[53]",
+                        "net": "mipi_rx_inst1_DATA[53]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[54]",
+                        "net": "mipi_rx_inst1_DATA[54]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[55]",
+                        "net": "mipi_rx_inst1_DATA[55]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[56]",
+                        "net": "mipi_rx_inst1_DATA[56]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[57]",
+                        "net": "mipi_rx_inst1_DATA[57]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[58]",
+                        "net": "mipi_rx_inst1_DATA[58]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[59]",
+                        "net": "mipi_rx_inst1_DATA[59]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[60]",
+                        "net": "mipi_rx_inst1_DATA[60]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[61]",
+                        "net": "mipi_rx_inst1_DATA[61]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[62]",
+                        "net": "mipi_rx_inst1_DATA[62]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18[63]",
+                        "net": "mipi_rx_inst1_DATA[63]",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 32,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "frame_ed",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "frame_st",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "line_ed",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "line_st",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rx_inst1_DPHY_RSTN",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rx_inst1_VALID",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxhsyncvld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxvld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxvsyncvld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rx_inst1_CNT",
+                    "width": 4,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "mipi_rx_inst1_TYPE",
+                    "width": 6,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 5,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "mipi_rx_inst1_ERROR",
+                    "width": 18,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 17,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "vob_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "vob_cntx",
+                    "width": 16,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "vob_cnty",
+                    "width": 16,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "mipi_rx_inst1_VC",
+                    "width": 2,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 1,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "pix_cntx",
+                    "width": 14,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 13,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "pix_cnty",
+                    "width": 16,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "mipi_rx_inst1_DATA",
+                    "width": 64,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

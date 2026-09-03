@@ -1,0 +1,128 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323.2.18 
+Compiled: Mar 16 2022.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 3.85405 seconds.
+	BuildGraph process took 3.8125 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 316.832 MB, end = 902.476 MB, delta = 585.644 MB
+	BuildGraph process peak virtual memory usage = 976.62 MB
+BuildGraph process resident set memory usage: begin = 308.02 MB, end = 877.068 MB, delta = 569.048 MB
+	BuildGraph process peak resident set memory usage = 962.476 MB
+check rr_graph process took 0.0825833 seconds.
+	check rr_graph process took 0.078125 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 925.636 MB, end = 925.636 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 976.62 MB
+check rr_graph process resident set memory usage: begin = 900.184 MB, end = 900.208 MB, delta = 0.024 MB
+	check rr_graph process peak resident set memory usage = 962.476 MB
+Generated 1953458 RR nodes and 7299619 RR edges
+This design has 0 global control net(s). See outflow\T35_FRAMEWORK.route.rpt for details.
+Routing graph took 4.01565 seconds.
+	Routing graph took 3.95312 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 315.824 MB, end = 860.636 MB, delta = 544.812 MB
+	Routing graph peak virtual memory usage = 976.62 MB
+Routing graph resident set memory usage: begin = 307.588 MB, end = 835.384 MB, delta = 527.796 MB
+	Routing graph peak resident set memory usage = 962.476 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        23331              8.803               2.89
+         2         2579              8.803               2.52
+         3          956              8.803               1.16
+         4          317              8.803              0.672
+         5          126              8.803              0.376
+         6           70              8.803              0.372
+         7           33              8.803               0.24
+         8           22              8.803              0.225
+         9           15              8.803              0.225
+        10            7              8.803              0.221
+        11            2              8.803              0.219
+        12            0              8.803              0.221
+
+Successfully routed netlist after 12 routing iterations and 59706675 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 1959830658
+Netlist fully routed.
+
+Successfully created FPGA route file 'outflow\T35_FRAMEWORK.route'
+Routing took 9.93867 seconds.
+	Routing took 9.79688 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 871.952 MB, end = 944.256 MB, delta = 72.304 MB
+	Routing peak virtual memory usage = 1117.01 MB
+Routing resident set memory usage: begin = 842.736 MB, end = 921.4 MB, delta = 78.664 MB
+	Routing peak resident set memory usage = 1068.24 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+WARNING(1): Found combinational cycle from timing node 137067 to 137068
+WARNING(2): 	Cutting timing edge on block pin MuxGpio_SignalSwitch_inst/i40.in[3]
+WARNING(3): Found combinational cycle from timing node 82104 to 82105
+WARNING(4): 	Cutting timing edge on block pin MuxGpio_SignalSwitch_inst/i38.in[3]
+
+Cross clock domain timing relationship was detected. Refer to the clocks section of the timing report for more details. You can use set_clock_groups to control how clocks are analyzed.
+
+Maximum possible analyzed clocks frequency
+Clock Name            Period (ns)   Frequency (MHz)   Edge
+syspll_CLKOUT100            8.923         112.074     (R-R)
+syspll_CLKOUT25            17.233          58.030     (R-R)
+
+Geomean max period: 12.400
+
+Setup (Max) Clock Relationship
+Launch Clock        Capture Clock       Constraint (ns)   Slack (ns)    Edge
+syspll_CLKOUT100     syspll_CLKOUT100         10.000         1.077     (R-R)
+syspll_CLKOUT100     syspll_CLKOUT25          40.000        32.102     (R-R)
+syspll_CLKOUT25      syspll_CLKOUT100         40.000        30.938     (R-R)
+syspll_CLKOUT25      syspll_CLKOUT25          40.000        22.767     (R-R)
+
+Hold (Min) Clock Relationship
+Launch Clock        Capture Clock       Constraint (ns)   Slack (ns)    Edge
+syspll_CLKOUT100     syspll_CLKOUT100          0.000         0.117     (R-R)
+syspll_CLKOUT100     syspll_CLKOUT25           0.000         0.411     (R-R)
+syspll_CLKOUT25      syspll_CLKOUT100          0.000         0.307     (R-R)
+syspll_CLKOUT25      syspll_CLKOUT25           0.000         0.086     (R-R)
+
+
+final timing analysis took 0.414009 seconds.
+	final timing analysis took 0.390625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 944.256 MB, end = 956.124 MB, delta = 11.868 MB
+	final timing analysis peak virtual memory usage = 1117.01 MB
+final timing analysis resident set memory usage: begin = 921.408 MB, end = 933.684 MB, delta = 12.276 MB
+	final timing analysis peak resident set memory usage = 1068.24 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'outflow\T35_FRAMEWORK.interface.csv'.
+Successfully processed interface constraints file "outflow\T35_FRAMEWORK.interface.csv".
+Finished writing bitstream file work_pnr\T35_FRAMEWORK.lbf.
+Bitstream generation took 0.548262 seconds.
+	Bitstream generation took 0.546875 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 956.124 MB, end = 994.14 MB, delta = 38.016 MB
+	Bitstream generation peak virtual memory usage = 1117.01 MB
+Bitstream generation resident set memory usage: begin = 933.696 MB, end = 964.456 MB, delta = 30.76 MB
+	Bitstream generation peak resident set memory usage = 1068.24 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 45.4858 seconds.
+	The entire flow of EFX_PNR took 76.0156 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 6.348 MB, end = 137.18 MB, delta = 130.832 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 1117.01 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.768 MB, end = 133.812 MB, delta = 121.044 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 1068.24 MB

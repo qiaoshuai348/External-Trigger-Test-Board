@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "T35_3_POWERSUPPLY-altium-import")(type "KiCad")(uri "${KIPRJMOD}/T35_3_POWERSUPPLY-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "T35_4_FX3-altium-import")(type "KiCad")(uri "${KIPRJMOD}/T35_4_FX3-altium-import.kicad_sym")(options "")(descr ""))
+)

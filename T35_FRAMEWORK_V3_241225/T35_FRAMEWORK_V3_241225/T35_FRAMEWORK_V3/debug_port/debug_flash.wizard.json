@@ -1,0 +1,1157 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "e2b18a1a10b7471da1649e7b66f38f60",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "flash_ctrl_inst/asmi_address",
+                    "width": 24,
+                    "probe_type": 2
+                },
+                {
+                    "name": "flash_ctrl_inst/asmi_dataout",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "flash_ctrl_inst/asmi_didata",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "flash_ctrl_inst/asmi_divld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/asmi_dovalid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/asmi_num",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "flash_ctrl_inst/busy",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/fast_read",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/flash_cs",
+                    "width": 2,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/miso",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/mosi",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/nss",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/page_write",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/rden",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/rd_cnt",
+                    "width": 9,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/read_start_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/rst",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/sclk",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/sector_erase",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/shift_bytes",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/wren",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/wr_cnt",
+                    "width": 9,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/CS0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/WP_N",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "flash_ctrl_inst/HOLD_N",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT25",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "asmi_address[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "asmi_address[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "asmi_address[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "asmi_address[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[4]",
+                        "net": "asmi_address[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[5]",
+                        "net": "asmi_address[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[6]",
+                        "net": "asmi_address[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[7]",
+                        "net": "asmi_address[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[8]",
+                        "net": "asmi_address[8]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[9]",
+                        "net": "asmi_address[9]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[10]",
+                        "net": "asmi_address[10]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[11]",
+                        "net": "asmi_address[11]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[12]",
+                        "net": "asmi_address[12]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[13]",
+                        "net": "asmi_address[13]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[14]",
+                        "net": "asmi_address[14]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[15]",
+                        "net": "asmi_address[15]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[16]",
+                        "net": "asmi_address[16]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[17]",
+                        "net": "asmi_address[17]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[18]",
+                        "net": "asmi_address[18]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[19]",
+                        "net": "asmi_address[19]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[20]",
+                        "net": "asmi_address[20]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[21]",
+                        "net": "asmi_address[21]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[22]",
+                        "net": "asmi_address[22]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[23]",
+                        "net": "asmi_address[23]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "asmi_dataout[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "asmi_dataout[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "asmi_dataout[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "asmi_dataout[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "asmi_dataout[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "asmi_dataout[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "asmi_dataout[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "asmi_dataout[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[0]",
+                        "net": "asmi_didata[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[1]",
+                        "net": "asmi_didata[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[2]",
+                        "net": "asmi_didata[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[3]",
+                        "net": "asmi_didata[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[4]",
+                        "net": "asmi_didata[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[5]",
+                        "net": "asmi_didata[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[6]",
+                        "net": "asmi_didata[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[7]",
+                        "net": "asmi_didata[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "asmi_divld",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "asmi_dovalid",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "asmi_num[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "asmi_num[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "asmi_num[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "asmi_num[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[4]",
+                        "net": "asmi_num[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[5]",
+                        "net": "asmi_num[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[6]",
+                        "net": "asmi_num[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[7]",
+                        "net": "asmi_num[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "busy",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "fast_read",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[0]",
+                        "net": "flash_cs[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[1]",
+                        "net": "flash_cs[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "miso",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "mosi",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "nss",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "page_write",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "rden",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[0]",
+                        "net": "rd_cnt[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[1]",
+                        "net": "rd_cnt[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[2]",
+                        "net": "rd_cnt[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[3]",
+                        "net": "rd_cnt[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[4]",
+                        "net": "rd_cnt[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[5]",
+                        "net": "rd_cnt[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[6]",
+                        "net": "rd_cnt[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[7]",
+                        "net": "rd_cnt[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14[8]",
+                        "net": "rd_cnt[8]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15",
+                        "net": "read_start_flag",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "rst",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "sclk",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "sector_erase",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19",
+                        "net": "shift_bytes",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20",
+                        "net": "wren",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[0]",
+                        "net": "wr_cnt[0]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[1]",
+                        "net": "wr_cnt[1]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[2]",
+                        "net": "wr_cnt[2]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[3]",
+                        "net": "wr_cnt[3]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[4]",
+                        "net": "wr_cnt[4]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[5]",
+                        "net": "wr_cnt[5]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[6]",
+                        "net": "wr_cnt[6]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[7]",
+                        "net": "wr_cnt[7]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[8]",
+                        "net": "wr_cnt[8]",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22",
+                        "net": "CS0",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23",
+                        "net": "WP_N",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe24",
+                        "net": "HOLD_N",
+                        "path": [
+                            "flash_ctrl_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 1024,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "asmi_address",
+                    "width": 24,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 23,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "asmi_dataout",
+                    "width": 8,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "asmi_didata",
+                    "width": 8,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "asmi_divld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "asmi_dovalid",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "asmi_num",
+                    "width": 8,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "busy",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "fast_read",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "flash_cs",
+                    "width": 2,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 1,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "miso",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mosi",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "nss",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "page_write",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "rden",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "rd_cnt",
+                    "width": 9,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 8,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "read_start_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "rst",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "sclk",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "sector_erase",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "shift_bytes",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "wren",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "wr_cnt",
+                    "width": 9,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ],
+                    "net_idx_left": 8,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "CS0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "WP_N",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                },
+                {
+                    "name": "HOLD_N",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "flash_ctrl_inst"
+                    ]
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

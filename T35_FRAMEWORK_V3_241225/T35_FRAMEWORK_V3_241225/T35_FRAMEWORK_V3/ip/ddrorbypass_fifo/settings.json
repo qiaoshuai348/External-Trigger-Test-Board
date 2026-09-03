@@ -1,0 +1,44 @@
+{
+    "args": [
+        "-o",
+        "ddrorbypass_fifo",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "1.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH": "4",
+        "DATA_WIDTH": "64",
+        "MODE": "0",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "8",
+        "PROGRAMMABLE_FULL": "0",
+        "PROG_FULL_NEGATE": "8",
+        "PROG_EMPTY_ASSERT": "2",
+        "PROG_EMPTY_NEGATE": "3",
+        "PROGRAMMABLE_EMPTY": "0",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "0",
+        "DEVICE_FAMILY": "0",
+        "ASYM_WIDTH_RATIO": "3",
+        "BYPASS_RESET_SYNC": "0"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddrorbypass_fifo\\ddrorbypass_fifo_tmpl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddrorbypass_fifo\\ddrorbypass_fifo.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddrorbypass_fifo\\ddrorbypass_fifo_tmpl.vhd",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddrorbypass_fifo\\ddrorbypass_fifo_define.vh"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-04-19T02:14:27.805071"
+}

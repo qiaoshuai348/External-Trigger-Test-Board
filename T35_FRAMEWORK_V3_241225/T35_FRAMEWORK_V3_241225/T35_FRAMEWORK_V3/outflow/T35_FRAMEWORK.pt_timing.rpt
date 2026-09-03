@@ -1,0 +1,237 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.2.323.2.18
+Date: 2026-08-28 10:46
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_FRAMEWORK
+Timing Model: I4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++--------------------+-------------+-----------------------+
+|       Clock        | Period (ns) | Phase Shift (degrees) |
++--------------------+-------------+-----------------------+
+|  syspll_CLKOUT100  |    10.00    |           0           |
+|  syspll_CLKOUT25   |    40.00    |           0           |
+|   ddrpll_CLKOUT    |     2.50    |           0           |
+| CMOSPLL_CMOSCLKOUT |    37.04    |           0           |
++--------------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------------+----------+----------+
+|    Clock Pin    | Max (ns) | Min (ns) |
++-----------------+----------+----------+
+|      sysclk     |  4.310   |  2.155   |
+| syspll_CLKOUT25 |  4.310   |  2.155   |
++-----------------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-----------+-------------+----------+----------+
+| Instance Name |  Pin Name |  Parameter  | Max (ns) | Min (ns) |
++---------------+-----------+-------------+----------+----------+
+|   ddrrefclk   | ddrrefclk |   GPIO_IN   |  1.951   |  0.976   |
+|     sysclk    |   sysclk  | GPIO_CLK_IN |  1.275   |  0.637   |
+|      mosi     |  mosi_OE  |   GPIO_OUT  |  3.871   |  1.935   |
++---------------+-----------+-------------+----------+----------+
+
+Registered GPIO Configuration:
+===============================
+
++---------------+-----------------+------------+-----------+-----------------------+-----------------------+
+| Instance Name |    Clock Pin    | Setup (ns) | Hold (ns) | Max Clock To Out (ns) | Min Clock To Out (ns) |
++---------------+-----------------+------------+-----------+-----------------------+-----------------------+
+|      miso     | syspll_CLKOUT25 |   -2.419   |   2.081   |                       |                       |
+|      CS0      | syspll_CLKOUT25 |            |           |         8.452         |         4.226         |
+|     HOLD_N    | syspll_CLKOUT25 |            |           |         8.452         |         4.226         |
+|      sclk     | syspll_CLKOUT25 |            |           |         8.645         |         4.322         |
+|      WP_N     | syspll_CLKOUT25 |            |           |         8.849         |         4.425         |
+|      mosi     | syspll_CLKOUT25 |            |           |         8.849         |         4.425         |
++---------------+-----------------+------------+-----------+-----------------------+-----------------------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++--------------------+----------+----------+
+|     Clock Pin      | Max (ns) | Min (ns) |
++--------------------+----------+----------+
+| CMOSPLL_CMOSCLKOUT |  4.310   |  2.155   |
++--------------------+----------+----------+
+
+Clkout GPIO Configuration:
+===========================
+
++---------------+--------------------+--------------+----------+----------+
+| Instance Name |     Clock Pin      |  Parameter   | Max (ns) | Min (ns) |
++---------------+--------------------+--------------+----------+----------+
+|   CMOS_INCK   | CMOSPLL_CMOSCLKOUT | GPIO_CLK_OUT |  7.724   |  3.862   |
++---------------+--------------------+--------------+----------+----------+
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+------------------+-----------+----------+----------+
+| Instance Name |     Pin Name     | Parameter | Max (ns) | Min (ns) |
++---------------+------------------+-----------+----------+----------+
+|    I2CSCL_0   |     I2CSCL_0     |  GPIO_IN  |  1.714   |  0.857   |
+|  optic_trigin |   optic_trigin   |  GPIO_IN  |  1.714   |  0.857   |
+|  UART_FPGARX  |   UART_FPGARX    |  GPIO_IN  |  1.714   |  0.857   |
+|   UART_FX3TX  |    UART_FX3TX    |  GPIO_IN  |  1.714   |  0.857   |
+|   USB_RESET   |    USB_RESET     |  GPIO_IN  |  1.714   |  0.857   |
+|      CS1      |       CS1        |  GPIO_OUT |  2.242   |  1.121   |
+|   fx3_resetn  |    fx3_resetn    |  GPIO_OUT |  3.272   |  1.636   |
+|     LED_B     |      LED_B       |  GPIO_OUT |  3.542   |  1.771   |
+|     LED_G     |      LED_G       |  GPIO_OUT |  3.542   |  1.771   |
+|     LED_R     |      LED_R       |  GPIO_OUT |  3.542   |  1.771   |
+| optic_trigout |  optic_trigout   |  GPIO_OUT |  3.272   |  1.636   |
+|  UART_FPGATX  |   UART_FPGATX    |  GPIO_OUT |  3.762   |  1.881   |
+|   UART_FX3RX  |    UART_FX3RX    |  GPIO_OUT |  4.962   |  2.481   |
+|   CMOS_AMPV   |   CMOS_AMPV_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_AMPV   |  CMOS_AMPV_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_AMPV   |   CMOS_AMPV_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_CTL1   |   CMOS_CTL1_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_CTL1   |  CMOS_CTL1_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_CTL1   |   CMOS_CTL1_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_CTL2   |   CMOS_CTL2_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_CTL2   |  CMOS_CTL2_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_CTL2   |   CMOS_CTL2_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_CTL3   |   CMOS_CTL3_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_CTL3   |  CMOS_CTL3_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_CTL3   |   CMOS_CTL3_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_CTL4   |   CMOS_CTL4_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_CTL4   |  CMOS_CTL4_OUT   |  GPIO_OUT |  4.962   |  2.481   |
+|   CMOS_CTL4   |   CMOS_CTL4_OE   |  GPIO_OUT |  4.930   |  2.465   |
+|   CMOS_CTL5   |   CMOS_CTL5_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_CTL5   |  CMOS_CTL5_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_CTL5   |   CMOS_CTL5_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_TECEN  |  CMOS_TECEN_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_TECEN  |  CMOS_TECEN_OUT  |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_TECEN  |  CMOS_TECEN_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_XCLR   |   CMOS_XCLR_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_XCLR   |  CMOS_XCLR_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_XCLR   |   CMOS_XCLR_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|    CMOS_XHS   |   CMOS_XHS_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    CMOS_XHS   |   CMOS_XHS_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|    CMOS_XHS   |   CMOS_XHS_OE    |  GPIO_OUT |  2.970   |  1.485   |
+|  CMOS_XMASTER | CMOS_XMASTER_IN  |  GPIO_IN  |  1.714   |  0.857   |
+|  CMOS_XMASTER | CMOS_XMASTER_OUT |  GPIO_OUT |  3.002   |  1.501   |
+|  CMOS_XMASTER | CMOS_XMASTER_OE  |  GPIO_OUT |  2.970   |  1.485   |
+|   CMOS_XTRIG  |  CMOS_XTRIG_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   CMOS_XTRIG  |  CMOS_XTRIG_OUT  |  GPIO_OUT |  3.002   |  1.501   |
+|   CMOS_XTRIG  |  CMOS_XTRIG_OE   |  GPIO_OUT |  2.970   |  1.485   |
+|    CMOS_XVS   |   CMOS_XVS_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    CMOS_XVS   |   CMOS_XVS_OUT   |  GPIO_OUT |  3.002   |  1.501   |
+|    CMOS_XVS   |   CMOS_XVS_OE    |  GPIO_OUT |  2.970   |  1.485   |
+|    I2CSDA_0   |   I2CSDA_0_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    I2CSDA_0   |   I2CSDA_0_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|    I2CSDA_0   |   I2CSDA_0_OE    |  GPIO_OUT |  3.240   |  1.620   |
+|   MUX_GPIO1   |   MUX_GPIO1_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO1   |  MUX_GPIO1_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|   MUX_GPIO1   |   MUX_GPIO1_OE   |  GPIO_OUT |  3.240   |  1.620   |
+|   MUX_GPIO2   |   MUX_GPIO2_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO2   |  MUX_GPIO2_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|   MUX_GPIO2   |   MUX_GPIO2_OE   |  GPIO_OUT |  3.240   |  1.620   |
+|   MUX_GPIO3   |   MUX_GPIO3_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO3   |  MUX_GPIO3_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|   MUX_GPIO3   |   MUX_GPIO3_OE   |  GPIO_OUT |  3.240   |  1.620   |
+|   MUX_GPIO4   |   MUX_GPIO4_IN   |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO4   |  MUX_GPIO4_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|   MUX_GPIO4   |   MUX_GPIO4_OE   |  GPIO_OUT |  3.240   |  1.620   |
+|    TP_GPIO5   |   TP_GPIO5_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    TP_GPIO5   |   TP_GPIO5_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|    TP_GPIO5   |   TP_GPIO5_OE    |  GPIO_OUT |  3.240   |  1.620   |
+|    TP_GPIO6   |   TP_GPIO6_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    TP_GPIO6   |   TP_GPIO6_OUT   |  GPIO_OUT |  3.272   |  1.636   |
+|    TP_GPIO6   |   TP_GPIO6_OE    |  GPIO_OUT |  3.240   |  1.620   |
+|    TP_GPIO7   |   TP_GPIO7_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    TP_GPIO7   |   TP_GPIO7_OUT   |  GPIO_OUT |  2.400   |  1.200   |
+|    TP_GPIO7   |   TP_GPIO7_OE    |  GPIO_OUT |  2.358   |  1.179   |
+|    TP_GPIO8   |   TP_GPIO8_IN    |  GPIO_IN  |  1.714   |  0.857   |
+|    TP_GPIO8   |   TP_GPIO8_OUT   |  GPIO_OUT |  2.400   |  1.200   |
+|    TP_GPIO8   |   TP_GPIO8_OE    |  GPIO_OUT |  2.358   |  1.179   |
++---------------+------------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------
+
+---------- 4. LVDS Tx Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++------------------+----------+----------+
+|    Clock Pin     | Max (ns) | Min (ns) |
++------------------+----------+----------+
+| syspll_CLKOUT100 |  4.310   |  2.155   |
++------------------+----------+----------+
+
+Clkout GPIO Configuration:
+===========================
+
++---------------+-------------------+--------------+----------+----------+
+| Instance Name |     Clock Pin     |  Parameter   | Max (ns) | Min (ns) |
++---------------+-------------------+--------------+----------+----------+
+|    fx3_pclk   | ~syspll_CLKOUT100 | GPIO_CLK_OUT |  8.137   |  4.069   |
++---------------+-------------------+--------------+----------+----------+
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+--------------+-----------+----------+----------+
+| Instance Name |   Pin Name   | Parameter | Max (ns) | Min (ns) |
++---------------+--------------+-----------+----------+----------+
+|    fx3_ctl1   |   fx3_ctl1   |  GPIO_IN  |  1.467   |  0.734   |
+|    fx3_ctl4   |   fx3_ctl4   |  GPIO_IN  |  1.467   |  0.734   |
+|    fx3_ctl5   |   fx3_ctl5   |  GPIO_IN  |  1.467   |  0.734   |
+|    fx3_ctl6   |   fx3_ctl6   |  GPIO_IN  |  1.467   |  0.734   |
+|    fx3_ctl7   |   fx3_ctl7   |  GPIO_IN  |  1.467   |  0.734   |
+|   fx3_ctl11   |  fx3_ctl11   |  GPIO_OUT |  3.658   |  1.829   |
+|   fx3_ctl12   |  fx3_ctl12   |  GPIO_OUT |  3.658   |  1.829   |
+|  fx3_data[0]  | fx3_data[0]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[1]  | fx3_data[1]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[2]  | fx3_data[2]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[3]  | fx3_data[3]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[4]  | fx3_data[4]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[5]  | fx3_data[5]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[6]  | fx3_data[6]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[7]  | fx3_data[7]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[8]  | fx3_data[8]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[9]  | fx3_data[9]  |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[10] | fx3_data[10] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[11] | fx3_data[11] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[12] | fx3_data[12] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[13] | fx3_data[13] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[14] | fx3_data[14] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[15] | fx3_data[15] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[16] | fx3_data[16] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[17] | fx3_data[17] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[18] | fx3_data[18] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[19] | fx3_data[19] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[20] | fx3_data[20] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[21] | fx3_data[21] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[22] | fx3_data[22] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[23] | fx3_data[23] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[24] | fx3_data[24] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[25] | fx3_data[25] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[26] | fx3_data[26] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[27] | fx3_data[27] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[28] | fx3_data[28] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[29] | fx3_data[29] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[30] | fx3_data[30] |  GPIO_OUT |  2.478   |  1.239   |
+|  fx3_data[31] | fx3_data[31] |  GPIO_OUT |  2.478   |  1.239   |
++---------------+--------------+-----------+----------+----------+
+
+---------- LVDS Tx Timing Report (end) ----------

@@ -1,0 +1,710 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 28, 2026 10:46:04
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'asmi_rden', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1074)
+[EFX-0012 VERI-INFO] analyzing included file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE/i2cSlave_define.v' (VERI-1328) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:47)
+[EFX-0012 VERI-INFO] back to file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v' (VERI-2320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:47)
+[EFX-0012 VERI-INFO] analyzing included file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE/i2cSlave_define.v' (VERI-1328) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:45)
+[EFX-0012 VERI-INFO] back to file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v' (VERI-2320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:45)
+[EFX-0012 VERI-INFO] analyzing included file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE/timescale.v' (VERI-1328) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v:55)
+[EFX-0012 VERI-INFO] back to file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v' (VERI-2320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v:55)
+[EFX-0012 VERI-INFO] analyzing included file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE/i2cSlave_define.v' (VERI-1328) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v:56)
+[EFX-0012 VERI-INFO] back to file 'G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v' (VERI-2320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v:56)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:369)
+[EFX-0012 VERI-INFO] undeclared symbol 'miso_1', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:308)
+[EFX-0012 VERI-INFO] undeclared symbol 'miso_2', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:309)
+[EFX-0012 VERI-INFO] undeclared symbol 'miso_3', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:310)
+[EFX-0012 VERI-INFO] undeclared symbol 'mosi_1', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:315)
+[EFX-0012 VERI-INFO] undeclared symbol 'mosi_2', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:316)
+[EFX-0012 VERI-INFO] undeclared symbol 'mosi_3', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:317)
+[EFX-0011 VERI-WARNING] redeclaration of ANSI port 'trigin_or_idle' is not allowed (VERI-1372) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:108)
+[EFX-0011 VERI-WARNING] data object 'xhs_in' is already declared (VERI-2170) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:111)
+[EFX-0012 VERI-INFO] previous declaration of 'xhs_in' is from here (VERI-1967) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:110)
+[EFX-0011 VERI-WARNING] second declaration of 'xhs_in' is ignored (VERI-1329) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:111)
+[EFX-0012 VERI-INFO] undeclared symbol 'xhs_out', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:144)
+[EFX-0012 VERI-INFO] undeclared symbol 'xvs_out', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:145)
+[EFX-0012 VERI-INFO] undeclared symbol 'xvs_in', assumed default net type 'wire' (VERI-2561) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:163)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosCtrl_Switch.v:103)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosCtrl_Switch.v:104)
+[EFX-0012 VERI-INFO] undeclared symbol 'cmd_wr_rd', assumed default net type 'wire' (VERI-2561) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:354)
+[EFX-0012 VERI-INFO] undeclared symbol 'cmd_save_rd', assumed default net type 'wire' (VERI-2561) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:355)
+[EFX-0012 VERI-INFO] undeclared symbol 'cmd_rmw', assumed default net type 'wire' (VERI-2561) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:356)
+[EFX-0011 VERI-WARNING] root scope declaration is not allowed in Verilog 95/2K mode (VERI-1791) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2445)
+[EFX-0011 VERI-WARNING] parameter 'IDLE_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2550)
+[EFX-0011 VERI-WARNING] parameter 'START_GEN0_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2551)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT0_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2552)
+[EFX-0011 VERI-WARNING] parameter 'START_GEN1_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2553)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT1_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2554)
+[EFX-0011 VERI-WARNING] parameter 'RESTART_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2555)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT2_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2556)
+[EFX-0011 VERI-WARNING] parameter 'STOP_GEN_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2557)
+[EFX-0011 VERI-WARNING] parameter 'DONE_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2558)
+[EFX-0011 VERI-WARNING] port 'reg33' remains unconnected for this instance (VERI-1927) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1124)
+[EFX-0012 VERI-INFO] compiling module 'T35_TOP' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:44)
+[EFX-0012 VERI-INFO] compiling module 'CmosControl' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:21)
+[EFX-0012 VERI-INFO] compiling module 'SlaveControl_2022' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:22)
+[EFX-0011 VERI-WARNING] expression size 40 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:383)
+[EFX-0012 VERI-INFO] compiling module 'Trigout_set' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\Trigout_set.v:20)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 2 for port 'TrigModeA' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:173)
+[EFX-0012 VERI-INFO] compiling module 'Trigin_set' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\Trigin_set.v:21)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\Trigin_set.v:85)
+[EFX-0012 VERI-INFO] compiling module 'CmosCtrl_Switch' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosCtrl_Switch.v:21)
+[EFX-0011 VERI-WARNING] net 'xhs_in' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:110)
+[EFX-0011 VERI-WARNING] net 'xvs_in' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:163)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:450)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'hsync_stled' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:478)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'hsync_edled' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:479)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'm6inline_leden' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:480)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'm6inline_st' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:481)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'm6inline_ed' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:482)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:369)
+[EFX-0012 VERI-INFO] compiling module 'mipicsi_rxctrl' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:27)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:116)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:323)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:324)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:326)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:445)
+[EFX-0012 VERI-INFO] compiling module 'data_process' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\data_process.v:22)
+[EFX-0011 VERI-WARNING] using initial value of 'timer_stamp' since it is never assigned (VERI-1220) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\data_process.v:72)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0012 VERI-INFO] compiling module 'unsigned_reg_mult' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT_renamed_due_excessive_length_1' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0011 VERI-WARNING] actual bit length 48 differs from formal bit length 18 for port 'A' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'B' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 24 differs from formal bit length 36 for port 'O' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:82)
+[EFX-0012 VERI-INFO] compiling module 'unsigned_reg_mult(WIDTHA=8)' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:21)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'A' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'B' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 16 differs from formal bit length 36 for port 'O' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:82)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\data_process.v:596)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:585)
+[EFX-0012 VERI-INFO] compiling module 'Ddr3Mig_Top' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\Ddr3Mig_Top.v:21)
+[EFX-0012 VERI-INFO] compiling module 'ddr_reset_control' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr_reset_control\ddr_reset_control.v:49)
+[EFX-0012 VERI-INFO] compiling module 'ddr_reset_sequencer_85658342c83544319d270e4f666956fb' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr_reset_control\ddr_reset_control.v:116)
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr_reset_control\ddr_reset_control.v:163)
+[EFX-0012 VERI-INFO] compiling module 'ddr3_state' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:21)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:155)
+[EFX-0011 VERI-WARNING] expression size 30 truncated to fit in target size 29 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:236)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:362)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:94)
+[EFX-0012 VERI-INFO] compiling module 'wrddr3_fifo' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:49)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_top_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_2' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:375)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ram_2dfa250d2c4e453db4446885f6887b58(RD_DEPTH=256,WDATA_WIDTH=64,RDATA_WIDTH=128,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:658)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:694)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ctl_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_3' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:893)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:1169)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:1170)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:115)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=7)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=6)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=4)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=3)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:115)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:198)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:91)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 13 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:813)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:94)
+[EFX-0012 VERI-INFO] compiling module 'rdddr3_fifo' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:49)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_top_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_4' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:375)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ram_07ba11e28366424eb044e2bbe1587d32(WR_DEPTH=256,WDATA_WIDTH=128,RDATA_WIDTH=64,WADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:658)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:694)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ctl_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_5' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:893)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:1163)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:1164)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:115)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=7)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=6)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=4)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=3)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:115)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 13 differs from formal bit length 8 for port 'wr_datacount_o' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:831)
+[EFX-0012 VERI-INFO] compiling module 'ddrorbypass' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\ddrorbypass.v:21)
+[EFX-0012 VERI-INFO] compiling module 'fx3_tx' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\fx3_tx.v:1)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:94)
+[EFX-0012 VERI-INFO] compiling module 'fx3tx_fifo' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:49)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_top_fb4299887f82483b86b511f19dd21887_renamed_due_excessive_length_6' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:375)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ram_fb4299887f82483b86b511f19dd21887(RD_DEPTH=1024,WDATA_WIDTH=66,RDATA_WIDTH=33,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:658)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:694)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ctl_fb4299887f82483b86b511f19dd21887(SYNC_CLK=0,RADDR_WIDTH=10,ASYM_WIDTH_RATIO=3,RAM_MUX_RATIO=2,ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:893)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:1163)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 11 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:1164)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=11)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=11)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:115)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=11)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=9)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=7)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=6)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=4)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=3)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=10)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:115)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 11 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0012 VERI-INFO] compiling module 'gps_decoder' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\gps_decoder.v:1)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:94)
+[EFX-0012 VERI-INFO] compiling module 'GPS_FIFO' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:49)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_top_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_7' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:375)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ram_299bcbbe77b846fd9ff9237dee808eb2(WR_DEPTH=128,RD_DEPTH=128,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=7,RADDR_WIDTH=7,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:658)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:694)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_ctl_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_8' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:893)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:1169)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:1170)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_bin2gray_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:286)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_datasync_299bcbbe77b846fd9ff9237dee808eb2(STAGE=2,WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:115)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=7)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=6)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=4)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=3)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0012 VERI-INFO] compiling module 'efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=2)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:198)
+[EFX-0011 VERI-WARNING] actual bit length 7 differs from formal bit length 8 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 7 differs from formal bit length 8 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'gps_rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:771)
+[EFX-0012 VERI-INFO] compiling module 'MuxGpio_SignalSwitch' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:4)
+[EFX-0011 VERI-WARNING] latch inferred for net 'GPSBOX_DataReceived' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:101)
+[EFX-0011 VERI-WARNING] latch inferred for net 'HSYNC_SlaveIn' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:123)
+[EFX-0011 VERI-WARNING] latch inferred for net 'VSYNC_SlaveIn' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:145)
+[EFX-0012 VERI-INFO] compiling module 'flash_ctrl' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:26)
+[EFX-0012 VERI-INFO] compiling module 'asmi_flash_ctl' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:49)
+[EFX-0012 VERI-INFO] compiling module 'efx_flash_controller_top_809e05252d5b4e67b40dadb316b19da2(SCLK_DIV=4)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:1337)
+[EFX-0012 VERI-INFO] compiling module 'efx_spi_shifter_809e05252d5b4e67b40dadb316b19da2(SCLK_FREQ=3)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:1680)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2242)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2637)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2663)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2686)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2690)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2691)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2693)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2807)
+[EFX-0012 VERI-INFO] compiling module 'dual_clock_fifo_wrapper_809e05252d5b4e67b40dadb316b19da2(OUTPUT_REG="FALSE",AFULL_THRESHOLD=32'b0100000000)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:134)
+[EFX-0012 VERI-INFO] compiling module 'dual_clock_fifo_809e05252d5b4e67b40dadb316b19da2(AFULL_THRESHOLD=32'b0100000000)' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:377)
+[EFX-0012 VERI-INFO] compiling module 'simple_dual_port_ram_809e05252d5b4e67b40dadb316b19da2(ADDR_WIDTH=8,OUTPUT_REG="FALSE")' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2964)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram' (VERI-2571) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2981)
+[EFX-0012 VERI-INFO] compiling module 'efx_command_ctl_809e05252d5b4e67b40dadb316b19da2' (VERI-1018) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:788)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:1209)
+[EFX-0011 VERI-WARNING] net 'miso_1' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:308)
+[EFX-0011 VERI-WARNING] net 'miso_2' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:309)
+[EFX-0011 VERI-WARNING] net 'miso_3' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:310)
+[EFX-0012 VERI-INFO] compiling module 'watchdogs' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\watchdogs.v:20)
+[EFX-0011 VERI-WARNING] expression size 19 truncated to fit in target size 18 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\watchdogs.v:93)
+[EFX-0012 VERI-INFO] compiling module 'fpga_info' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\fpga_info.v:21)
+[EFX-0012 VERI-INFO] compiling module 'LED_state' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\LED_state.v:21)
+[EFX-0011 VERI-WARNING] expression size 24 truncated to fit in target size 23 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\LED_state.v:48)
+[EFX-0011 VERI-WARNING] expression size 28 truncated to fit in target size 27 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\LED_state.v:56)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:910)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 8 for port 'fpga_satte2' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:914)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 8 for port 'fpga_state3' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:915)
+[EFX-0012 VERI-INFO] compiling module 'i2cSlave' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:48)
+[EFX-0012 VERI-INFO] compiling module 'registerInterface' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:50)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:477)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:522)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:530)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:561)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:562)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:568)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 1 for port 'reg1X41' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:517)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 1 for port 'reg1X52' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:525)
+[EFX-0012 VERI-INFO] compiling module 'serialInterface' (VERI-1018) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\serialInterface.v:58)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 8 for port 'reg54' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1021)
+[EFX-0011 VERI-WARNING] actual bit length 5 differs from formal bit length 8 for port 'reg68' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1035)
+[EFX-0011 VERI-WARNING] actual bit length 2 differs from formal bit length 8 for port 'reg1X32' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1088)
+[EFX-0011 VERI-WARNING] actual bit length 2 differs from formal bit length 8 for port 'reg1X33' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1089)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 8 for port 'reg1X52' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1103)
+[EFX-0011 VERI-WARNING] input port 'clk_low' is not connected on this instance (VDB-1013) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:653)
+[EFX-0011 VERI-WARNING] input port 'ShutterMessure_IN' remains unconnected for this instance (VDB-1053) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:788)
+[EFX-0011 VERI-WARNING] input port 'myreg28[7]' remains unconnected for this instance (VDB-1053) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:924)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'TP_GPIO6_OUT' wire 'TP_GPIO6_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO6_OE' wire 'TP_GPIO6_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO7_OUT' wire 'TP_GPIO7_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO7_OE' wire 'TP_GPIO7_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO8_OUT' wire 'TP_GPIO8_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO8_OE' wire 'TP_GPIO8_OE' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[7]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[6]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[5]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[4]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[3]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[2]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[15]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[14]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[13]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[12]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[11]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[10]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[9]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[8]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[7]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[6]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[5]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[4]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[3]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[2]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'xhs_in'. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'xvs_in'. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:163)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:694)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:694)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:694)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0266 WARNING] Module Instance 'u_fx3tx_fifo' input pin tied to constant (a_rst_i=0).
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:694)
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (wr_en_i=1).
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (rd_en_i=1).
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (a_rst_i=0).
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'ram'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2981)
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (locked=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[0]=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[4]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[4]=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[7]=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (fast_read_dual=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_fast_read=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_io_fast_read=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_page_write=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_enable=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_leden=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[15]=0).
+[EFX-0266 WARNING] Module Instance 'data_process_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'Ddr3Mig_Top_inst' input pin tied to constant (rddr3_en=1).
+[EFX-0266 WARNING] Module Instance 'gps_decoder_inst' input pin tied to constant (gps_rst=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[0]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[1]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[2]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[3]=0).
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SlaveControl_2022" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SlaveControl_2022" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Trigout_set" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Trigout_set" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Trigin_set" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Trigin_set" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CmosCtrl_Switch" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CmosCtrl_Switch" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CmosControl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CmosControl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mipicsi_rxctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "mipicsi_rxctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "unsigned_reg_mult" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "unsigned_reg_mult" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "unsigned_reg_mult(WIDTHA=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "unsigned_reg_mult(WIDTHA=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_process" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "data_process" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_85658342c83544319d270e4f666956fb" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_sequencer_85658342c83544319d270e4f666956fb" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_control" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_reset_control" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_2dfa250d2c4e453db4446885f6887b58(RD_DEPTH=256,WDATA_WIDTH=64,RDATA_WIDTH=128,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_2dfa250d2c4e453db4446885f6887b58(RD_DEPTH=256,WDATA_WIDTH=64,RDATA_WIDTH=128,RADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_2dfa250d2c4e453db4446885f6887b58(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_2dfa250d2c4e453db4446885f6887b58(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_2dfa250d2c4e453db4446885f6887b58_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "wrddr3_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "wrddr3_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_07ba11e28366424eb044e2bbe1587d32(WR_DEPTH=256,WDATA_WIDTH=128,RDATA_WIDTH=64,WADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_07ba11e28366424eb044e2bbe1587d32(WR_DEPTH=256,WDATA_WIDTH=128,RDATA_WIDTH=64,WADDR_WIDTH=8,OUTPUT_REG=0,RAM_MUX_RATIO=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_07ba11e28366424eb044e2bbe1587d32(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_07ba11e28366424eb044e2bbe1587d32(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_07ba11e28366424eb044e2bbe1587d32(STAGE=2,WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_07ba11e28366424eb044e2bbe1587d32_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rdddr3_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rdddr3_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr3_state" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr3_state" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr3Mig_Top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr3Mig_Top" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddrorbypass" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddrorbypass" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_fb4299887f82483b86b511f19dd21887(RD_DEPTH=1024,WDATA_WIDTH=66,RDATA_WIDTH=33,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_fb4299887f82483b86b511f19dd21887(RD_DEPTH=1024,WDATA_WIDTH=66,RDATA_WIDTH=33,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_fb4299887f82483b86b511f19dd21887(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_fb4299887f82483b86b511f19dd21887(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_fb4299887f82483b86b511f19dd21887(STAGE=2,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_fb4299887f82483b86b511f19dd21887(SYNC_CLK=0,RADDR_WIDTH=10,ASYM_WIDTH_RATIO=3,RAM_MUX_RATIO=2,ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_fb4299887f82483b86b511f19dd21887(SYNC_CLK=0,RADDR_WIDTH=10,ASYM_WIDTH_RATIO=3,RAM_MUX_RATIO=2,ALMOST_FLAG=0,PROG_FULL_ASSERT=128,PROG_FULL_NEGATE=128,PROG_EMPTY_NEGATE=2,HANDSHAKE_FLAG=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_fb4299887f82483b86b511f19dd21887_renamed_due_excessive_length_6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_fb4299887f82483b86b511f19dd21887_renamed_due_excessive_length_6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fx3tx_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fx3tx_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fx3_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fx3_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_299bcbbe77b846fd9ff9237dee808eb2(WR_DEPTH=128,RD_DEPTH=128,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=7,RADDR_WIDTH=7,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_299bcbbe77b846fd9ff9237dee808eb2(WR_DEPTH=128,RD_DEPTH=128,WDATA_WIDTH=1,RDATA_WIDTH=1,WADDR_WIDTH=7,RADDR_WIDTH=7,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_299bcbbe77b846fd9ff9237dee808eb2(STAGE=2,WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_299bcbbe77b846fd9ff9237dee808eb2(STAGE=2,WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_299bcbbe77b846fd9ff9237dee808eb2(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_7" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_299bcbbe77b846fd9ff9237dee808eb2_renamed_due_excessive_length_7" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPS_FIFO" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "GPS_FIFO" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gps_decoder" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "gps_decoder" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "MuxGpio_SignalSwitch" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "MuxGpio_SignalSwitch" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_spi_shifter_809e05252d5b4e67b40dadb316b19da2(SCLK_FREQ=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_spi_shifter_809e05252d5b4e67b40dadb316b19da2(SCLK_FREQ=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram_809e05252d5b4e67b40dadb316b19da2(ADDR_WIDTH=8,OUTPUT_REG="FALSE")" begin
+[EFX-0000 INFO] ... Clocked Read Port Synthesis for ram net: ram
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "simple_dual_port_ram_809e05252d5b4e67b40dadb316b19da2(ADDR_WIDTH=8,OUTPUT_REG="FALSE")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dual_clock_fifo_809e05252d5b4e67b40dadb316b19da2(AFULL_THRESHOLD=32'b0100000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dual_clock_fifo_809e05252d5b4e67b40dadb316b19da2(AFULL_THRESHOLD=32'b0100000000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dual_clock_fifo_wrapper_809e05252d5b4e67b40dadb316b19da2(OUTPUT_REG="FALSE",AFULL_THRESHOLD=32'b0100000000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "dual_clock_fifo_wrapper_809e05252d5b4e67b40dadb316b19da2(OUTPUT_REG="FALSE",AFULL_THRESHOLD=32'b0100000000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_command_ctl_809e05252d5b4e67b40dadb316b19da2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_command_ctl_809e05252d5b4e67b40dadb316b19da2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_flash_controller_top_809e05252d5b4e67b40dadb316b19da2(SCLK_DIV=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_flash_controller_top_809e05252d5b4e67b40dadb316b19da2(SCLK_DIV=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asmi_flash_ctl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asmi_flash_ctl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "flash_ctrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "flash_ctrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "watchdogs" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "watchdogs" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fpga_info" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fpga_info" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "LED_state" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "LED_state" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "registerInterface" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "registerInterface" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "serialInterface" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "serialInterface" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2cSlave" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2cSlave" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 773 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_TOP" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 2167 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT25 with 1349 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 846 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 1s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 5297, ed: 17197, lv: 9, pw: 9248.17
+[EFX-0000 INFO] ... LUT mapping end (Real time : 14s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n42 with 2165 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network n41 with 1309 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 7 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port ddrrefclk is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port USB_RESET is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO1_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO3_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO4_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO5_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO6_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO7_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO8_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl6 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl4 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl5 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl7 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL1_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL2_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL3_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL4_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL5_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XHS_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XVS_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_AMPV_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_TECEN_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XCLR_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XMASTER_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XTRIG_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port syspll_LOCKED is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOSPLL_LOCKED is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOSPLL_CMOSCLKOUT is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[8] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS_CLK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_VC[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BVALID_0 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RRESP_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RRESP_0[0] is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 61 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	194
+[EFX-0000 INFO] EFX_LUT4        : 	5277
+[EFX-0000 INFO] EFX_MULT        : 	12
+[EFX-0000 INFO] EFX_FF          : 	3443
+[EFX-0000 INFO] EFX_RAM_5K      : 	26
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 

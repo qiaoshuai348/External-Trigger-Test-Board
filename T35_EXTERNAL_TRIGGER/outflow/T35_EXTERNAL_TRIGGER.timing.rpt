@@ -1,0 +1,245 @@
+
+Efinix Static Timing Analysis Report
+Version: 2021.2.323.2.18 
+Date: Tue Sep 01 16:27:35 2026
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Top-level Entity Name: T35_EXTERNAL_TRIGGER
+
+SDC Filename: constraints/T35_EXTERNAL_TRIGGER.sdc
+
+Timing Model: I4
+	temperature : -40C to 100C
+	voltage : 1.2V +/-50mV
+	speedgrade : 4
+	technology : s40ll
+	status : final
+
+---------- Table of Contents (begin) ----------
+   1. Clock Frequency Summary 
+   2. Clock Relationship Summary 
+   3. Path Details for Max Critical Paths 
+   4. Path Details for Min Critical Paths 
+---------- Table of Contents (end) ------------
+
+---------- 1. Clock Frequency Summary (begin) ----------
+
+User target constrained clocks
+Clock Name          Period (ns)   Frequency (MHz)   Waveform   Source Clock Name
+sysclk_in                20.000          50.000         {0.000 10.000}        sysclk
+syspll_CLKOUT100         10.000         100.000         {0.000 5.000}        syspll_CLKOUT100
+
+Maximum possible analyzed clocks frequency
+Clock Name          Period (ns)   Frequency (MHz)   Edge
+syspll_CLKOUT100          9.477         105.520     (R-R)
+
+Geomean max period: 9.477
+
+---------- Clock Frequency Summary (end) ---------------
+
+---------- 2. Clock Relationship Summary (begin) ----------
+
+Setup (Max) Clock Relationship
+Launch Clock      Capture Clock     Constraint (ns)   Slack (ns)    Edge
+syspll_CLKOUT100   syspll_CLKOUT100       10.000         0.523     (R-R)
+
+Hold (Min) Clock Relationship
+Launch Clock      Capture Clock     Constraint (ns)   Slack (ns)    Edge
+syspll_CLKOUT100   syspll_CLKOUT100        0.000         0.306     (R-R)
+
+NOTE: Values are in nanoseconds.
+
+---------- Clock Relationship Summary (end) ---------------
+
+---------- 3. Path Details for Max Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (syspll_CLKOUT100 vs syspll_CLKOUT100)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : controller_inst/trigger_generator_inst/emitted_count[3]~FF|CLK
+Path End      : controller_inst/trigger_generator_inst/controller_inst/gen_running~FF|CE
+Launch Clock  : syspll_CLKOUT100 (RISE)
+Capture Clock : syspll_CLKOUT100 (RISE)
+Slack         : 0.523  (required time - arrival time)
+Delay         : 8.900
+
+Logic Level : 8
+Non-global nets on path : 9
+Global nets on path     : 0
+
+Launch Clock Path Delay        :  4.310
++ Clock To Q + Data Path Delay :  9.357
+--------------------------------------------
+End-of-path arrival time       : 13.667
+
+Constraint                     : 10.000
++ Capture Clock Path Delay     :  4.310
+- Clock Uncertainty            :  0.120
+--------------------------------------------
+End-of-path required time      : 14.190
+
+
+Launch Clock Path
+pin name                                                          model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=============================================================================================================================================
+ syspll_CLKOUT100                                                  inpad           0.000                  0.000           2          (0,241)
+ syspll_CLKOUT100                                                  inpad           0.200                  0.200           2          (0,241)
+ syspll_CLKOUT100                                                  io              0.000                  0.200           2          (0,241)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                                                   gbuf_block      0.320                  0.520           2          (1,241)
+ CLKBUF__0|I                                                       gbuf            3.790                  4.310           2          (1,241)
+ CLKBUF__0|O                                                       gbuf            0.000                  4.310        1150          (1,241)
+ CLKBUF__0|clkout                                                  gbuf_block      0.000                  4.310        1150          (1,241)
+ controller_inst/trigger_generator_inst/emitted_count[3]~FF|CLK    ff              0.000                  4.310        1150          (30,376)
+
+Data Path
+pin name                                                                                   model name    delay (ns)   cumulative delay (ns)    pins on net   location
+======================================================================================================================================================================
+ controller_inst/trigger_generator_inst/emitted_count[3]~FF|Q                               ff               0.282                  0.282           5          (30,376)
+ controller_inst/trigger_generator_inst/emitted_count[3]~FF|O_seq                           eft              0.829                  1.111           5          (30,376)
+   Routing elements:  
+     Manhattan distance of X:0, Y:1
+ LUT__4811|I[0]                                                                             eft              0.267                  1.378           5          (30,377)
+ LUT__4811|in[0]                                                                            lut              0.000                  1.378           5          (30,377)
+ LUT__4811|out                                                                              lut              0.000                  1.378          11          (30,377)
+ LUT__4811|O                                                                                eft              0.824                  2.202          11          (30,377)
+   Routing elements:  
+     Manhattan distance of X:3, Y:9
+ LUT__4862|I[3]                                                                             efl              0.115                  2.318          11          (27,386)
+ LUT__4862|in[3]                                                                            lut              0.000                  2.318          11          (27,386)
+ LUT__4862|out                                                                              lut              0.000                  2.318           9          (27,386)
+ LUT__4862|O                                                                                efl              0.373                  2.691           9          (27,386)
+   Routing elements:  
+     Manhattan distance of X:0, Y:13
+ LUT__4873|I[0]                                                                             efl              0.251                  2.942           9          (27,399)
+ LUT__4873|in[0]                                                                            lut              0.000                  2.942           9          (27,399)
+ LUT__4873|out                                                                              lut              0.000                  2.942           4          (27,399)
+ LUT__4873|O                                                                                efl              1.110                  4.052           4          (27,399)
+   Routing elements:  
+     Manhattan distance of X:1, Y:3
+ LUT__4883|I[0]                                                                             eft              0.267                  4.319           4          (28,396)
+ LUT__4883|in[0]                                                                            lut              0.000                  4.319           4          (28,396)
+ LUT__4883|out                                                                              lut              0.000                  4.319           3          (28,396)
+ LUT__4883|O                                                                                eft              1.336                  5.656           3          (28,396)
+   Routing elements:  
+     Manhattan distance of X:12, Y:6
+ LUT__4884|I[2]                                                                             eft              0.161                  5.817           3          (40,402)
+ LUT__4884|in[2]                                                                            lut              0.000                  5.817           3          (40,402)
+ LUT__4884|out                                                                              lut              0.000                  5.817           2          (40,402)
+ LUT__4884|O                                                                                eft              0.706                  6.523           2          (40,402)
+   Routing elements:  
+     Manhattan distance of X:2, Y:0
+ LUT__4885|I[0]                                                                             eft              0.267                  6.790           2          (42,402)
+ LUT__4885|in[0]                                                                            lut              0.000                  6.790           2          (42,402)
+ LUT__4885|out                                                                              lut              0.000                  6.790           2          (42,402)
+ LUT__4885|O                                                                                eft              0.337                  7.126           2          (42,402)
+   Routing elements:  
+     Manhattan distance of X:0, Y:4
+ controller_inst/trigger_generator_inst/controller_inst/gen_remaining[30]~FF_brt_0|I[2]     eft              0.161                  7.287           2          (42,398)
+ LUT__4927|in[2]                                                                            lut              0.000                  7.287           2          (42,398)
+ LUT__4927|out                                                                              lut              0.000                  7.287          32          (42,398)
+ controller_inst/trigger_generator_inst/controller_inst/gen_remaining[30]~FF_brt_0|O        eft              0.764                  8.052          31          (42,398)
+   Routing elements:  
+     Manhattan distance of X:3, Y:3
+ LUT__4938|I[0]                                                                             efl              0.251                  8.302          32          (39,395)
+ LUT__4938|in[0]                                                                            lut              0.000                  8.302          32          (39,395)
+ LUT__4938|out                                                                              lut              0.000                  8.302           2          (39,395)
+ LUT__4938|O                                                                                efl              0.879                  9.182           2          (39,395)
+   Routing elements:  
+     Manhattan distance of X:3, Y:0
+ controller_inst/trigger_generator_inst/controller_inst/gen_running~FF|CE                   ff               0.175                  9.357           2          (36,395)
+
+Capture Clock Path
+pin name                                                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================================================
+ syspll_CLKOUT100                                                             inpad           0.000                  0.000           2          (0,241)
+ syspll_CLKOUT100                                                             inpad           0.200                  0.200           2          (0,241)
+ syspll_CLKOUT100                                                             io              0.000                  0.200           2          (0,241)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                                                              gbuf_block      0.320                  0.520           2          (1,241)
+ CLKBUF__0|I                                                                  gbuf            3.790                  4.310           2          (1,241)
+ CLKBUF__0|O                                                                  gbuf            0.000                  4.310        1150          (1,241)
+ CLKBUF__0|clkout                                                             gbuf_block      0.000                  4.310        1150          (1,241)
+ controller_inst/trigger_generator_inst/controller_inst/gen_running~FF|CLK    ff              0.000                  4.310        1150          (36,395)
+
+---------- Path Details for Max Critical Paths (end) ---------------
+
+---------- 4. Path Details for Min Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (syspll_CLKOUT100 vs syspll_CLKOUT100)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : controller_inst/resp_payload[7][6]~FF|CLK
+Path End      : controller_inst/resp_payload[7][6]~FF|D
+Launch Clock  : syspll_CLKOUT100 (RISE)
+Capture Clock : syspll_CLKOUT100 (RISE)
+Slack         : 0.306  (arrival time - required time)
+Delay         : 0.225
+
+Logic Level : 1
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        :  2.155
++ Clock To Q + Data Path Delay :  0.366
+--------------------------------------------
+End-of-path arrival time       :  2.521
+
+Constraint                     :  0.000
++ Capture Clock Path Delay     :  2.155
++ Clock Uncertainty            :  0.060
+--------------------------------------------
+End-of-path required time      :  2.215
+
+
+Launch Clock Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ syspll_CLKOUT100                             inpad           0.000                  0.000           2          (0,241)
+ syspll_CLKOUT100                             inpad           0.100                  0.100           2          (0,241)
+ syspll_CLKOUT100                             io              0.000                  0.100           2          (0,241)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                              gbuf_block      0.160                  0.260           2          (1,241)
+ CLKBUF__0|I                                  gbuf            1.895                  2.155           2          (1,241)
+ CLKBUF__0|O                                  gbuf            0.000                  2.155        1150          (1,241)
+ CLKBUF__0|clkout                             gbuf_block      0.000                  2.155        1150          (1,241)
+ controller_inst/resp_payload[7][6]~FF|CLK    ff              0.000                  2.155        1150          (2,384)
+
+Data Path
+pin name                                       model name    delay (ns)   cumulative delay (ns)    pins on net   location
+==========================================================================================================================
+ controller_inst/resp_payload[7][6]~FF|Q        ff               0.141                  0.141           3          (2,384)
+ controller_inst/resp_payload[7][6]~FF|O_seq    eft              0.167                  0.308           3          (2,384)
+ controller_inst/resp_payload[7][6]~FF|I[3]     eft              0.058                  0.366           3          (2,384)
+ LUT__6100|in[3]                                lut              0.000                  0.366           3          (2,384)
+ LUT__6100|out                                  lut              0.000                  0.366           2          (2,384)
+
+Capture Clock Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ syspll_CLKOUT100                             inpad           0.000                  0.000           2          (0,241)
+ syspll_CLKOUT100                             inpad           0.100                  0.100           2          (0,241)
+ syspll_CLKOUT100                             io              0.000                  0.100           2          (0,241)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ CLKBUF__0|IO_in                              gbuf_block      0.160                  0.260           2          (1,241)
+ CLKBUF__0|I                                  gbuf            1.895                  2.155           2          (1,241)
+ CLKBUF__0|O                                  gbuf            0.000                  2.155        1150          (1,241)
+ CLKBUF__0|clkout                             gbuf_block      0.000                  2.155        1150          (1,241)
+ controller_inst/resp_payload[7][6]~FF|CLK    ff              0.000                  2.155        1150          (2,384)
+
+---------- Path Details for Min Critical Paths (end) ---------------

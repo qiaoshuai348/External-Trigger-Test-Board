@@ -1,0 +1,783 @@
+
+Efinity Interface Designer Report
+Version: 2021.2.323.2.18
+Date: 2026-08-28 10:46
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_FRAMEWORK
+
+Package: 324-ball FBGA (final)
+Timing Model: I4 (final)
+Configuration Mode: active (x4)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. MIPI Rx Usage Summary
+   12. MIPI Tx Usage Summary
+   13. Clock Mux Usage Summary
+   14. Configuration Control Usage Summary
+   15. JTAG Usage Summary
+   16. DDR Usage Summary
+   17. Design Issues
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 1 / 1 (100.0%)
+ddr: 1 / 1 (100.0%)
+gpio: 8 / 38 (21.05%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 17.5 / 26 (67.31%)
+	gpio: 35
+lvds_tx: 20.0 / 20 (100.0%)
+	gpio: 40
+mipi_rx: 1 / 2 (50.0%)
+mipi_tx: 0 / 2 (0.0%)
+pll: 3 / 7 (42.86%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: T35_FRAMEWORK.interface.csv
+Peripheral Block Configuration: T35_FRAMEWORK.lpf
+Pinout Report: T35_FRAMEWORK.pinout.rpt
+Pinout CSV: T35_FRAMEWORK.pinout.csv
+Timing Report: T35_FRAMEWORK.pt_timing.rpt
+Timing SDC Template: T35_FRAMEWORK.pt.sdc
+Verilog Template: T35_FRAMEWORK_template.v
+Option Register File: T35_FRAMEWORK_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+-------------+
+| I/O Bank | I/O Voltage |
++----------+-------------+
+|    1A    |    3.3 V    |
+|  1B_1C   |    3.3 V    |
+|  1D_1E   |    3.3 V    |
+|    2A    |    1.8 V    |
+|    2B    |    3.3 V    |
+|    2C    |    1.8 V    |
+|    3A    |    1.2 V    |
+|    3B    |    1.2 V    |
+| 3C_TR_BR |    1.8 V    |
+|    3D    |    1.5 V    |
+|    4A    |    3.3 V    |
+|    4B    |    3.3 V    |
+|    BL    |    1.2 V    |
++----------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++--------------------+-----------------+------+
+|      Pin Name      |     Resource    | Type |
++--------------------+-----------------+------+
+| CMOSPLL_CMOSCLKOUT | PLL_BR1.CLKOUT0 | GCLK |
+|   ddrpll_CLKOUT    | PLL_BR0.CLKOUT0 | GCLK |
+|       sysclk       |   GPIOL_66.ALT  | GCLK |
+|  syspll_CLKOUT25   | PLL_BL0.CLKOUT1 | GCLK |
+|  syspll_CLKOUT100  | PLL_BL0.CLKOUT0 | GCLK |
++--------------------+-----------------+------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      2/16      |
+|      L0      |      1/4       |
+|      L1      |      1/4       |
+|      L3      |      0/4       |
+|      L4      |      0/4       |
+|      L5      |      0/4       |
+|      R0      |      1/4       |
+|      R1      |      0/4       |
+|      R3      |      0/4       |
+|      R4      |      1/4       |
+|      R5      |      0/4       |
+|      T       |      1/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
++---------------+----------+
+| Instance Name | Function |
++---------------+----------+
+|      CS0      |   SS_N   |
+|    fx3_ctl4   |  CDI14   |
+|    fx3_ctl5   |  CDI24   |
+|    fx3_ctl6   |  CDI30   |
+|   fx3_ctl12   |  CDI29   |
+|  fx3_data[3]  |  CDI19   |
+|  fx3_data[4]  |  CDI15   |
+|  fx3_data[5]  |   CDI8   |
+|  fx3_data[6]  |  CDI16   |
+|  fx3_data[7]  |  CDI18   |
+|  fx3_data[8]  |  CDI13   |
+|  fx3_data[9]  |  CDI12   |
+|  fx3_data[10] |  CDI10   |
+|  fx3_data[11] |  CDI11   |
+|  fx3_data[14] |  CDI17   |
+|  fx3_data[15] |   CDI9   |
+|  fx3_data[16] |  CDI23   |
+|  fx3_data[19] |  CDI26   |
+|  fx3_data[20] |  CDI22   |
+|  fx3_data[23] |  CDI28   |
+|  fx3_data[24] |  CDI27   |
+|  fx3_data[26] |  CDI21   |
+|  fx3_data[27] |  CDI31   |
+|  fx3_data[28] |  CDI20   |
+|  fx3_data[31] |  CDI25   |
+|     HOLD_N    |   CDI3   |
+|      miso     |   CDI1   |
+|      mosi     |   CDI0   |
+|      sclk     |   CCK    |
+|      WP_N     |   CDI2   |
++---------------+----------+
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+-----------+--------------+----------+----------------------+--------------------------+-------------+
+| Instance Name |   Resource  |  Mode  |  Register | Clock Region | I/O Bank |     I/O Standard     |         Pad Name         | Package Pin |
++---------------+-------------+--------+-----------+--------------+----------+----------------------+--------------------------+-------------+
+|   CMOS_AMPV   | GPIOT_RXN24 | inout  |           |              |    2C    |     1.8 V LVCMOS     |    GPIOT_RXN24_EXTFB2    |     B10     |
+|   CMOS_CTL1   | GPIOT_RXN22 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN22        |     B12     |
+|   CMOS_CTL2   | GPIOT_RXP18 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP18        |     B16     |
+|   CMOS_CTL3   | GPIOT_RXN21 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN21        |     A13     |
+|   CMOS_CTL4   | GPIOT_RXP22 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP22        |     A12     |
+|   CMOS_CTL5   | GPIOT_RXN23 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN23        |     B11     |
+|   CMOS_INCK   | GPIOT_RXP19 | clkout |           |      T       |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP19        |     B15     |
+|   CMOS_TECEN  | GPIOT_RXP23 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP23        |     A11     |
+|   CMOS_XCLR   | GPIOT_RXN20 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN20        |     A14     |
+|    CMOS_XHS   | GPIOT_RXP20 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP20        |     B14     |
+|  CMOS_XMASTER | GPIOT_RXP21 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXP21        |     B13     |
+|   CMOS_XTRIG  | GPIOT_RXN18 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN18        |     A16     |
+|    CMOS_XVS   | GPIOT_RXN19 | inout  |           |              |    2C    |     1.8 V LVCMOS     |       GPIOT_RXN19        |     A15     |
+|      CS0      |   GPIOL_00  | output |    O(R)   |      L0      |    1A    | 3.3 V LVTTL / LVCMOS |      GPIOL_00_SS_N       |     P15     |
+|      CS1      | GPIOT_RXP10 | output |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP10        |     G16     |
+|   ddrrefclk   |  GPIOR_138  | input  |           |              | 3C_TR_BR |     1.8 V LVCMOS     |     GPIOR_138_PLLIN0     |      U8     |
+|    fx3_ctl1   | GPIOB_TXN09 | input  |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN09        |     R13     |
+|    fx3_ctl4   | GPIOB_TXN15 | input  |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN15_CDI14     |     V10     |
+|    fx3_ctl5   | GPIOB_TXN06 | input  |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN06_CDI24     |     U14     |
+|    fx3_ctl6   | GPIOB_TXN03 | input  |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN03_CDI30     |     V16     |
+|    fx3_ctl7   | GPIOB_TXP12 | input  |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP12        |     P12     |
+|   fx3_ctl11   | GPIOB_TXP00 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP00        |     T17     |
+|   fx3_ctl12   | GPIOB_TXP04 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP04_CDI29     |     U15     |
+|  fx3_data[0]  | GPIOB_TXN12 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN12        |     N12     |
+|  fx3_data[1]  | GPIOB_TXP11 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP11        |     R12     |
+|  fx3_data[2]  | GPIOB_TXP10 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP10        |     V12     |
+|  fx3_data[3]  | GPIOB_TXP13 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP13_CDI19     |     N11     |
+|  fx3_data[4]  | GPIOB_TXP15 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |  GPIOB_TXP15_CLK1_CDI15  |     U10     |
+|  fx3_data[5]  | GPIOB_TXN18 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXN18_CDI8     |     T11     |
+|  fx3_data[6]  | GPIOB_TXN14 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN14_CDI16     |     P10     |
+|  fx3_data[7]  | GPIOB_TXN13 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN13_CDI18     |     P11     |
+|  fx3_data[8]  | GPIOB_TXP16 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP16_CDI13     |      N9     |
+|  fx3_data[9]  | GPIOB_TXN16 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN16_CDI12     |      P9     |
+|  fx3_data[10] | GPIOB_TXN17 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN17_CDI10     |      U9     |
+|  fx3_data[11] | GPIOB_TXP17 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP17_CDI11     |      V9     |
+|  fx3_data[12] | GPIOB_TXP19 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXP19_CLK2     |      T9     |
+|  fx3_data[13] | GPIOB_TXN19 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN19        |      R9     |
+|  fx3_data[14] | GPIOB_TXP14 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP14_EXTFB1_CDI17 |     N10     |
+|  fx3_data[15] | GPIOB_TXP18 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP18_EXTFB2_CDI9  |     U11     |
+|  fx3_data[16] | GPIOB_TXP07 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP07_CDI23     |     P14     |
+|  fx3_data[17] | GPIOB_TXP09 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXP09_CLK0     |     P13     |
+|  fx3_data[18] | GPIOB_TXN00 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN00        |     R17     |
+|  fx3_data[19] | GPIOB_TXN05 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN05_CDI26     |     R15     |
+|  fx3_data[20] | GPIOB_TXN07 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN07_CDI22     |     R14     |
+|  fx3_data[21] | GPIOB_TXN02 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN02        |     P18     |
+|  fx3_data[22] | GPIOB_TXP02 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP02        |     R18     |
+|  fx3_data[23] | GPIOB_TXN04 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN04_CDI28     |     V15     |
+|  fx3_data[24] | GPIOB_TXP05 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP05_CDI27     |     T15     |
+|  fx3_data[25] | GPIOB_TXP01 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP01        |     U18     |
+|  fx3_data[26] | GPIOB_TXP08 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP08_EXTFB0_CDI21 |     V13     |
+|  fx3_data[27] | GPIOB_TXP03 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP03_CDI31     |     U16     |
+|  fx3_data[28] | GPIOB_TXN08 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN08_CDI20     |     U13     |
+|  fx3_data[29] | GPIOB_TXN01 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN01        |     T18     |
+|  fx3_data[30] | GPIOB_TXN11 | output |           |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN11        |     T12     |
+|  fx3_data[31] | GPIOB_TXP06 | output |           |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP06_CDI25     |     V14     |
+|    fx3_pclk   | GPIOB_TXN10 | clkout |           |      B       |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN10        |     U12     |
+|   fx3_resetn  | GPIOT_RXP00 | output |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP00        |     D13     |
+|     HOLD_N    |   GPIOL_16  | output |    O(R)   |      L1      |  1B_1C   | 3.3 V LVTTL / LVCMOS |      GPIOL_16_CDI3       |     K18     |
+|    I2CSCL_0   | GPIOT_RXN25 | input  |           |              |    2C    |     1.8 V LVCMOS     |    GPIOT_RXN25_CLKN2     |      A9     |
+|    I2CSDA_0   | GPIOT_RXP24 | inout  |           |              |    2C    |     1.8 V LVCMOS     |    GPIOT_RXP24_EXTFB2    |     A10     |
+|     LED_B     | GPIOT_RXN10 | output |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN10        |     H16     |
+|     LED_G     | GPIOT_RXN11 | output |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN11        |     H15     |
+|     LED_R     | GPIOT_RXP11 | output |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP11        |     G15     |
+|      miso     |   GPIOL_09  | input  |    I(R)   |      L0      |    1A    | 3.3 V LVTTL / LVCMOS |      GPIOL_09_CDI1       |     N14     |
+|      mosi     |   GPIOL_08  | inout  | I(R),O(R) |      L0      |    1A    | 3.3 V LVTTL / LVCMOS |      GPIOL_08_CDI0       |     M13     |
+|   MUX_GPIO1   | GPIOT_RXN00 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN00        |     C13     |
+|   MUX_GPIO2   | GPIOT_RXN03 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN03        |     E15     |
+|   MUX_GPIO3   | GPIOT_RXN04 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN04        |     E14     |
+|   MUX_GPIO4   | GPIOT_RXP04 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP04        |     D14     |
+|  optic_trigin | GPIOT_RXP02 | input  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP02        |     D11     |
+| optic_trigout | GPIOT_RXN02 | output |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN02        |     C11     |
+|      sclk     |   GPIOL_01  | output |    O(R)   |      L0      |    1A    | 3.3 V LVTTL / LVCMOS |       GPIOL_01_CCK       |     N13     |
+|     sysclk    |   GPIOL_66  | input  |           |              |  1B_1C   | 3.3 V LVTTL / LVCMOS |      GPIOL_66_CLK0       |     K17     |
+|    TP_GPIO5   | GPIOT_RXN05 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN05        |     D12     |
+|    TP_GPIO6   | GPIOT_RXP05 | inout  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP05        |     E12     |
+|    TP_GPIO7   | GPIOT_RXP09 | inout  |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP09        |     G17     |
+|    TP_GPIO8   | GPIOT_RXN09 | inout  |           |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN09        |     H17     |
+|  UART_FPGARX  | GPIOT_RXN01 | input  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN01        |     D16     |
+|  UART_FPGATX  | GPIOT_RXP01 | output |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP01        |     C16     |
+|   UART_FX3RX  | GPIOT_RXP06 | output |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP06        |     E13     |
+|   UART_FX3TX  | GPIOT_RXN06 | input  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXN06        |     F13     |
+|   USB_RESET   | GPIOT_RXP03 | input  |           |              |    2A    |     1.8 V LVCMOS     |       GPIOT_RXP03        |     D15     |
+|      WP_N     |   GPIOL_14  | output |    O(R)   |      L1      |  1B_1C   | 3.3 V LVTTL / LVCMOS |      GPIOL_14_CDI2       |     K14     |
++---------------+-------------+--------+-----------+--------------+----------+----------------------+--------------------------+-------------+
+
+*NOTE
+R: Register Path
+
+
+Clkout GPIO Configuration:
+==========================
+
++---------------+--------------------+----------------+
+| Instance Name |     Clock Pin      | Drive Strength |
++---------------+--------------------+----------------+
+|   CMOS_INCK   | CMOSPLL_CMOSCLKOUT |       3        |
+|    fx3_pclk   | ~syspll_CLKOUT100  |       1        |
++---------------+--------------------+----------------+
+
+Input GPIO Configuration:
+=========================
+
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name |  Input Pin   | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+|   ddrrefclk   |              |      ddrrefclk      |                 |     none     |     Disable     | none |
+|    fx3_ctl1   |   fx3_ctl1   |                     |                 |     none     |     Disable     |      |
+|    fx3_ctl4   |   fx3_ctl4   |                     |                 |     none     |     Disable     |      |
+|    fx3_ctl5   |   fx3_ctl5   |                     |                 |     none     |     Disable     |      |
+|    fx3_ctl6   |   fx3_ctl6   |                     |                 |     none     |     Disable     |      |
+|    fx3_ctl7   |   fx3_ctl7   |                     |                 |     none     |     Disable     |      |
+|    I2CSCL_0   |   I2CSCL_0   |                     |                 | weak pullup  |     Disable     |      |
+|      miso     |     miso     |                     | syspll_CLKOUT25 |     none     |     Disable     | none |
+|  optic_trigin | optic_trigin |                     |                 | weak pullup  |     Disable     |      |
+|     sysclk    |              |        sysclk       |                 |     none     |     Disable     | none |
+|  UART_FPGARX  | UART_FPGARX  |                     |                 | weak pullup  |     Disable     |      |
+|   UART_FX3TX  |  UART_FX3TX  |                     |                 |     none     |     Disable     |      |
+|   USB_RESET   |  USB_RESET   |                     |                 | weak pullup  |     Disable     |      |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+---------------+------------------+----------------+-----------+------+
+| Instance Name |   Output Pin  | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+---------------+------------------+----------------+-----------+------+
+|      CS0      |      CS0      | syspll_CLKOUT25  |       4        |  Disable  | none |
+|      CS1      |      CS1      |                  |       4        |  Disable  |      |
+|   fx3_ctl11   |   fx3_ctl11   |                  |       1        |  Disable  |      |
+|   fx3_ctl12   |   fx3_ctl12   |                  |       1        |  Disable  |      |
+|  fx3_data[0]  |  fx3_data[0]  |                  |       3        |  Disable  |      |
+|  fx3_data[1]  |  fx3_data[1]  |                  |       3        |  Disable  |      |
+|  fx3_data[2]  |  fx3_data[2]  |                  |       3        |  Disable  |      |
+|  fx3_data[3]  |  fx3_data[3]  |                  |       3        |  Disable  |      |
+|  fx3_data[4]  |  fx3_data[4]  |                  |       3        |  Disable  |      |
+|  fx3_data[5]  |  fx3_data[5]  |                  |       3        |  Disable  |      |
+|  fx3_data[6]  |  fx3_data[6]  |                  |       3        |  Disable  |      |
+|  fx3_data[7]  |  fx3_data[7]  |                  |       3        |  Disable  |      |
+|  fx3_data[8]  |  fx3_data[8]  |                  |       3        |  Disable  |      |
+|  fx3_data[9]  |  fx3_data[9]  |                  |       3        |  Disable  |      |
+|  fx3_data[10] |  fx3_data[10] |                  |       3        |  Disable  |      |
+|  fx3_data[11] |  fx3_data[11] |                  |       3        |  Disable  |      |
+|  fx3_data[12] |  fx3_data[12] |                  |       3        |  Disable  |      |
+|  fx3_data[13] |  fx3_data[13] |                  |       3        |  Disable  |      |
+|  fx3_data[14] |  fx3_data[14] |                  |       3        |  Disable  |      |
+|  fx3_data[15] |  fx3_data[15] |                  |       3        |  Disable  |      |
+|  fx3_data[16] |  fx3_data[16] |                  |       3        |  Disable  |      |
+|  fx3_data[17] |  fx3_data[17] |                  |       3        |  Disable  |      |
+|  fx3_data[18] |  fx3_data[18] |                  |       3        |  Disable  |      |
+|  fx3_data[19] |  fx3_data[19] |                  |       3        |  Disable  |      |
+|  fx3_data[20] |  fx3_data[20] |                  |       3        |  Disable  |      |
+|  fx3_data[21] |  fx3_data[21] |                  |       3        |  Disable  |      |
+|  fx3_data[22] |  fx3_data[22] |                  |       3        |  Disable  |      |
+|  fx3_data[23] |  fx3_data[23] |                  |       3        |  Disable  |      |
+|  fx3_data[24] |  fx3_data[24] |                  |       3        |  Disable  |      |
+|  fx3_data[25] |  fx3_data[25] |                  |       3        |  Disable  |      |
+|  fx3_data[26] |  fx3_data[26] |                  |       3        |  Disable  |      |
+|  fx3_data[27] |  fx3_data[27] |                  |       3        |  Disable  |      |
+|  fx3_data[28] |  fx3_data[28] |                  |       3        |  Disable  |      |
+|  fx3_data[29] |  fx3_data[29] |                  |       3        |  Disable  |      |
+|  fx3_data[30] |  fx3_data[30] |                  |       3        |  Disable  |      |
+|  fx3_data[31] |  fx3_data[31] |                  |       3        |  Disable  |      |
+|   fx3_resetn  |   fx3_resetn  |                  |       3        |  Disable  |      |
+|     HOLD_N    |     HOLD_N    | syspll_CLKOUT25  |       4        |  Disable  | none |
+|     LED_B     |     LED_B     |                  |       1        |  Disable  |      |
+|     LED_G     |     LED_G     |                  |       1        |  Disable  |      |
+|     LED_R     |     LED_R     |                  |       1        |  Disable  |      |
+| optic_trigout | optic_trigout |                  |       3        |  Disable  |      |
+|      sclk     |      sclk     | syspll_CLKOUT25  |       2        |  Disable  | none |
+|  UART_FPGATX  |  UART_FPGATX  |                  |       2        |  Disable  |      |
+|   UART_FX3RX  |   UART_FX3RX  |                  |       1        |  Disable  |      |
+|      WP_N     |      WP_N     | syspll_CLKOUT25  |       1        |  Disable  | none |
++---------------+---------------+------------------+----------------+-----------+------+
+
+Inout GPIO Configuration:
+=========================
+
++---------------+-----------------+---------------------+-----------------+--------------+-----------------+------------+------------------+-----------------+------------------+----------------+-----------+-------------+
+| Instance Name |    Input Pin    | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | Input DDIO |    Output Pin    |      OE Pin     | Output Clock Pin | Drive Strength | Slew Rate | Output DDIO |
++---------------+-----------------+---------------------+-----------------+--------------+-----------------+------------+------------------+-----------------+------------------+----------------+-----------+-------------+
+|   CMOS_AMPV   |   CMOS_AMPV_IN  |                     |                 |     none     |     Disable     |            |  CMOS_AMPV_OUT   |   CMOS_AMPV_OE  |                  |       4        |  Disable  |             |
+|   CMOS_CTL1   |   CMOS_CTL1_IN  |                     |                 |     none     |     Disable     |            |  CMOS_CTL1_OUT   |   CMOS_CTL1_OE  |                  |       4        |  Disable  |             |
+|   CMOS_CTL2   |   CMOS_CTL2_IN  |                     |                 |     none     |     Disable     |            |  CMOS_CTL2_OUT   |   CMOS_CTL2_OE  |                  |       4        |  Disable  |             |
+|   CMOS_CTL3   |   CMOS_CTL3_IN  |                     |                 |     none     |     Disable     |            |  CMOS_CTL3_OUT   |   CMOS_CTL3_OE  |                  |       4        |  Disable  |             |
+|   CMOS_CTL4   |   CMOS_CTL4_IN  |                     |                 |     none     |     Disable     |            |  CMOS_CTL4_OUT   |   CMOS_CTL4_OE  |                  |       1        |  Disable  |             |
+|   CMOS_CTL5   |   CMOS_CTL5_IN  |                     |                 |     none     |     Disable     |            |  CMOS_CTL5_OUT   |   CMOS_CTL5_OE  |                  |       4        |  Disable  |             |
+|   CMOS_TECEN  |  CMOS_TECEN_IN  |                     |                 |     none     |     Disable     |            |  CMOS_TECEN_OUT  |  CMOS_TECEN_OE  |                  |       4        |  Disable  |             |
+|   CMOS_XCLR   |   CMOS_XCLR_IN  |                     |                 |     none     |     Disable     |            |  CMOS_XCLR_OUT   |   CMOS_XCLR_OE  |                  |       4        |  Disable  |             |
+|    CMOS_XHS   |   CMOS_XHS_IN   |                     |                 |     none     |     Disable     |            |   CMOS_XHS_OUT   |   CMOS_XHS_OE   |                  |       4        |  Disable  |             |
+|  CMOS_XMASTER | CMOS_XMASTER_IN |                     |                 |     none     |     Disable     |            | CMOS_XMASTER_OUT | CMOS_XMASTER_OE |                  |       4        |  Disable  |             |
+|   CMOS_XTRIG  |  CMOS_XTRIG_IN  |                     |                 |     none     |     Disable     |            |  CMOS_XTRIG_OUT  |  CMOS_XTRIG_OE  |                  |       4        |  Disable  |             |
+|    CMOS_XVS   |   CMOS_XVS_IN   |                     |                 |     none     |     Disable     |            |   CMOS_XVS_OUT   |   CMOS_XVS_OE   |                  |       4        |  Disable  |             |
+|    I2CSDA_0   |   I2CSDA_0_IN   |                     |                 | weak pullup  |     Disable     |            |   I2CSDA_0_OUT   |   I2CSDA_0_OE   |                  |       3        |  Disable  |             |
+|      mosi     |                 |                     | syspll_CLKOUT25 |     none     |     Disable     |    none    |     mosi_OUT     |     mosi_OE     | syspll_CLKOUT25  |       1        |  Disable  |     none    |
+|   MUX_GPIO1   |   MUX_GPIO1_IN  |                     |                 |     none     |     Disable     |            |  MUX_GPIO1_OUT   |   MUX_GPIO1_OE  |                  |       3        |  Disable  |             |
+|   MUX_GPIO2   |   MUX_GPIO2_IN  |                     |                 |     none     |     Disable     |            |  MUX_GPIO2_OUT   |   MUX_GPIO2_OE  |                  |       3        |  Disable  |             |
+|   MUX_GPIO3   |   MUX_GPIO3_IN  |                     |                 |     none     |     Disable     |            |  MUX_GPIO3_OUT   |   MUX_GPIO3_OE  |                  |       3        |  Disable  |             |
+|   MUX_GPIO4   |   MUX_GPIO4_IN  |                     |                 |     none     |     Disable     |            |  MUX_GPIO4_OUT   |   MUX_GPIO4_OE  |                  |       3        |  Disable  |             |
+|    TP_GPIO5   |   TP_GPIO5_IN   |                     |                 |     none     |     Disable     |            |   TP_GPIO5_OUT   |   TP_GPIO5_OE   |                  |       3        |  Disable  |             |
+|    TP_GPIO6   |   TP_GPIO6_IN   |                     |                 |     none     |     Disable     |            |   TP_GPIO6_OUT   |   TP_GPIO6_OE   |                  |       3        |  Disable  |             |
+|    TP_GPIO7   |   TP_GPIO7_IN   |                     |                 |     none     |     Disable     |            |   TP_GPIO7_OUT   |   TP_GPIO7_OE   |                  |       3        |  Disable  |             |
+|    TP_GPIO8   |   TP_GPIO8_IN   |                     |                 |     none     |     Disable     |            |   TP_GPIO8_OUT   |   TP_GPIO8_OE   |                  |       3        |  Disable  |             |
++---------------+-----------------+---------------------+-----------------+--------------+-----------------+------------+------------------+-----------------+------------------+----------------+-----------+-------------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+--------------------+-----------------+---------+
+| Instance Name | Resource | Clock Region | Ref Clock Mode | Reference Clock | Feedback Mode | Feedback Clock |      Clkout0       |     Clkout1     | Clkout2 |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+--------------------+-----------------+---------+
+|    CMOSPLL    | PLL_BR1  |      B       |      core      |      sysclk     |    internal   |                | CMOSPLL_CMOSCLKOUT |                 |         |
+|     ddrpll    | PLL_BR0  |              |    external    |    ddrrefclk    |    internal   |                |   ddrpll_CLKOUT    |                 |         |
+|     syspll    | PLL_BL0  |      B       |      core      |      sysclk     |    internal   |                |  syspll_CLKOUT100  | syspll_CLKOUT25 |         |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+--------------------+-----------------+---------+
+
+***** PLL 0 *****
+
+Instance Name                 : CMOSPLL
+Resource                      : PLL_BR1
+Locked Pin Name               : CMOSPLL_LOCKED
+Reference Clock Mode          : core
+Reference Clock               : sysclk
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 50.00 MHz
+Reference Clock Period        : 20.00 ns
+Multiplier (M)                : 27
+Pre-Divider (N)               : 1
+VCO Frequency                 : 1350.00 MHz
+Post-Divider (O)              : 2
+PLL Frequency                 : 675.00 MHz
+
+Output Clock 0
+Clock Pin Name                : CMOSPLL_CMOSCLKOUT
+Output Divider                : 25
+Output Phase Shift            : 0
+Output Frequency              : 27.00 MHz
+Output Period                 : 37.04 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 50.00 MHz * (27/1)
+	    = 1350.00 MHz
+	PLL = VCO / O
+	    = 1350.00 MHz / 2
+	    = 675.00 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 675.00 MHz / 25
+	        = 27.00 MHz
+
+SDC Constraints:
+	create_clock -period 37.04 CMOSPLL_CMOSCLKOUT
+
+***** PLL 1 *****
+
+Instance Name                 : ddrpll
+Resource                      : PLL_BR0
+Locked Pin Name               : ddrpll_LOCKED
+Reference Clock Mode          : external
+Reference Clock Resource      : GPIOR_138
+Reference Clock               : ddrrefclk
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 100.00 MHz
+Reference Clock Period        : 10.00 ns
+Multiplier (M)                : 32
+Pre-Divider (N)               : 2
+VCO Frequency                 : 1600.00 MHz
+Post-Divider (O)              : 4
+PLL Frequency                 : 400.00 MHz
+
+Output Clock 0
+Clock Pin Name                : ddrpll_CLKOUT
+Output Divider                : 1
+Output Phase Shift            : 0
+Output Frequency              : 400.00 MHz
+Output Period                 : 2.50 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 100.00 MHz * (32/2)
+	    = 1600.00 MHz
+	PLL = VCO / O
+	    = 1600.00 MHz / 4
+	    = 400.00 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 400.00 MHz / 1
+	        = 400.00 MHz
+
+SDC Constraints:
+	create_clock -period 2.50 ddrpll_CLKOUT
+
+***** PLL 2 *****
+
+Instance Name                 : syspll
+Resource                      : PLL_BL0
+Locked Pin Name               : syspll_LOCKED
+Reference Clock Mode          : core
+Reference Clock               : sysclk
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 50.00 MHz
+Reference Clock Period        : 20.00 ns
+Multiplier (M)                : 32
+Pre-Divider (N)               : 1
+VCO Frequency                 : 1600.00 MHz
+Post-Divider (O)              : 8
+PLL Frequency                 : 200.00 MHz
+
+Output Clock 0
+Clock Pin Name                : syspll_CLKOUT100
+Output Divider                : 2
+Output Phase Shift            : 0
+Output Frequency              : 100.00 MHz
+Output Period                 : 10.00 ns
+
+Output Clock 1
+Clock Pin Name                : syspll_CLKOUT25
+Output Divider                : 8
+Output Phase Shift            : 0
+Output Frequency              : 25.00 MHz
+Output Period                 : 40.00 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 50.00 MHz * (32/1)
+	    = 1600.00 MHz
+	PLL = VCO / O
+	    = 1600.00 MHz / 8
+	    = 200.00 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 200.00 MHz / 2
+	        = 100.00 MHz
+	CLKOUT1 = PLL / CLKOUT1_DIV
+	        = 200.00 MHz / 8
+	        = 25.00 MHz
+
+SDC Constraints:
+	create_clock -period 10.00 syspll_CLKOUT100
+	create_clock -period 40.00 syspll_CLKOUT25
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. MIPI Rx Usage Summary (begin) ----------
+
++---------------+----------+--------------+------------------+----------------------+
+| Instance Name | Resource | Clock Region |    Pixel Clk     | DPHY Calibration Clk |
++---------------+----------+--------------+------------------+----------------------+
+| mipi_rx_inst1 | MIPI_RX1 |      R4      | syspll_CLKOUT100 |   syspll_CLKOUT100   |
++---------------+----------+--------------+------------------+----------------------+
+
+Instance Name       : mipi_rx_inst1
+Resource            : MIPI_RX1
+
+Lane Mapping
+
+RXD0 - Lane         : data3
+RXD0 - P&N Pin Swap : false
+RXD1 - Lane         : clk
+RXD1 - P&N Pin Swap : false
+RXD2 - Lane         : data0
+RXD2 - P&N Pin Swap : false
+RXD3 - Lane         : data2
+RXD3 - P&N Pin Swap : true
+RXD4 - Lane         : data1
+RXD4 - P&N Pin Swap : false
+
+Timing
+
+DPHY Calibration Clock Frequency (MHz)  : 100.00
+
+Clock Timer
+T_clk_settle (ns)                       : 200
+
+Data Timer
+T_hs_settle (ns)                        : 130
+
+---------- MIPI Rx Usage Summary (end) ----------
+
+---------- 12. MIPI Tx Usage Summary (begin) ----------
+
+No MIPI Tx was configured
+
+---------- MIPI Tx Usage Summary (end) ----------
+
+---------- 13. Clock Mux Usage Summary (begin) ----------
+
++----------+-----------------+
+| Resource | Output Assigned |
++----------+-----------------+
+| CLKMUX_L |        3        |
+| CLKMUX_R |        1        |
++----------+-----------------+
+
+***** CLOCKMUX 0 *****
+
+Resource: CLKMUX_L
+
+Clock mux assignment:
+
++-----------------+------------------+----------+---------+-----------------+---------+------------------+---------+---------+---------+---------+
+|  Input Resource |    Clock Pin     |  Status  | LCLK[0] |     LCLK[1]     | LCLK[2] |     LCLK[3]      | LCLK[4] | LCLK[5] | LCLK[6] | LCLK[7] |
++-----------------+------------------+----------+---------+-----------------+---------+------------------+---------+---------+---------+---------+
+|                 |                  | Selected |  sysclk | syspll_CLKOUT25 |         | syspll_CLKOUT100 |         |         |         |         |
+|   GPIOL_66.IN   |      sysclk      |  Routed  |    ^    |                 |         |                  |    O    |         |         |         |
+|   GPIOL_67.IN   |                  |          |         |        -        |         |                  |         |    O    |         |         |
+|   GPIOL_68.IN   |                  |          |         |                 |    O    |                  |         |         |    O    |         |
+|   GPIOL_69.IN   |                  |          |         |                 |         |        -         |         |         |         |    O    |
+|   GPIOL_70.IN   |                  |          |    -    |                 |         |                  |    O    |         |         |         |
+|   GPIOL_71.IN   |                  |          |         |        -        |         |                  |         |    O    |         |         |
+|   GPIOL_72.IN   |                  |          |         |                 |    O    |                  |         |         |    O    |         |
+|   GPIOL_73.IN   |                  |          |         |                 |         |        -         |         |         |         |    O    |
+| PLL_BL0.CLKOUT0 | syspll_CLKOUT100 |  Routed  |    -    |                 |         |        ^         |         |         |         |    O    |
+| PLL_BL0.CLKOUT1 | syspll_CLKOUT25  |  Routed  |         |        ^        |         |                  |    O    |         |    O    |         |
+| PLL_BL0.CLKOUT2 |                  |          |         |                 |    O    |                  |         |    O    |         |         |
++-----------------+------------------+----------+---------+-----------------+---------+------------------+---------+---------+---------+---------+
+
+*NOTE
+ : No connection from input to mux output
+O: Available input to mux output connection
+^: Input assigned to mux output
+-: Unavailable (used) input to mux output connection
+
+***** CLOCKMUX 1 *****
+
+Resource: CLKMUX_R
+
+Clock mux assignment:
+
++-----------------+--------------------+----------+---------+---------+--------------------+---------+---------+---------+---------+---------+
+|  Input Resource |     Clock Pin      |  Status  | RCLK[0] | RCLK[1] |      RCLK[2]       | RCLK[3] | RCLK[4] | RCLK[5] | RCLK[6] | RCLK[7] |
++-----------------+--------------------+----------+---------+---------+--------------------+---------+---------+---------+---------+---------+
+|                 |                    | Selected |         |         | CMOSPLL_CMOSCLKOUT |         |         |         |         |         |
+|   GPIOR_133.IN  |                    |          |    O    |         |                    |         |         |         |         |         |
+|   GPIOR_132.IN  |                    |          |         |    O    |                    |         |         |         |         |         |
+|   GPIOR_131.IN  |                    |          |         |         |         -          |         |         |         |         |         |
+|   GPIOR_130.IN  |                    |          |         |         |                    |    O    |         |         |         |         |
+|   GPIOR_129.IN  |                    |          |         |         |                    |         |    O    |         |         |         |
+|   GPIOR_128.IN  |                    |          |         |         |                    |         |         |    O    |         |         |
+|   GPIOR_127.IN  |                    |          |         |         |                    |         |         |         |    O    |         |
+|   GPIOR_126.IN  |                    |          |         |         |                    |         |         |         |         |    O    |
+| PLL_TR0.CLKOUT0 |                    |          |    O    |         |                    |         |         |         |    O    |         |
+| PLL_TR0.CLKOUT1 |                    |          |         |    O    |         -          |         |         |         |         |         |
+| PLL_TR0.CLKOUT2 |                    |          |         |    O    |         -          |         |         |         |         |         |
+| PLL_TR1.CLKOUT0 |                    |          |    O    |         |                    |    O    |         |         |         |         |
+| PLL_TR1.CLKOUT1 |                    |          |         |         |                    |         |    O    |    O    |         |         |
+| PLL_TR1.CLKOUT2 |                    |          |         |         |                    |         |    O    |    O    |         |         |
+| PLL_TR2.CLKOUT0 |                    |          |    O    |         |                    |         |         |         |         |    O    |
+| PLL_TR2.CLKOUT1 |                    |          |         |    O    |         -          |         |         |         |         |         |
+| PLL_TR2.CLKOUT2 |                    |          |         |    O    |         -          |         |         |         |         |         |
+| PLL_BR0.CLKOUT0 |   ddrpll_CLKOUT    | Internal |         |         |                    |    O    |         |         |         |    O    |
+| PLL_BR0.CLKOUT1 |                    |          |         |         |                    |         |    O    |    O    |         |         |
+| PLL_BR0.CLKOUT2 |                    |          |         |         |                    |         |    O    |    O    |         |         |
+| PLL_BR1.CLKOUT0 | CMOSPLL_CMOSCLKOUT |  Routed  |         |         |         ^          |         |         |         |    O    |         |
+| PLL_BR1.CLKOUT1 |                    |          |         |         |                    |    O    |    O    |         |         |         |
+| PLL_BR1.CLKOUT2 |                    |          |         |         |                    |    O    |    O    |         |         |         |
+| PLL_BR2.CLKOUT0 |                    |          |         |         |                    |         |         |    O    |         |         |
+| PLL_BR2.CLKOUT1 |                    |          |         |    O    |                    |         |         |         |    O    |         |
+| PLL_BR2.CLKOUT2 |                    |          |         |         |                    |         |         |         |         |    O    |
++-----------------+--------------------+----------+---------+---------+--------------------+---------+---------+---------+---------+---------+
+
+*NOTE
+ : No connection from input to mux output
+O: Available input to mux output connection
+^: Input assigned to mux output
+-: Unavailable (used) input to mux output connection
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 14. Configuration Control Usage Summary (begin) ----------
+
+Instance Name                           : cfg
+
+Resource                                : CONFIG_CTRL0
+
+Clock Region                            : L0
+
+Clock Pin Name                          : syspll_CLKOUT25
+
+Image Selector Bus Name                 : cfg_CBSEL
+
+Image Selector Capture Pin Name         : cfg_ENA
+
+Configuration Control Pin Name          : cfg_CONFIG
+
+Error Status Pin Name                   : cfg_ERROR
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 15. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 16. DDR Usage Summary (begin) ----------
+
+Instance Name                                             : DDR_CTRL
+Resource                                                  : DDR_0
+Clock Region                                              : R0,R1
+Calibration Enabled                                       : true
+AXI Interface Target 0 Enabled                            : true
+AXI Interface Target 1 Enabled                            : false
+
+Configuration Settings                                    
+Controller DQ Width                                       : x16
+Memory Type                                               : DDR3
+Memory Speed Grade                                        : 800E
+Memory Width                                              : x16
+Memory Density                                            : 4G
+
+FPGA Settings                                             
+FPGA Input Termination (Ohm)                              : 60
+FPGA Output Termination (Ohm)                             : 34
+
+Memory Mode Register Settings                             
+Burst Length                                              : 8
+DLL Precharge Power Down                                  : On
+Memory Auto Self-Refresh                                  : Auto
+Memory CAS Latency (CL)                                   : 13
+Memory CAS Write Latency (CWL)                            : 5
+Memory Dynamic ODT (Rtt_WR)                               : RZQ/4
+Memory Input Termination (Rtt_nom)                        : RZQ/6
+Memory Output Termination                                 : RZQ/7
+Read Burst Type                                           : Sequential
+Self-Refresh Temperature                                  : Normal
+
+Memory Timing Settings                                    
+tFAW, Four Bank Active Window (ns)                        : 35.000
+tRAS, Active To Precharge Command Period (ns)             : 36.000
+tRC, Active To Active Or REF Command Period (ns)          : 48.910
+tRCD, Active To Read Or Write Delay (ns)                  : 14.910
+tREFI, Average Periodic Refresh Interval (us)             : 7.800
+tRFC, Refresh To Active Or Refresh To Refresh Delay (ns)  : 350.000
+tRP, Precharge Command Period (ns)                        : 13.910
+tRRD, Active to Active Command Period (ns)                : 10.000
+tRTP, Internal Read To Precharge Delay (ns)               : 10.000
+tWTR, Internal Write To Read Command Delay (ns)           : 10.000
+
+Controller Settings                                       
+Controller To Memory Address Mapping                      : ROW-BANK-COL
+Enable Auto Power Down                                    : Off
+Enable Self-Refresh Controls                              : Yes
+
+Gate Delay Tuning Settings                                
+Enable Gate Delay Override                                : No
+Gate Coarse Delay Tuning                                  : 0
+Gate Fine Delay Tuning                                    : 0
+
+Control Status                                            : Enable User Reset
+Master Reset Pin Name                                     : DDR_CTRL_CFG_RST_N
+AXI Interface Target 0 Clock Pin Name                     : syspll_CLKOUT100
+
+---------- DDR Usage Summary (end) ----------
+
+---------- 17. Design Issues (begin) ----------
+
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Instance Name | Instance Type | Severity |             Rule            |                                                           Description                                                            |
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|    fx3_ctl1   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|   fx3_ctl11   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|   fx3_ctl12   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    fx3_ctl4   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    fx3_ctl5   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    fx3_ctl6   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    fx3_ctl7   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[0]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[10] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[11] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[12] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[13] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[14] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[15] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[16] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[17] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[18] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[19] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[1]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[20] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[21] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[22] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[23] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[24] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[25] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[26] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[27] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[28] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[29] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[2]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[30] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[31] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[3]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[4]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[5]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[6]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[7]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[8]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  fx3_data[9]  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    fx3_pclk   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
++---------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+
+---------- Design Issues (end) ----------

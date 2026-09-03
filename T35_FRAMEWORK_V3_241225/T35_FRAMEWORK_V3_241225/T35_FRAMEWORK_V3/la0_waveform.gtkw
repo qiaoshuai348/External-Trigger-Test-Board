@@ -1,0 +1,30 @@
+[dumpfile] "D:\work\TRION_FPGA\proj\T35_FRAMEWORK_V3\la0_waveform.vcd"
+[dumpfile_mtime] "Wed Dec 25 05:33:02 2024"
+[dumpfile_size] 4476
+[savefile] "D:\work\TRION_FPGA\proj\T35_FRAMEWORK_V3\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 16 48 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\mipicsi_rxctrl_inst/frame_ed
+top.\mipicsi_rxctrl_inst/frame_st
+top.\mipicsi_rxctrl_inst/line_ed
+top.\mipicsi_rxctrl_inst/line_st
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_DPHY_RSTN
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_VALID
+top.\mipicsi_rxctrl_inst/mipi_rxhsyncvld
+top.\mipicsi_rxctrl_inst/mipi_rxvld
+top.\mipicsi_rxctrl_inst/mipi_rxvsyncvld
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_CNT[3:0]
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_TYPE[5:0]
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_ERROR[17:0]
+top.\mipicsi_rxctrl_inst/vob_flag
+top.\mipicsi_rxctrl_inst/vob_cntx[15:0]
+top.\mipicsi_rxctrl_inst/vob_cnty[15:0]
+top.mipi_rx_inst1_VC[1:0]
+top.\mipicsi_rxctrl_inst/pix_cntx[13:0]
+top.\mipicsi_rxctrl_inst/pix_cnty[15:0]
+top.\mipicsi_rxctrl_inst/mipi_rx_inst1_DATA[63:0]

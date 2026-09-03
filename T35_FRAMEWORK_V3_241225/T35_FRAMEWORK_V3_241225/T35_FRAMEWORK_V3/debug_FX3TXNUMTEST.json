@@ -1,0 +1,1179 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "f5f20554f5fc41e584ab666e32193035",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 32,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "ddrorbypass_inst/Fx3TxAllNum64",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "ddrorbypass_inst/Fx3TxPixNum64",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "ddrorbypass_inst/fx3_data_select",
+                    "width": 64,
+                    "probe_type": 1
+                },
+                {
+                    "name": "ddrorbypass_inst/fx3_vaild_select",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "ddrorbypass_inst/head_flga",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "ddrorbypass_inst/end_flag",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT100",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "Fx3TxAllNum64[0]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "Fx3TxAllNum64[1]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "Fx3TxAllNum64[2]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "Fx3TxAllNum64[3]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[4]",
+                        "net": "Fx3TxAllNum64[4]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[5]",
+                        "net": "Fx3TxAllNum64[5]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[6]",
+                        "net": "Fx3TxAllNum64[6]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[7]",
+                        "net": "Fx3TxAllNum64[7]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[8]",
+                        "net": "Fx3TxAllNum64[8]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[9]",
+                        "net": "Fx3TxAllNum64[9]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[10]",
+                        "net": "Fx3TxAllNum64[10]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[11]",
+                        "net": "Fx3TxAllNum64[11]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[12]",
+                        "net": "Fx3TxAllNum64[12]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[13]",
+                        "net": "Fx3TxAllNum64[13]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[14]",
+                        "net": "Fx3TxAllNum64[14]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[15]",
+                        "net": "Fx3TxAllNum64[15]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[16]",
+                        "net": "Fx3TxAllNum64[16]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[17]",
+                        "net": "Fx3TxAllNum64[17]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[18]",
+                        "net": "Fx3TxAllNum64[18]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[19]",
+                        "net": "Fx3TxAllNum64[19]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[20]",
+                        "net": "Fx3TxAllNum64[20]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[21]",
+                        "net": "Fx3TxAllNum64[21]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[22]",
+                        "net": "Fx3TxAllNum64[22]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[23]",
+                        "net": "Fx3TxAllNum64[23]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[24]",
+                        "net": "Fx3TxAllNum64[24]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[25]",
+                        "net": "Fx3TxAllNum64[25]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[26]",
+                        "net": "Fx3TxAllNum64[26]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[27]",
+                        "net": "Fx3TxAllNum64[27]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[28]",
+                        "net": "Fx3TxAllNum64[28]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[29]",
+                        "net": "Fx3TxAllNum64[29]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[30]",
+                        "net": "Fx3TxAllNum64[30]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[31]",
+                        "net": "Fx3TxAllNum64[31]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "Fx3TxPixNum64[0]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "Fx3TxPixNum64[1]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "Fx3TxPixNum64[2]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "Fx3TxPixNum64[3]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "Fx3TxPixNum64[4]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "Fx3TxPixNum64[5]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "Fx3TxPixNum64[6]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "Fx3TxPixNum64[7]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[8]",
+                        "net": "Fx3TxPixNum64[8]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[9]",
+                        "net": "Fx3TxPixNum64[9]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[10]",
+                        "net": "Fx3TxPixNum64[10]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[11]",
+                        "net": "Fx3TxPixNum64[11]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[12]",
+                        "net": "Fx3TxPixNum64[12]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[13]",
+                        "net": "Fx3TxPixNum64[13]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[14]",
+                        "net": "Fx3TxPixNum64[14]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[15]",
+                        "net": "Fx3TxPixNum64[15]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[16]",
+                        "net": "Fx3TxPixNum64[16]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[17]",
+                        "net": "Fx3TxPixNum64[17]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[18]",
+                        "net": "Fx3TxPixNum64[18]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[19]",
+                        "net": "Fx3TxPixNum64[19]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[20]",
+                        "net": "Fx3TxPixNum64[20]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[21]",
+                        "net": "Fx3TxPixNum64[21]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[22]",
+                        "net": "Fx3TxPixNum64[22]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[23]",
+                        "net": "Fx3TxPixNum64[23]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[24]",
+                        "net": "Fx3TxPixNum64[24]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[25]",
+                        "net": "Fx3TxPixNum64[25]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[26]",
+                        "net": "Fx3TxPixNum64[26]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[27]",
+                        "net": "Fx3TxPixNum64[27]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[28]",
+                        "net": "Fx3TxPixNum64[28]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[29]",
+                        "net": "Fx3TxPixNum64[29]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[30]",
+                        "net": "Fx3TxPixNum64[30]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[31]",
+                        "net": "Fx3TxPixNum64[31]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[0]",
+                        "net": "fx3_data_select[0]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[1]",
+                        "net": "fx3_data_select[1]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[2]",
+                        "net": "fx3_data_select[2]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[3]",
+                        "net": "fx3_data_select[3]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[4]",
+                        "net": "fx3_data_select[4]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[5]",
+                        "net": "fx3_data_select[5]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[6]",
+                        "net": "fx3_data_select[6]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[7]",
+                        "net": "fx3_data_select[7]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[8]",
+                        "net": "fx3_data_select[8]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[9]",
+                        "net": "fx3_data_select[9]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[10]",
+                        "net": "fx3_data_select[10]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[11]",
+                        "net": "fx3_data_select[11]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[12]",
+                        "net": "fx3_data_select[12]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[13]",
+                        "net": "fx3_data_select[13]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[14]",
+                        "net": "fx3_data_select[14]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[15]",
+                        "net": "fx3_data_select[15]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[16]",
+                        "net": "fx3_data_select[16]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[17]",
+                        "net": "fx3_data_select[17]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[18]",
+                        "net": "fx3_data_select[18]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[19]",
+                        "net": "fx3_data_select[19]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[20]",
+                        "net": "fx3_data_select[20]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[21]",
+                        "net": "fx3_data_select[21]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[22]",
+                        "net": "fx3_data_select[22]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[23]",
+                        "net": "fx3_data_select[23]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[24]",
+                        "net": "fx3_data_select[24]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[25]",
+                        "net": "fx3_data_select[25]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[26]",
+                        "net": "fx3_data_select[26]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[27]",
+                        "net": "fx3_data_select[27]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[28]",
+                        "net": "fx3_data_select[28]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[29]",
+                        "net": "fx3_data_select[29]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[30]",
+                        "net": "fx3_data_select[30]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[31]",
+                        "net": "fx3_data_select[31]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[32]",
+                        "net": "fx3_data_select[32]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[33]",
+                        "net": "fx3_data_select[33]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[34]",
+                        "net": "fx3_data_select[34]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[35]",
+                        "net": "fx3_data_select[35]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[36]",
+                        "net": "fx3_data_select[36]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[37]",
+                        "net": "fx3_data_select[37]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[38]",
+                        "net": "fx3_data_select[38]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[39]",
+                        "net": "fx3_data_select[39]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[40]",
+                        "net": "fx3_data_select[40]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[41]",
+                        "net": "fx3_data_select[41]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[42]",
+                        "net": "fx3_data_select[42]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[43]",
+                        "net": "fx3_data_select[43]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[44]",
+                        "net": "fx3_data_select[44]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[45]",
+                        "net": "fx3_data_select[45]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[46]",
+                        "net": "fx3_data_select[46]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[47]",
+                        "net": "fx3_data_select[47]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[48]",
+                        "net": "fx3_data_select[48]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[49]",
+                        "net": "fx3_data_select[49]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[50]",
+                        "net": "fx3_data_select[50]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[51]",
+                        "net": "fx3_data_select[51]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[52]",
+                        "net": "fx3_data_select[52]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[53]",
+                        "net": "fx3_data_select[53]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[54]",
+                        "net": "fx3_data_select[54]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[55]",
+                        "net": "fx3_data_select[55]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[56]",
+                        "net": "fx3_data_select[56]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[57]",
+                        "net": "fx3_data_select[57]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[58]",
+                        "net": "fx3_data_select[58]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[59]",
+                        "net": "fx3_data_select[59]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[60]",
+                        "net": "fx3_data_select[60]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[61]",
+                        "net": "fx3_data_select[61]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[62]",
+                        "net": "fx3_data_select[62]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2[63]",
+                        "net": "fx3_data_select[63]",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "fx3_vaild_select",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "head_flga",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "end_flag",
+                        "path": [
+                            "ddrorbypass_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 32,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "Fx3TxAllNum64",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "Fx3TxPixNum64",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "fx3_data_select",
+                    "width": 64,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "fx3_vaild_select",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ]
+                },
+                {
+                    "name": "head_flga",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ]
+                },
+                {
+                    "name": "end_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "ddrorbypass_inst"
+                    ]
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

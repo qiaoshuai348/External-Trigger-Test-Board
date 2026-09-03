@@ -1,0 +1,29 @@
+{
+    "args": [
+        "-o",
+        "asmi_flash_ctl",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK_V2\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_asmi_flash_controller",
+            "version": "2.1"
+        }
+    ],
+    "conf": {
+        "ADDR_WIDTH": "24",
+        "SCLK_DIV": "4"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK_V2\\ip\\asmi_flash_ctl\\asmi_flash_ctl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK_V2\\ip\\asmi_flash_ctl\\asmi_flash_ctl_tmpl.vhd",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK_V2\\ip\\asmi_flash_ctl\\asmi_flash_ctl_define.vh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK_V2\\ip\\asmi_flash_ctl\\asmi_flash_ctl_tmpl.v"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-07-22T02:15:30.272895"
+}

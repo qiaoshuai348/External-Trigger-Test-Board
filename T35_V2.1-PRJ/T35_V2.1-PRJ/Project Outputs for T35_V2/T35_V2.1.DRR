@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: T35_V2.1.PcbDoc   2/10/2023  3:18:28 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : TOP to BOTTOM
+ASCII RoundHoles File : T35_V2.1-RoundHoles.TXT
+ASCII SlotHoles File : T35_V2.1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             848       PTH        0.00mm (0.00inch)
+T2      0.5mm (20mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T3      0.6mm (24mil)                                             Slot              6         PTH        0.00mm (0.00inch)
+T4      0.635mm (25mil)                                           Round             8         PTH        0.00mm (0.00inch)
+T5      0.65mm (26mil)                                            Round             14        PTH        0.00mm (0.00inch)
+T6      0.8mm (31mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T7      1.8mm (71mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T8      2.2mm (87mil)                                             Round             2         PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              883
+
+Total Processing Time (hh:mm:ss) : 00:00:00

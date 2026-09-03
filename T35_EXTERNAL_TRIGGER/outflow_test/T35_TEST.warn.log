@@ -1,0 +1,40 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:42:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (rtl\uart_rx.v:66)
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (rtl\uart_tx.v:41)
+[EFX-0011 VERI-WARNING] net 'resp_payload[19][7]' does not have a driver (VDB-1002) (rtl\external_trigger_controller.v:122)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (rtl\external_trigger_controller.v:109)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][7]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][6]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][5]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][4]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][3]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][2]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][1]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[19][0]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[20][7]'. (rtl\external_trigger_controller.v:122)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'resp_payload[20][6]'. (rtl\external_trigger_controller.v:122)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 

@@ -1,0 +1,2310 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "5aafc851f5a64714bd73cb807a8a6278",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 128,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/Xtrig_State",
+                    "width": 4,
+                    "probe_type": 1
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/Min_IntervalCnt",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/LoopExpEn",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/TR_IntervalTime",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/TF_IntervalTime",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/TRPP_time",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/ExpTime",
+                    "width": 40,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/TFPP_time",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/XTRIG",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/expCounter",
+                    "width": 40,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT25",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0[0]",
+                        "net": "Xtrig_State[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[1]",
+                        "net": "Xtrig_State[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[2]",
+                        "net": "Xtrig_State[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe0[3]",
+                        "net": "Xtrig_State[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "Min_IntervalCnt[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "Min_IntervalCnt[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "Min_IntervalCnt[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "Min_IntervalCnt[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "Min_IntervalCnt[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "Min_IntervalCnt[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "Min_IntervalCnt[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "Min_IntervalCnt[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[8]",
+                        "net": "Min_IntervalCnt[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[9]",
+                        "net": "Min_IntervalCnt[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[10]",
+                        "net": "Min_IntervalCnt[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[11]",
+                        "net": "Min_IntervalCnt[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[12]",
+                        "net": "Min_IntervalCnt[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[13]",
+                        "net": "Min_IntervalCnt[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[14]",
+                        "net": "Min_IntervalCnt[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[15]",
+                        "net": "Min_IntervalCnt[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[16]",
+                        "net": "Min_IntervalCnt[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[17]",
+                        "net": "Min_IntervalCnt[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[18]",
+                        "net": "Min_IntervalCnt[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[19]",
+                        "net": "Min_IntervalCnt[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[20]",
+                        "net": "Min_IntervalCnt[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[21]",
+                        "net": "Min_IntervalCnt[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[22]",
+                        "net": "Min_IntervalCnt[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[23]",
+                        "net": "Min_IntervalCnt[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[24]",
+                        "net": "Min_IntervalCnt[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[25]",
+                        "net": "Min_IntervalCnt[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[26]",
+                        "net": "Min_IntervalCnt[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[27]",
+                        "net": "Min_IntervalCnt[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[28]",
+                        "net": "Min_IntervalCnt[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[29]",
+                        "net": "Min_IntervalCnt[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[30]",
+                        "net": "Min_IntervalCnt[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[31]",
+                        "net": "Min_IntervalCnt[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "LoopExpEn",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[0]",
+                        "net": "TR_IntervalTime[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[1]",
+                        "net": "TR_IntervalTime[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[2]",
+                        "net": "TR_IntervalTime[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[3]",
+                        "net": "TR_IntervalTime[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[4]",
+                        "net": "TR_IntervalTime[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[5]",
+                        "net": "TR_IntervalTime[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[6]",
+                        "net": "TR_IntervalTime[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[7]",
+                        "net": "TR_IntervalTime[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[8]",
+                        "net": "TR_IntervalTime[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[9]",
+                        "net": "TR_IntervalTime[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[10]",
+                        "net": "TR_IntervalTime[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[11]",
+                        "net": "TR_IntervalTime[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[12]",
+                        "net": "TR_IntervalTime[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[13]",
+                        "net": "TR_IntervalTime[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[14]",
+                        "net": "TR_IntervalTime[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[15]",
+                        "net": "TR_IntervalTime[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[16]",
+                        "net": "TR_IntervalTime[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[17]",
+                        "net": "TR_IntervalTime[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[18]",
+                        "net": "TR_IntervalTime[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[19]",
+                        "net": "TR_IntervalTime[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[20]",
+                        "net": "TR_IntervalTime[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[21]",
+                        "net": "TR_IntervalTime[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[22]",
+                        "net": "TR_IntervalTime[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[23]",
+                        "net": "TR_IntervalTime[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[24]",
+                        "net": "TR_IntervalTime[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[25]",
+                        "net": "TR_IntervalTime[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[26]",
+                        "net": "TR_IntervalTime[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[27]",
+                        "net": "TR_IntervalTime[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[28]",
+                        "net": "TR_IntervalTime[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[29]",
+                        "net": "TR_IntervalTime[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[30]",
+                        "net": "TR_IntervalTime[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3[31]",
+                        "net": "TR_IntervalTime[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "TF_IntervalTime[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "TF_IntervalTime[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "TF_IntervalTime[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "TF_IntervalTime[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[4]",
+                        "net": "TF_IntervalTime[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[5]",
+                        "net": "TF_IntervalTime[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[6]",
+                        "net": "TF_IntervalTime[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[7]",
+                        "net": "TF_IntervalTime[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[8]",
+                        "net": "TF_IntervalTime[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[9]",
+                        "net": "TF_IntervalTime[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[10]",
+                        "net": "TF_IntervalTime[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[11]",
+                        "net": "TF_IntervalTime[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[12]",
+                        "net": "TF_IntervalTime[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[13]",
+                        "net": "TF_IntervalTime[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[14]",
+                        "net": "TF_IntervalTime[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[15]",
+                        "net": "TF_IntervalTime[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[16]",
+                        "net": "TF_IntervalTime[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[17]",
+                        "net": "TF_IntervalTime[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[18]",
+                        "net": "TF_IntervalTime[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[19]",
+                        "net": "TF_IntervalTime[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[20]",
+                        "net": "TF_IntervalTime[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[21]",
+                        "net": "TF_IntervalTime[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[22]",
+                        "net": "TF_IntervalTime[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[23]",
+                        "net": "TF_IntervalTime[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[24]",
+                        "net": "TF_IntervalTime[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[25]",
+                        "net": "TF_IntervalTime[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[26]",
+                        "net": "TF_IntervalTime[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[27]",
+                        "net": "TF_IntervalTime[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[28]",
+                        "net": "TF_IntervalTime[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[29]",
+                        "net": "TF_IntervalTime[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[30]",
+                        "net": "TF_IntervalTime[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4[31]",
+                        "net": "TF_IntervalTime[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "TRPP_time[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "TRPP_time[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "TRPP_time[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "TRPP_time[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[4]",
+                        "net": "TRPP_time[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[5]",
+                        "net": "TRPP_time[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[6]",
+                        "net": "TRPP_time[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[7]",
+                        "net": "TRPP_time[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[8]",
+                        "net": "TRPP_time[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[9]",
+                        "net": "TRPP_time[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[10]",
+                        "net": "TRPP_time[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[11]",
+                        "net": "TRPP_time[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[12]",
+                        "net": "TRPP_time[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[13]",
+                        "net": "TRPP_time[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[14]",
+                        "net": "TRPP_time[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[15]",
+                        "net": "TRPP_time[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[16]",
+                        "net": "TRPP_time[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[17]",
+                        "net": "TRPP_time[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[18]",
+                        "net": "TRPP_time[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[19]",
+                        "net": "TRPP_time[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[20]",
+                        "net": "TRPP_time[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[21]",
+                        "net": "TRPP_time[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[22]",
+                        "net": "TRPP_time[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[23]",
+                        "net": "TRPP_time[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[24]",
+                        "net": "TRPP_time[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[25]",
+                        "net": "TRPP_time[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[26]",
+                        "net": "TRPP_time[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[27]",
+                        "net": "TRPP_time[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[28]",
+                        "net": "TRPP_time[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[29]",
+                        "net": "TRPP_time[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[30]",
+                        "net": "TRPP_time[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[31]",
+                        "net": "TRPP_time[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[0]",
+                        "net": "ExpTime[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[1]",
+                        "net": "ExpTime[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[2]",
+                        "net": "ExpTime[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[3]",
+                        "net": "ExpTime[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[4]",
+                        "net": "ExpTime[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[5]",
+                        "net": "ExpTime[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[6]",
+                        "net": "ExpTime[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[7]",
+                        "net": "ExpTime[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[8]",
+                        "net": "ExpTime[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[9]",
+                        "net": "ExpTime[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[10]",
+                        "net": "ExpTime[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[11]",
+                        "net": "ExpTime[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[12]",
+                        "net": "ExpTime[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[13]",
+                        "net": "ExpTime[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[14]",
+                        "net": "ExpTime[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[15]",
+                        "net": "ExpTime[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[16]",
+                        "net": "ExpTime[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[17]",
+                        "net": "ExpTime[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[18]",
+                        "net": "ExpTime[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[19]",
+                        "net": "ExpTime[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[20]",
+                        "net": "ExpTime[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[21]",
+                        "net": "ExpTime[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[22]",
+                        "net": "ExpTime[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[23]",
+                        "net": "ExpTime[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[24]",
+                        "net": "ExpTime[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[25]",
+                        "net": "ExpTime[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[26]",
+                        "net": "ExpTime[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[27]",
+                        "net": "ExpTime[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[28]",
+                        "net": "ExpTime[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[29]",
+                        "net": "ExpTime[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[30]",
+                        "net": "ExpTime[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[31]",
+                        "net": "ExpTime[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[32]",
+                        "net": "ExpTime[32]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[33]",
+                        "net": "ExpTime[33]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[34]",
+                        "net": "ExpTime[34]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[35]",
+                        "net": "ExpTime[35]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[36]",
+                        "net": "ExpTime[36]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[37]",
+                        "net": "ExpTime[37]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[38]",
+                        "net": "ExpTime[38]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[39]",
+                        "net": "ExpTime[39]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[0]",
+                        "net": "TFPP_time[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[1]",
+                        "net": "TFPP_time[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[2]",
+                        "net": "TFPP_time[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[3]",
+                        "net": "TFPP_time[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[4]",
+                        "net": "TFPP_time[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[5]",
+                        "net": "TFPP_time[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[6]",
+                        "net": "TFPP_time[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[7]",
+                        "net": "TFPP_time[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[8]",
+                        "net": "TFPP_time[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[9]",
+                        "net": "TFPP_time[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[10]",
+                        "net": "TFPP_time[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[11]",
+                        "net": "TFPP_time[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[12]",
+                        "net": "TFPP_time[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[13]",
+                        "net": "TFPP_time[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[14]",
+                        "net": "TFPP_time[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[15]",
+                        "net": "TFPP_time[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[16]",
+                        "net": "TFPP_time[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[17]",
+                        "net": "TFPP_time[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[18]",
+                        "net": "TFPP_time[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[19]",
+                        "net": "TFPP_time[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[20]",
+                        "net": "TFPP_time[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[21]",
+                        "net": "TFPP_time[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[22]",
+                        "net": "TFPP_time[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[23]",
+                        "net": "TFPP_time[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[24]",
+                        "net": "TFPP_time[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[25]",
+                        "net": "TFPP_time[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[26]",
+                        "net": "TFPP_time[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[27]",
+                        "net": "TFPP_time[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[28]",
+                        "net": "TFPP_time[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[29]",
+                        "net": "TFPP_time[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[30]",
+                        "net": "TFPP_time[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7[31]",
+                        "net": "TFPP_time[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "XTRIG",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "expCounter[0]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "expCounter[1]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "expCounter[2]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "expCounter[3]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[4]",
+                        "net": "expCounter[4]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[5]",
+                        "net": "expCounter[5]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[6]",
+                        "net": "expCounter[6]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[7]",
+                        "net": "expCounter[7]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[8]",
+                        "net": "expCounter[8]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[9]",
+                        "net": "expCounter[9]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[10]",
+                        "net": "expCounter[10]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[11]",
+                        "net": "expCounter[11]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[12]",
+                        "net": "expCounter[12]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[13]",
+                        "net": "expCounter[13]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[14]",
+                        "net": "expCounter[14]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[15]",
+                        "net": "expCounter[15]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[16]",
+                        "net": "expCounter[16]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[17]",
+                        "net": "expCounter[17]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[18]",
+                        "net": "expCounter[18]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[19]",
+                        "net": "expCounter[19]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[20]",
+                        "net": "expCounter[20]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[21]",
+                        "net": "expCounter[21]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[22]",
+                        "net": "expCounter[22]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[23]",
+                        "net": "expCounter[23]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[24]",
+                        "net": "expCounter[24]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[25]",
+                        "net": "expCounter[25]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[26]",
+                        "net": "expCounter[26]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[27]",
+                        "net": "expCounter[27]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[28]",
+                        "net": "expCounter[28]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[29]",
+                        "net": "expCounter[29]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[30]",
+                        "net": "expCounter[30]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[31]",
+                        "net": "expCounter[31]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[32]",
+                        "net": "expCounter[32]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[33]",
+                        "net": "expCounter[33]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[34]",
+                        "net": "expCounter[34]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[35]",
+                        "net": "expCounter[35]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[36]",
+                        "net": "expCounter[36]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[37]",
+                        "net": "expCounter[37]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[38]",
+                        "net": "expCounter[38]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[39]",
+                        "net": "expCounter[39]",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 128,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "Xtrig_State",
+                    "width": 4,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "Min_IntervalCnt",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "LoopExpEn",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ]
+                },
+                {
+                    "name": "TR_IntervalTime",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "TF_IntervalTime",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "TRPP_time",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "ExpTime",
+                    "width": 40,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 39,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "TFPP_time",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "XTRIG",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ]
+                },
+                {
+                    "name": "expCounter",
+                    "width": 40,
+                    "clk_domain": "syspll_CLKOUT25",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ],
+                    "net_idx_left": 39,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

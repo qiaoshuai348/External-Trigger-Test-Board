@@ -1,0 +1,3886 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "4c433c489fab45fb918664f703491653",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 64,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wr_cycle",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wr_cnt",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wrfifo_rdreq",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wrfifo_rden",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wrfifo_full",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/rema_num",
+                    "width": 29,
+                    "probe_type": 2
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/init_wrdone",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/ddr_pfull",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/check_err",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/addr_err",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/rd_cycle",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/rdfifo_full",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/fx3_full",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_WVALID_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_WREADY_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_WLAST_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_RVALID_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_RLAST_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_BVALID_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_AVALID_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_AREADY_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_AADDR_0",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_WDATA_0",
+                    "width": 128,
+                    "probe_type": 2
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_RDATA_0",
+                    "width": 128,
+                    "probe_type": 2
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CLG_R",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/ddr_state_rst_t1",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/wrfifo_count",
+                    "width": 13,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/rdfifo_count",
+                    "width": 13,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/init_done_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/check_done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/DDR_CTRL_ATYPE_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/check_fail",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/reset_done_t1",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/slip_check_d",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/ddr_alempty",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/ddr_alfull",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/C_STATE",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/WrCheckBit",
+                    "width": 1,
+                    "probe_type": 2
+                },
+                {
+                    "name": "Ddr3Mig_Top_inst/ddr3_state_inst/RdCheckBit",
+                    "width": 1,
+                    "probe_type": 2
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT100",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "wr_cycle",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[0]",
+                        "net": "wr_cnt[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[1]",
+                        "net": "wr_cnt[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[2]",
+                        "net": "wr_cnt[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[3]",
+                        "net": "wr_cnt[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[4]",
+                        "net": "wr_cnt[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[5]",
+                        "net": "wr_cnt[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[6]",
+                        "net": "wr_cnt[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1[7]",
+                        "net": "wr_cnt[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "wrfifo_rdreq",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "wrfifo_rden",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "wrfifo_full",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[0]",
+                        "net": "rema_num[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[1]",
+                        "net": "rema_num[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[2]",
+                        "net": "rema_num[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[3]",
+                        "net": "rema_num[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[4]",
+                        "net": "rema_num[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[5]",
+                        "net": "rema_num[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[6]",
+                        "net": "rema_num[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[7]",
+                        "net": "rema_num[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[8]",
+                        "net": "rema_num[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[9]",
+                        "net": "rema_num[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[10]",
+                        "net": "rema_num[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[11]",
+                        "net": "rema_num[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[12]",
+                        "net": "rema_num[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[13]",
+                        "net": "rema_num[13]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[14]",
+                        "net": "rema_num[14]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[15]",
+                        "net": "rema_num[15]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[16]",
+                        "net": "rema_num[16]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[17]",
+                        "net": "rema_num[17]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[18]",
+                        "net": "rema_num[18]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[19]",
+                        "net": "rema_num[19]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[20]",
+                        "net": "rema_num[20]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[21]",
+                        "net": "rema_num[21]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[22]",
+                        "net": "rema_num[22]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[23]",
+                        "net": "rema_num[23]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[24]",
+                        "net": "rema_num[24]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[25]",
+                        "net": "rema_num[25]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[26]",
+                        "net": "rema_num[26]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[27]",
+                        "net": "rema_num[27]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5[28]",
+                        "net": "rema_num[28]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "init_wrdone",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "ddr_pfull",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "check_err",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "addr_err",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "rd_cycle",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "rdfifo_full",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "fx3_full",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "DDR_CTRL_WVALID_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14",
+                        "net": "DDR_CTRL_WREADY_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15",
+                        "net": "DDR_CTRL_WLAST_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "DDR_CTRL_RVALID_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "DDR_CTRL_RLAST_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "DDR_CTRL_BVALID_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19",
+                        "net": "DDR_CTRL_AVALID_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20",
+                        "net": "DDR_CTRL_AREADY_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[0]",
+                        "net": "DDR_CTRL_AADDR_0[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[1]",
+                        "net": "DDR_CTRL_AADDR_0[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[2]",
+                        "net": "DDR_CTRL_AADDR_0[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[3]",
+                        "net": "DDR_CTRL_AADDR_0[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[4]",
+                        "net": "DDR_CTRL_AADDR_0[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[5]",
+                        "net": "DDR_CTRL_AADDR_0[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[6]",
+                        "net": "DDR_CTRL_AADDR_0[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[7]",
+                        "net": "DDR_CTRL_AADDR_0[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[8]",
+                        "net": "DDR_CTRL_AADDR_0[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[9]",
+                        "net": "DDR_CTRL_AADDR_0[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[10]",
+                        "net": "DDR_CTRL_AADDR_0[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[11]",
+                        "net": "DDR_CTRL_AADDR_0[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[12]",
+                        "net": "DDR_CTRL_AADDR_0[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[13]",
+                        "net": "DDR_CTRL_AADDR_0[13]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[14]",
+                        "net": "DDR_CTRL_AADDR_0[14]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[15]",
+                        "net": "DDR_CTRL_AADDR_0[15]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[16]",
+                        "net": "DDR_CTRL_AADDR_0[16]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[17]",
+                        "net": "DDR_CTRL_AADDR_0[17]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[18]",
+                        "net": "DDR_CTRL_AADDR_0[18]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[19]",
+                        "net": "DDR_CTRL_AADDR_0[19]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[20]",
+                        "net": "DDR_CTRL_AADDR_0[20]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[21]",
+                        "net": "DDR_CTRL_AADDR_0[21]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[22]",
+                        "net": "DDR_CTRL_AADDR_0[22]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[23]",
+                        "net": "DDR_CTRL_AADDR_0[23]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[24]",
+                        "net": "DDR_CTRL_AADDR_0[24]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[25]",
+                        "net": "DDR_CTRL_AADDR_0[25]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[26]",
+                        "net": "DDR_CTRL_AADDR_0[26]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[27]",
+                        "net": "DDR_CTRL_AADDR_0[27]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[28]",
+                        "net": "DDR_CTRL_AADDR_0[28]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[29]",
+                        "net": "DDR_CTRL_AADDR_0[29]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[30]",
+                        "net": "DDR_CTRL_AADDR_0[30]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21[31]",
+                        "net": "DDR_CTRL_AADDR_0[31]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[0]",
+                        "net": "DDR_CTRL_WDATA_0[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[1]",
+                        "net": "DDR_CTRL_WDATA_0[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[2]",
+                        "net": "DDR_CTRL_WDATA_0[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[3]",
+                        "net": "DDR_CTRL_WDATA_0[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[4]",
+                        "net": "DDR_CTRL_WDATA_0[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[5]",
+                        "net": "DDR_CTRL_WDATA_0[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[6]",
+                        "net": "DDR_CTRL_WDATA_0[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[7]",
+                        "net": "DDR_CTRL_WDATA_0[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[8]",
+                        "net": "DDR_CTRL_WDATA_0[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[9]",
+                        "net": "DDR_CTRL_WDATA_0[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[10]",
+                        "net": "DDR_CTRL_WDATA_0[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[11]",
+                        "net": "DDR_CTRL_WDATA_0[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[12]",
+                        "net": "DDR_CTRL_WDATA_0[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[13]",
+                        "net": "DDR_CTRL_WDATA_0[13]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[14]",
+                        "net": "DDR_CTRL_WDATA_0[14]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[15]",
+                        "net": "DDR_CTRL_WDATA_0[15]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[16]",
+                        "net": "DDR_CTRL_WDATA_0[16]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[17]",
+                        "net": "DDR_CTRL_WDATA_0[17]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[18]",
+                        "net": "DDR_CTRL_WDATA_0[18]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[19]",
+                        "net": "DDR_CTRL_WDATA_0[19]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[20]",
+                        "net": "DDR_CTRL_WDATA_0[20]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[21]",
+                        "net": "DDR_CTRL_WDATA_0[21]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[22]",
+                        "net": "DDR_CTRL_WDATA_0[22]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[23]",
+                        "net": "DDR_CTRL_WDATA_0[23]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[24]",
+                        "net": "DDR_CTRL_WDATA_0[24]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[25]",
+                        "net": "DDR_CTRL_WDATA_0[25]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[26]",
+                        "net": "DDR_CTRL_WDATA_0[26]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[27]",
+                        "net": "DDR_CTRL_WDATA_0[27]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[28]",
+                        "net": "DDR_CTRL_WDATA_0[28]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[29]",
+                        "net": "DDR_CTRL_WDATA_0[29]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[30]",
+                        "net": "DDR_CTRL_WDATA_0[30]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[31]",
+                        "net": "DDR_CTRL_WDATA_0[31]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[32]",
+                        "net": "DDR_CTRL_WDATA_0[32]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[33]",
+                        "net": "DDR_CTRL_WDATA_0[33]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[34]",
+                        "net": "DDR_CTRL_WDATA_0[34]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[35]",
+                        "net": "DDR_CTRL_WDATA_0[35]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[36]",
+                        "net": "DDR_CTRL_WDATA_0[36]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[37]",
+                        "net": "DDR_CTRL_WDATA_0[37]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[38]",
+                        "net": "DDR_CTRL_WDATA_0[38]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[39]",
+                        "net": "DDR_CTRL_WDATA_0[39]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[40]",
+                        "net": "DDR_CTRL_WDATA_0[40]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[41]",
+                        "net": "DDR_CTRL_WDATA_0[41]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[42]",
+                        "net": "DDR_CTRL_WDATA_0[42]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[43]",
+                        "net": "DDR_CTRL_WDATA_0[43]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[44]",
+                        "net": "DDR_CTRL_WDATA_0[44]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[45]",
+                        "net": "DDR_CTRL_WDATA_0[45]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[46]",
+                        "net": "DDR_CTRL_WDATA_0[46]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[47]",
+                        "net": "DDR_CTRL_WDATA_0[47]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[48]",
+                        "net": "DDR_CTRL_WDATA_0[48]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[49]",
+                        "net": "DDR_CTRL_WDATA_0[49]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[50]",
+                        "net": "DDR_CTRL_WDATA_0[50]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[51]",
+                        "net": "DDR_CTRL_WDATA_0[51]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[52]",
+                        "net": "DDR_CTRL_WDATA_0[52]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[53]",
+                        "net": "DDR_CTRL_WDATA_0[53]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[54]",
+                        "net": "DDR_CTRL_WDATA_0[54]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[55]",
+                        "net": "DDR_CTRL_WDATA_0[55]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[56]",
+                        "net": "DDR_CTRL_WDATA_0[56]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[57]",
+                        "net": "DDR_CTRL_WDATA_0[57]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[58]",
+                        "net": "DDR_CTRL_WDATA_0[58]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[59]",
+                        "net": "DDR_CTRL_WDATA_0[59]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[60]",
+                        "net": "DDR_CTRL_WDATA_0[60]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[61]",
+                        "net": "DDR_CTRL_WDATA_0[61]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[62]",
+                        "net": "DDR_CTRL_WDATA_0[62]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[63]",
+                        "net": "DDR_CTRL_WDATA_0[63]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[64]",
+                        "net": "DDR_CTRL_WDATA_0[64]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[65]",
+                        "net": "DDR_CTRL_WDATA_0[65]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[66]",
+                        "net": "DDR_CTRL_WDATA_0[66]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[67]",
+                        "net": "DDR_CTRL_WDATA_0[67]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[68]",
+                        "net": "DDR_CTRL_WDATA_0[68]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[69]",
+                        "net": "DDR_CTRL_WDATA_0[69]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[70]",
+                        "net": "DDR_CTRL_WDATA_0[70]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[71]",
+                        "net": "DDR_CTRL_WDATA_0[71]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[72]",
+                        "net": "DDR_CTRL_WDATA_0[72]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[73]",
+                        "net": "DDR_CTRL_WDATA_0[73]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[74]",
+                        "net": "DDR_CTRL_WDATA_0[74]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[75]",
+                        "net": "DDR_CTRL_WDATA_0[75]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[76]",
+                        "net": "DDR_CTRL_WDATA_0[76]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[77]",
+                        "net": "DDR_CTRL_WDATA_0[77]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[78]",
+                        "net": "DDR_CTRL_WDATA_0[78]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[79]",
+                        "net": "DDR_CTRL_WDATA_0[79]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[80]",
+                        "net": "DDR_CTRL_WDATA_0[80]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[81]",
+                        "net": "DDR_CTRL_WDATA_0[81]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[82]",
+                        "net": "DDR_CTRL_WDATA_0[82]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[83]",
+                        "net": "DDR_CTRL_WDATA_0[83]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[84]",
+                        "net": "DDR_CTRL_WDATA_0[84]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[85]",
+                        "net": "DDR_CTRL_WDATA_0[85]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[86]",
+                        "net": "DDR_CTRL_WDATA_0[86]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[87]",
+                        "net": "DDR_CTRL_WDATA_0[87]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[88]",
+                        "net": "DDR_CTRL_WDATA_0[88]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[89]",
+                        "net": "DDR_CTRL_WDATA_0[89]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[90]",
+                        "net": "DDR_CTRL_WDATA_0[90]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[91]",
+                        "net": "DDR_CTRL_WDATA_0[91]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[92]",
+                        "net": "DDR_CTRL_WDATA_0[92]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[93]",
+                        "net": "DDR_CTRL_WDATA_0[93]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[94]",
+                        "net": "DDR_CTRL_WDATA_0[94]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[95]",
+                        "net": "DDR_CTRL_WDATA_0[95]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[96]",
+                        "net": "DDR_CTRL_WDATA_0[96]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[97]",
+                        "net": "DDR_CTRL_WDATA_0[97]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[98]",
+                        "net": "DDR_CTRL_WDATA_0[98]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[99]",
+                        "net": "DDR_CTRL_WDATA_0[99]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[100]",
+                        "net": "DDR_CTRL_WDATA_0[100]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[101]",
+                        "net": "DDR_CTRL_WDATA_0[101]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[102]",
+                        "net": "DDR_CTRL_WDATA_0[102]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[103]",
+                        "net": "DDR_CTRL_WDATA_0[103]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[104]",
+                        "net": "DDR_CTRL_WDATA_0[104]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[105]",
+                        "net": "DDR_CTRL_WDATA_0[105]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[106]",
+                        "net": "DDR_CTRL_WDATA_0[106]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[107]",
+                        "net": "DDR_CTRL_WDATA_0[107]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[108]",
+                        "net": "DDR_CTRL_WDATA_0[108]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[109]",
+                        "net": "DDR_CTRL_WDATA_0[109]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[110]",
+                        "net": "DDR_CTRL_WDATA_0[110]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[111]",
+                        "net": "DDR_CTRL_WDATA_0[111]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[112]",
+                        "net": "DDR_CTRL_WDATA_0[112]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[113]",
+                        "net": "DDR_CTRL_WDATA_0[113]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[114]",
+                        "net": "DDR_CTRL_WDATA_0[114]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[115]",
+                        "net": "DDR_CTRL_WDATA_0[115]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[116]",
+                        "net": "DDR_CTRL_WDATA_0[116]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[117]",
+                        "net": "DDR_CTRL_WDATA_0[117]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[118]",
+                        "net": "DDR_CTRL_WDATA_0[118]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[119]",
+                        "net": "DDR_CTRL_WDATA_0[119]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[120]",
+                        "net": "DDR_CTRL_WDATA_0[120]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[121]",
+                        "net": "DDR_CTRL_WDATA_0[121]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[122]",
+                        "net": "DDR_CTRL_WDATA_0[122]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[123]",
+                        "net": "DDR_CTRL_WDATA_0[123]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[124]",
+                        "net": "DDR_CTRL_WDATA_0[124]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[125]",
+                        "net": "DDR_CTRL_WDATA_0[125]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[126]",
+                        "net": "DDR_CTRL_WDATA_0[126]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22[127]",
+                        "net": "DDR_CTRL_WDATA_0[127]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[0]",
+                        "net": "DDR_CTRL_RDATA_0[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[1]",
+                        "net": "DDR_CTRL_RDATA_0[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[2]",
+                        "net": "DDR_CTRL_RDATA_0[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[3]",
+                        "net": "DDR_CTRL_RDATA_0[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[4]",
+                        "net": "DDR_CTRL_RDATA_0[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[5]",
+                        "net": "DDR_CTRL_RDATA_0[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[6]",
+                        "net": "DDR_CTRL_RDATA_0[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[7]",
+                        "net": "DDR_CTRL_RDATA_0[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[8]",
+                        "net": "DDR_CTRL_RDATA_0[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[9]",
+                        "net": "DDR_CTRL_RDATA_0[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[10]",
+                        "net": "DDR_CTRL_RDATA_0[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[11]",
+                        "net": "DDR_CTRL_RDATA_0[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[12]",
+                        "net": "DDR_CTRL_RDATA_0[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[13]",
+                        "net": "DDR_CTRL_RDATA_0[13]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[14]",
+                        "net": "DDR_CTRL_RDATA_0[14]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[15]",
+                        "net": "DDR_CTRL_RDATA_0[15]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[16]",
+                        "net": "DDR_CTRL_RDATA_0[16]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[17]",
+                        "net": "DDR_CTRL_RDATA_0[17]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[18]",
+                        "net": "DDR_CTRL_RDATA_0[18]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[19]",
+                        "net": "DDR_CTRL_RDATA_0[19]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[20]",
+                        "net": "DDR_CTRL_RDATA_0[20]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[21]",
+                        "net": "DDR_CTRL_RDATA_0[21]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[22]",
+                        "net": "DDR_CTRL_RDATA_0[22]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[23]",
+                        "net": "DDR_CTRL_RDATA_0[23]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[24]",
+                        "net": "DDR_CTRL_RDATA_0[24]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[25]",
+                        "net": "DDR_CTRL_RDATA_0[25]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[26]",
+                        "net": "DDR_CTRL_RDATA_0[26]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[27]",
+                        "net": "DDR_CTRL_RDATA_0[27]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[28]",
+                        "net": "DDR_CTRL_RDATA_0[28]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[29]",
+                        "net": "DDR_CTRL_RDATA_0[29]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[30]",
+                        "net": "DDR_CTRL_RDATA_0[30]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[31]",
+                        "net": "DDR_CTRL_RDATA_0[31]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[32]",
+                        "net": "DDR_CTRL_RDATA_0[32]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[33]",
+                        "net": "DDR_CTRL_RDATA_0[33]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[34]",
+                        "net": "DDR_CTRL_RDATA_0[34]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[35]",
+                        "net": "DDR_CTRL_RDATA_0[35]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[36]",
+                        "net": "DDR_CTRL_RDATA_0[36]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[37]",
+                        "net": "DDR_CTRL_RDATA_0[37]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[38]",
+                        "net": "DDR_CTRL_RDATA_0[38]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[39]",
+                        "net": "DDR_CTRL_RDATA_0[39]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[40]",
+                        "net": "DDR_CTRL_RDATA_0[40]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[41]",
+                        "net": "DDR_CTRL_RDATA_0[41]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[42]",
+                        "net": "DDR_CTRL_RDATA_0[42]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[43]",
+                        "net": "DDR_CTRL_RDATA_0[43]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[44]",
+                        "net": "DDR_CTRL_RDATA_0[44]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[45]",
+                        "net": "DDR_CTRL_RDATA_0[45]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[46]",
+                        "net": "DDR_CTRL_RDATA_0[46]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[47]",
+                        "net": "DDR_CTRL_RDATA_0[47]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[48]",
+                        "net": "DDR_CTRL_RDATA_0[48]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[49]",
+                        "net": "DDR_CTRL_RDATA_0[49]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[50]",
+                        "net": "DDR_CTRL_RDATA_0[50]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[51]",
+                        "net": "DDR_CTRL_RDATA_0[51]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[52]",
+                        "net": "DDR_CTRL_RDATA_0[52]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[53]",
+                        "net": "DDR_CTRL_RDATA_0[53]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[54]",
+                        "net": "DDR_CTRL_RDATA_0[54]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[55]",
+                        "net": "DDR_CTRL_RDATA_0[55]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[56]",
+                        "net": "DDR_CTRL_RDATA_0[56]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[57]",
+                        "net": "DDR_CTRL_RDATA_0[57]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[58]",
+                        "net": "DDR_CTRL_RDATA_0[58]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[59]",
+                        "net": "DDR_CTRL_RDATA_0[59]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[60]",
+                        "net": "DDR_CTRL_RDATA_0[60]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[61]",
+                        "net": "DDR_CTRL_RDATA_0[61]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[62]",
+                        "net": "DDR_CTRL_RDATA_0[62]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[63]",
+                        "net": "DDR_CTRL_RDATA_0[63]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[64]",
+                        "net": "DDR_CTRL_RDATA_0[64]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[65]",
+                        "net": "DDR_CTRL_RDATA_0[65]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[66]",
+                        "net": "DDR_CTRL_RDATA_0[66]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[67]",
+                        "net": "DDR_CTRL_RDATA_0[67]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[68]",
+                        "net": "DDR_CTRL_RDATA_0[68]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[69]",
+                        "net": "DDR_CTRL_RDATA_0[69]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[70]",
+                        "net": "DDR_CTRL_RDATA_0[70]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[71]",
+                        "net": "DDR_CTRL_RDATA_0[71]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[72]",
+                        "net": "DDR_CTRL_RDATA_0[72]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[73]",
+                        "net": "DDR_CTRL_RDATA_0[73]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[74]",
+                        "net": "DDR_CTRL_RDATA_0[74]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[75]",
+                        "net": "DDR_CTRL_RDATA_0[75]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[76]",
+                        "net": "DDR_CTRL_RDATA_0[76]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[77]",
+                        "net": "DDR_CTRL_RDATA_0[77]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[78]",
+                        "net": "DDR_CTRL_RDATA_0[78]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[79]",
+                        "net": "DDR_CTRL_RDATA_0[79]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[80]",
+                        "net": "DDR_CTRL_RDATA_0[80]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[81]",
+                        "net": "DDR_CTRL_RDATA_0[81]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[82]",
+                        "net": "DDR_CTRL_RDATA_0[82]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[83]",
+                        "net": "DDR_CTRL_RDATA_0[83]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[84]",
+                        "net": "DDR_CTRL_RDATA_0[84]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[85]",
+                        "net": "DDR_CTRL_RDATA_0[85]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[86]",
+                        "net": "DDR_CTRL_RDATA_0[86]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[87]",
+                        "net": "DDR_CTRL_RDATA_0[87]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[88]",
+                        "net": "DDR_CTRL_RDATA_0[88]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[89]",
+                        "net": "DDR_CTRL_RDATA_0[89]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[90]",
+                        "net": "DDR_CTRL_RDATA_0[90]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[91]",
+                        "net": "DDR_CTRL_RDATA_0[91]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[92]",
+                        "net": "DDR_CTRL_RDATA_0[92]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[93]",
+                        "net": "DDR_CTRL_RDATA_0[93]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[94]",
+                        "net": "DDR_CTRL_RDATA_0[94]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[95]",
+                        "net": "DDR_CTRL_RDATA_0[95]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[96]",
+                        "net": "DDR_CTRL_RDATA_0[96]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[97]",
+                        "net": "DDR_CTRL_RDATA_0[97]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[98]",
+                        "net": "DDR_CTRL_RDATA_0[98]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[99]",
+                        "net": "DDR_CTRL_RDATA_0[99]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[100]",
+                        "net": "DDR_CTRL_RDATA_0[100]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[101]",
+                        "net": "DDR_CTRL_RDATA_0[101]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[102]",
+                        "net": "DDR_CTRL_RDATA_0[102]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[103]",
+                        "net": "DDR_CTRL_RDATA_0[103]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[104]",
+                        "net": "DDR_CTRL_RDATA_0[104]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[105]",
+                        "net": "DDR_CTRL_RDATA_0[105]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[106]",
+                        "net": "DDR_CTRL_RDATA_0[106]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[107]",
+                        "net": "DDR_CTRL_RDATA_0[107]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[108]",
+                        "net": "DDR_CTRL_RDATA_0[108]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[109]",
+                        "net": "DDR_CTRL_RDATA_0[109]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[110]",
+                        "net": "DDR_CTRL_RDATA_0[110]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[111]",
+                        "net": "DDR_CTRL_RDATA_0[111]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[112]",
+                        "net": "DDR_CTRL_RDATA_0[112]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[113]",
+                        "net": "DDR_CTRL_RDATA_0[113]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[114]",
+                        "net": "DDR_CTRL_RDATA_0[114]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[115]",
+                        "net": "DDR_CTRL_RDATA_0[115]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[116]",
+                        "net": "DDR_CTRL_RDATA_0[116]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[117]",
+                        "net": "DDR_CTRL_RDATA_0[117]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[118]",
+                        "net": "DDR_CTRL_RDATA_0[118]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[119]",
+                        "net": "DDR_CTRL_RDATA_0[119]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[120]",
+                        "net": "DDR_CTRL_RDATA_0[120]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[121]",
+                        "net": "DDR_CTRL_RDATA_0[121]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[122]",
+                        "net": "DDR_CTRL_RDATA_0[122]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[123]",
+                        "net": "DDR_CTRL_RDATA_0[123]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[124]",
+                        "net": "DDR_CTRL_RDATA_0[124]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[125]",
+                        "net": "DDR_CTRL_RDATA_0[125]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[126]",
+                        "net": "DDR_CTRL_RDATA_0[126]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe23[127]",
+                        "net": "DDR_CTRL_RDATA_0[127]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe24",
+                        "net": "DDR_CLG_R",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25",
+                        "net": "ddr_state_rst_t1",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[0]",
+                        "net": "wrfifo_count[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[1]",
+                        "net": "wrfifo_count[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[2]",
+                        "net": "wrfifo_count[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[3]",
+                        "net": "wrfifo_count[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[4]",
+                        "net": "wrfifo_count[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[5]",
+                        "net": "wrfifo_count[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[6]",
+                        "net": "wrfifo_count[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[7]",
+                        "net": "wrfifo_count[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[8]",
+                        "net": "wrfifo_count[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[9]",
+                        "net": "wrfifo_count[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[10]",
+                        "net": "wrfifo_count[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[11]",
+                        "net": "wrfifo_count[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26[12]",
+                        "net": "wrfifo_count[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[0]",
+                        "net": "rdfifo_count[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[1]",
+                        "net": "rdfifo_count[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[2]",
+                        "net": "rdfifo_count[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[3]",
+                        "net": "rdfifo_count[3]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[4]",
+                        "net": "rdfifo_count[4]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[5]",
+                        "net": "rdfifo_count[5]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[6]",
+                        "net": "rdfifo_count[6]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[7]",
+                        "net": "rdfifo_count[7]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[8]",
+                        "net": "rdfifo_count[8]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[9]",
+                        "net": "rdfifo_count[9]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[10]",
+                        "net": "rdfifo_count[10]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[11]",
+                        "net": "rdfifo_count[11]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27[12]",
+                        "net": "rdfifo_count[12]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe28",
+                        "net": "init_done_flag",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29",
+                        "net": "check_done",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30",
+                        "net": "DDR_CTRL_ATYPE_0",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe31",
+                        "net": "check_fail",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe32",
+                        "net": "reset_done_t1",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe33",
+                        "net": "slip_check_d",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34",
+                        "net": "ddr_alempty",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35",
+                        "net": "ddr_alfull",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36[0]",
+                        "net": "C_STATE[0]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36[1]",
+                        "net": "C_STATE[1]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36[2]",
+                        "net": "C_STATE[2]",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37",
+                        "net": "WrCheckBit",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe38",
+                        "net": "RdCheckBit",
+                        "path": [
+                            "Ddr3Mig_Top_inst",
+                            "ddr3_state_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 64,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "wr_cycle",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "wr_cnt",
+                    "width": 8,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wrfifo_rdreq",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "wrfifo_rden",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "wrfifo_full",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "rema_num",
+                    "width": 29,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 28,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "init_wrdone",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "ddr_pfull",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "check_err",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "addr_err",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "rd_cycle",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "rdfifo_full",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "fx3_full",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_WVALID_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_WREADY_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_WLAST_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_RVALID_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_RLAST_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_BVALID_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_AVALID_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_AREADY_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_AADDR_0",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "DDR_CTRL_WDATA_0",
+                    "width": 128,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 127,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "DDR_CTRL_RDATA_0",
+                    "width": 128,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 127,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "DDR_CLG_R",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "ddr_state_rst_t1",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "wrfifo_count",
+                    "width": 13,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 12,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "rdfifo_count",
+                    "width": 13,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 12,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "init_done_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "check_done",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "DDR_CTRL_ATYPE_0",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "check_fail",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "reset_done_t1",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "slip_check_d",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "ddr_alempty",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "ddr_alfull",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "C_STATE",
+                    "width": 3,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "WrCheckBit",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                },
+                {
+                    "name": "RdCheckBit",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "Ddr3Mig_Top_inst",
+                        "ddr3_state_inst"
+                    ]
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

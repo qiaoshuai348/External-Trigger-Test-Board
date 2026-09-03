@@ -1,0 +1,24 @@
+clock {
+  name: "sysclk_in"
+  period: 20000
+  target_pin {
+    cell: "sysclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "syspll_CLKOUT100"
+  period: 10000
+  target_pin {
+    cell: "syspll_CLKOUT100"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}

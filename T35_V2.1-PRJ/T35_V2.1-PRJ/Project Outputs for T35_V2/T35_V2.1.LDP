@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\WORKSPACE\DOCUMENTS\PCB\EFINIX_T35\T35_V2.1\T35_V2.1-PRJ\T35_V2.1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=t35_v2.1-roundholes.txt|DrillLayers=gtl,gp1,g1,gp2,g2,gp3,gp4,g3,gp5,g4,gp6,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=t35_v2.1-slotholes.txt|DrillLayers=gtl,gp1,g1,gp2,g2,gp3,gp4,g3,gp5,g4,gp6,gbl

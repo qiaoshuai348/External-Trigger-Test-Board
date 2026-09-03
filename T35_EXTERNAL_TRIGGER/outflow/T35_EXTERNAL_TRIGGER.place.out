@@ -1,0 +1,235 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323.2.18 
+Compiled: Mar 16 2022.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:\T35_ET\T35_EXTERNAL_TRIGGER.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0078674 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 26.628 MB, end = 26.628 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 77.176 MB
+VDB Netlist Checker resident set memory usage: begin = 36.32 MB, end = 36.54 MB, delta = 0.22 MB
+	VDB Netlist Checker peak resident set memory usage = 60.484 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'outflow\T35_EXTERNAL_TRIGGER.interface.csv'.
+Successfully processed interface constraints file "outflow\T35_EXTERNAL_TRIGGER.interface.csv".
+Creating interface clock buffer sysclk~CLKBUF.
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:\T35_ET\T35_EXTERNAL_TRIGGER.vdb".
+Netlist pre-processing took 0.212416 seconds.
+	Netlist pre-processing took 0.109375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 11.908 MB, end = 34.112 MB, delta = 22.204 MB
+	Netlist pre-processing peak virtual memory usage = 246.416 MB
+Netlist pre-processing resident set memory usage: begin = 21.572 MB, end = 43.456 MB, delta = 21.884 MB
+	Netlist pre-processing peak resident set memory usage = 251.636 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "work_pnr\T35_EXTERNAL_TRIGGER.net_proto" took 0.002 seconds
+Creating IO constraints file 'work_pnr\T35_EXTERNAL_TRIGGER.io_place'
+Packing took 0.0136882 seconds.
+	Packing took 0.015625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 27.496 MB, end = 30.632 MB, delta = 3.136 MB
+	Packing peak virtual memory usage = 246.416 MB
+Packing resident set memory usage: begin = 37.664 MB, end = 40.656 MB, delta = 2.992 MB
+	Packing peak resident set memory usage = 251.636 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file work_pnr\T35_EXTERNAL_TRIGGER.net_proto
+Read proto netlist for file "work_pnr\T35_EXTERNAL_TRIGGER.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.051 seconds
+Packed netlist loading took 0.0602145 seconds.
+	Packed netlist loading took 0.0625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 30.632 MB, end = 67.168 MB, delta = 36.536 MB
+	Packed netlist loading peak virtual memory usage = 246.416 MB
+Packed netlist loading resident set memory usage: begin = 40.66 MB, end = 75.824 MB, delta = 35.164 MB
+	Packed netlist loading peak resident set memory usage = 251.636 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+WARNING(1): [SDC line 7] set_false_path does not support endpoints that are both non-clock
+WARNING(2): Unable to set false path due to warnings found
+Unable to set false path due to warning found
+WARNING(3): [SDC line 8] set_false_path does not support endpoints that are both non-clock
+WARNING(4): Unable to set false path due to warnings found
+Unable to set false path due to warning found
+
+SDC file 'constraints/T35_EXTERNAL_TRIGGER.sdc' parsed successfully.
+2 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+Read ipin pattern from C:/Efinity/2021.2/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2021.2/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2021.2/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 3.22309 seconds.
+	BuildGraph process took 3 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 98.728 MB, end = 619.54 MB, delta = 520.812 MB
+	BuildGraph process peak virtual memory usage = 626.264 MB
+BuildGraph process resident set memory usage: begin = 106.932 MB, end = 614.744 MB, delta = 507.812 MB
+	BuildGraph process peak resident set memory usage = 621.38 MB
+check rr_graph process took 0.0435256 seconds.
+	check rr_graph process took 0.046875 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 674.476 MB, end = 674.476 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 689.5 MB
+check rr_graph process resident set memory usage: begin = 669.572 MB, end = 669.608 MB, delta = 0.036 MB
+	check rr_graph process peak resident set memory usage = 684.572 MB
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'outflow\T35_EXTERNAL_TRIGGER.interface.csv'.
+Successfully processed interface constraints file "outflow\T35_EXTERNAL_TRIGGER.interface.csv".
+Writing IO placement constraints to 'outflow\T35_EXTERNAL_TRIGGER.interface.io'.
+
+Reading placement constraints from 'outflow\T35_EXTERNAL_TRIGGER.interface.io'.
+
+Reading placement constraints from 'work_pnr\T35_EXTERNAL_TRIGGER.io_place'.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      395741            3286         0.2%
+          2      188132            3286         0.6%
+          3      157333            3165         1.1%
+          4      146466            2890         2.5%
+          5      125014            2893         6.7%
+          6      102519            2049        17.5%
+          7       82736             274        39.3%
+          8       85497           -1531        52.3%
+          9       93546           -1306        54.2%
+         10       94136           -1161        56.0%
+         11      106392            -969        59.3%
+         12      120232            -489        60.0%
+         13      118465            -518        61.4%
+         14       98788            -662        61.4%
+         15      106192            -420        70.0%
+         16      111798            -451        70.0%
+         17      122169             -61        70.5%
+         18      126959              53        70.8%
+         19      113469            -119        70.8%
+         20       94835            -167        77.0%
+         21       89278           -1529        77.0%
+         22       92960            -963        78.5%
+         23       92579            -904        79.9%
+         24       97328           -1366        81.9%
+         25       94001           -1067        81.9%
+         26       92361           -1422        82.8%
+         27       96677           -1275        84.4%
+         28       99276           -1205        84.6%
+         29       96265            -922        84.6%
+         30       96515            -746        85.2%
+         31       96830            -841        85.2%
+         32       98523           -1134        85.5%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       94835           13049        30.0
+          1       70997           13252        30.0
+          2       38568           14162        30.0
+          3       38409           12867        30.0
+          4       34683           12345        30.0
+          5       33150           11229        30.0
+          6       33068           10356        29.9
+          7       33108           10269        29.6
+          8       33477            9583        28.7
+          9       33157            9894        27.7
+         10       33341            9633        26.5
+         11       32845            9101        25.3
+         12       32445            9492        24.1
+         13       32031            9155        22.9
+         14       32152            8834        21.6
+         15       32226            8756        20.4
+         16       32094            8724        19.3
+         17       31571            8685        18.2
+         18       31577            9141        17.1
+         19       31083            8519        16.1
+         20       30460            8990        15.2
+         21       30330            8699        14.4
+         22       29893            8510        13.6
+         23       29643            8720        12.8
+         24       29243            8676        12.1
+         25       28964            8802        11.4
+         26       28788            8203        10.8
+         27       28684            8195        10.2
+         28       28373            8328         9.7
+         29       28251            8355         9.1
+         30       27965            8395         8.7
+         31       27644            8111         8.2
+         32       27388            8342         7.8
+         33       27207            8464         7.4
+         34       26807            8298         7.0
+         35       26683            8144         6.6
+         36       26328            8144         6.2
+         37       26195            8144         5.9
+         38       25906            8144         5.6
+         39       25771            8203         5.2
+         40       25483            8173         5.0
+         41       25315            8232         4.7
+         42       25126            8076         4.5
+         43       25009            8116         4.2
+         44       24805            8113         4.0
+         45       24712            8262         3.8
+         46       24343            8258         3.6
+         47       24154            8110         3.2
+Starting incremental timing annealer
+Starting incremental timing quench 1 with temperature 0.1 and 1 moves per pass
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       24142            8110        30.0
+          1       25471            8110        30.0
+          2       26849            8110        27.1
+          3       27380            8038        24.4
+          4       27494            8038        22.0
+          5       27716            8038        19.9
+          6       27878            8038        17.9
+          7       27862            8037        16.1
+          8       27720            8037        14.6
+          9       27622            8037        13.2
+         10       27541            8037        11.9
+         11       27353            8037        10.8
+         12       27223            8037         9.8
+         13       27020            8037         8.9
+         14       26860            8037         8.1
+         15       26728            8037         7.4
+         16       26529            8037         6.7
+Placement successful: 3137 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.148811 at 54,367
+Congestion-weighted HPWL per net: 7.33455
+
+Reading placement constraints from 'outflow/T35_EXTERNAL_TRIGGER.qplace'.
+[TimingCost::InitializeTimingData]
+Finished Realigning Types (1093 blocks needed type change)
+[TimingCost::InitializeTimingData]
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 7.85057 ns
+Successfully created FPGA place file 'outflow\T35_EXTERNAL_TRIGGER.place'
+Placement took 22.321 seconds.
+	Placement took 33.4688 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 67.168 MB, end = 178.296 MB, delta = 111.128 MB
+	Placement peak virtual memory usage = 748.14 MB
+Placement resident set memory usage: begin = 75.836 MB, end = 182.752 MB, delta = 106.916 MB
+	Placement peak resident set memory usage = 735.508 MB
+***** Ending stage placement *****
