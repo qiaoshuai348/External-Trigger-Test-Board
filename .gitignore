@@ -1,0 +1,14 @@
+# Local editor history repositories are not part of the FPGA source tree.
+.history/
+
+# Python caches and local virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor metadata.
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
