@@ -1,0 +1,282 @@
+
+Efinity Interface Designer Report
+Version: 2021.2.323.2.18
+Date: 2026-09-01 16:26
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_EXTERNAL_TRIGGER
+
+Package: 324-ball FBGA (final)
+Timing Model: I4 (final)
+Configuration Mode: active (x4)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. MIPI Rx Usage Summary
+   12. MIPI Tx Usage Summary
+   13. Clock Mux Usage Summary
+   14. Configuration Control Usage Summary
+   15. JTAG Usage Summary
+   16. DDR Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+ddr: 0 / 1 (0.0%)
+gpio: 1 / 38 (2.63%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 2.0 / 26 (7.69%)
+	gpio: 4
+lvds_tx: 0 / 20 (0.0%)
+mipi_rx: 0 / 2 (0.0%)
+mipi_tx: 0 / 2 (0.0%)
+pll: 1 / 7 (14.29%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: T35_EXTERNAL_TRIGGER.interface.csv
+Peripheral Block Configuration: T35_EXTERNAL_TRIGGER.lpf
+Pinout Report: T35_EXTERNAL_TRIGGER.pinout.rpt
+Pinout CSV: T35_EXTERNAL_TRIGGER.pinout.csv
+Timing Report: T35_EXTERNAL_TRIGGER.pt_timing.rpt
+Timing SDC Template: T35_EXTERNAL_TRIGGER.pt.sdc
+Verilog Template: T35_EXTERNAL_TRIGGER_template.v
+Option Register File: T35_EXTERNAL_TRIGGER_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+-------------+
+| I/O Bank | I/O Voltage |
++----------+-------------+
+|    1A    |    3.3 V    |
+|  1B_1C   |    3.3 V    |
+|  1D_1E   |    3.3 V    |
+|    2A    |    1.8 V    |
+|    2B    |    3.3 V    |
+|    2C    |    1.8 V    |
+|    3A    |    1.2 V    |
+|    3B    |    1.2 V    |
+| 3C_TR_BR |    1.8 V    |
+|    3D    |    1.5 V    |
+|    4A    |    3.3 V    |
+|    4B    |    3.3 V    |
+|    BL    |    1.2 V    |
++----------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++------------------+-----------------+------+
+|     Pin Name     |     Resource    | Type |
++------------------+-----------------+------+
+|      sysclk      |   GPIOL_66.ALT  | GCLK |
+| syspll_CLKOUT100 | PLL_BL0.CLKOUT0 | GCLK |
++------------------+-----------------+------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      1/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L3      |      0/4       |
+|      L4      |      0/4       |
+|      L5      |      0/4       |
+|      R0      |      0/4       |
+|      R1      |      0/4       |
+|      R3      |      0/4       |
+|      R4      |      0/4       |
+|      R5      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
+No instance using dual-function configuration pin.
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+-------------+--------+----------+--------------+----------+----------------------+---------------+-------------+
+| Instance Name |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |    Pad Name   | Package Pin |
++---------------+-------------+--------+----------+--------------+----------+----------------------+---------------+-------------+
+|   MUX_GPIO1   | GPIOT_RXN00 | input  |          |              |    2A    |     1.8 V LVCMOS     |  GPIOT_RXN00  |     C13     |
+|   MUX_GPIO2   | GPIOT_RXN03 | output |          |              |    2A    |     1.8 V LVCMOS     |  GPIOT_RXN03  |     E15     |
+|   MUX_GPIO3   | GPIOT_RXN04 | input  |          |              |    2A    |     1.8 V LVCMOS     |  GPIOT_RXN04  |     E14     |
+|   MUX_GPIO4   | GPIOT_RXP04 | output |          |              |    2A    |     1.8 V LVCMOS     |  GPIOT_RXP04  |     D14     |
+|     sysclk    |   GPIOL_66  | input  |          |              |  1B_1C   | 3.3 V LVTTL / LVCMOS | GPIOL_66_CLK0 |     K17     |
++---------------+-------------+--------+----------+--------------+----------+----------------------+---------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name |  Input Pin   | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+|   MUX_GPIO1   | MUX_GPIO1_IN |                     |                 |     none     |     Disable     |      |
+|   MUX_GPIO3   | MUX_GPIO3_IN |                     |                 |     none     |     Disable     |      |
+|     sysclk    |              |        sysclk       |                 |     none     |     Disable     | none |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+---------------+------------------+----------------+-----------+------+
+| Instance Name |   Output Pin  | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++---------------+---------------+------------------+----------------+-----------+------+
+|   MUX_GPIO2   | MUX_GPIO2_OUT |                  |       3        |  Disable  |      |
+|   MUX_GPIO4   | MUX_GPIO4_OUT |                  |       3        |  Disable  |      |
++---------------+---------------+------------------+----------------+-----------+------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+------------------+---------+---------+
+| Instance Name | Resource | Clock Region | Ref Clock Mode | Reference Clock | Feedback Mode | Feedback Clock |     Clkout0      | Clkout1 | Clkout2 |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+------------------+---------+---------+
+|     syspll    | PLL_BL0  |      B       |      core      |      sysclk     |    internal   |                | syspll_CLKOUT100 |         |         |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+------------------+---------+---------+
+
+Instance Name                 : syspll
+Resource                      : PLL_BL0
+Locked Pin Name               : syspll_LOCKED
+Reference Clock Mode          : core
+Reference Clock               : sysclk
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 50.00 MHz
+Reference Clock Period        : 20.00 ns
+Multiplier (M)                : 32
+Pre-Divider (N)               : 1
+VCO Frequency                 : 1600.00 MHz
+Post-Divider (O)              : 8
+PLL Frequency                 : 200.00 MHz
+
+Output Clock 0
+Clock Pin Name                : syspll_CLKOUT100
+Output Divider                : 2
+Output Phase Shift            : 0
+Output Frequency              : 100.00 MHz
+Output Period                 : 10.00 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 50.00 MHz * (32/1)
+	    = 1600.00 MHz
+	PLL = VCO / O
+	    = 1600.00 MHz / 8
+	    = 200.00 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 200.00 MHz / 2
+	        = 100.00 MHz
+
+SDC Constraints:
+	create_clock -period 10.00 syspll_CLKOUT100
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. MIPI Rx Usage Summary (begin) ----------
+
+No MIPI Rx was configured
+
+---------- MIPI Rx Usage Summary (end) ----------
+
+---------- 12. MIPI Tx Usage Summary (begin) ----------
+
+No MIPI Tx was configured
+
+---------- MIPI Tx Usage Summary (end) ----------
+
+---------- 13. Clock Mux Usage Summary (begin) ----------
+
++----------+-----------------+
+| Resource | Output Assigned |
++----------+-----------------+
+| CLKMUX_L |        2        |
++----------+-----------------+
+
+Resource: CLKMUX_L
+
+Clock mux assignment:
+
++-----------------+------------------+----------+---------+---------+---------+------------------+---------+---------+---------+---------+
+|  Input Resource |    Clock Pin     |  Status  | LCLK[0] | LCLK[1] | LCLK[2] |     LCLK[3]      | LCLK[4] | LCLK[5] | LCLK[6] | LCLK[7] |
++-----------------+------------------+----------+---------+---------+---------+------------------+---------+---------+---------+---------+
+|                 |                  | Selected |  sysclk |         |         | syspll_CLKOUT100 |         |         |         |         |
+|   GPIOL_66.IN   |      sysclk      |  Routed  |    ^    |         |         |                  |    O    |         |         |         |
+|   GPIOL_67.IN   |                  |          |         |    O    |         |                  |         |    O    |         |         |
+|   GPIOL_68.IN   |                  |          |         |         |    O    |                  |         |         |    O    |         |
+|   GPIOL_69.IN   |                  |          |         |         |         |        -         |         |         |         |    O    |
+|   GPIOL_70.IN   |                  |          |    -    |         |         |                  |    O    |         |         |         |
+|   GPIOL_71.IN   |                  |          |         |    O    |         |                  |         |    O    |         |         |
+|   GPIOL_72.IN   |                  |          |         |         |    O    |                  |         |         |    O    |         |
+|   GPIOL_73.IN   |                  |          |         |         |         |        -         |         |         |         |    O    |
+| PLL_BL0.CLKOUT0 | syspll_CLKOUT100 |  Routed  |    -    |         |         |        ^         |         |         |         |    O    |
+| PLL_BL0.CLKOUT1 |                  |          |         |    O    |         |                  |    O    |         |    O    |         |
+| PLL_BL0.CLKOUT2 |                  |          |         |         |    O    |                  |         |    O    |         |         |
++-----------------+------------------+----------+---------+---------+---------+------------------+---------+---------+---------+---------+
+
+*NOTE
+ : No connection from input to mux output
+O: Available input to mux output connection
+^: Input assigned to mux output
+-: Unavailable (used) input to mux output connection
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 14. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 15. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 16. DDR Usage Summary (begin) ----------
+
+No DDR was configured
+
+---------- DDR Usage Summary (end) ----------

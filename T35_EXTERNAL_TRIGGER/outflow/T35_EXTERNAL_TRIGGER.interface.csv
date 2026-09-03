@@ -1,0 +1,16 @@
+
+# Efinity Interface Configuration
+# Version: 2021.2.323.2.18
+# Date: 2026-09-01 16:26
+
+# Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 3, 0, -1, sysclk
+input, 3, 483, 1, __bypass__, MUX_GPIO1_IN
+output, 18, 483, 0, __bypass__, MUX_GPIO2_OUT
+input, 23, 483, 1, __bypass__, MUX_GPIO3_IN
+output, 22, 483, 0, __bypass__, MUX_GPIO4_OUT
+input, 0, 238, 1, __bypass__, sysclk
+input, 0, 241, 1, __bypass__, syspll_CLKOUT100
+input, 2, 0, 1, __bypass__, syspll_LOCKED

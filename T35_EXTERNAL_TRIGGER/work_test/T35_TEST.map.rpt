@@ -1,0 +1,215 @@
+Synthesis report for project T35_TEST
+Generated at: Sep 01, 2026 12:42:25
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : T35_EXTERNAL_TRIGGER_TOP
+### ### File List (begin) ### ### ###
+rtl\T35_EXTERNAL_TRIGGER_TOP.v
+rtl\reset_release.v
+rtl\uart_tx.v
+rtl\uart_rx.v
+rtl\trigger_generator.v
+rtl\trigger_capture.v
+rtl\external_trigger_controller.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "rtl\external_trigger_controller.v (619)" removed instance : controller_inst/dff_1883/i3
+@ "rtl\external_trigger_controller.v (619)" representative instance : controller_inst/dff_1883/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "rtl\external_trigger_controller.v (619)" removed instance : controller_inst/dff_1882/i8
+@ "rtl\external_trigger_controller.v (619)" representative instance : controller_inst/dff_1883/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "rtl\trigger_generator.v (109)" removed instance : controller_inst/trigger_generator_inst/controller_inst/gen_remaining[29]~FF_brt_6
+@ "rtl\trigger_generator.v (109)" representative instance : controller_inst/trigger_generator_inst/controller_inst/gen_remaining[30]~FF_brt_9
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "rtl\trigger_generator.v (109)" removed instance : controller_inst/trigger_generator_inst/controller_inst/gen_remaining[31]~FF_brt_3
+@ "rtl\trigger_generator.v (109)" representative instance : controller_inst/trigger_generator_inst/controller_inst/gen_remaining[30]~FF_brt_9
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 66
+Enable signal <reset_release_inst/count[7]_2>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13347>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13354>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13361>, number of controlling flip flops: 8
+Enable signal <n2081>, number of controlling flip flops: 24
+Enable signal <controller_inst/n13879>, number of controlling flip flops: 8
+Enable signal <ceg_net1458>, number of controlling flip flops: 21
+Enable signal <ceg_net1966>, number of controlling flip flops: 11
+Enable signal <controller_inst/uart_rx_inst/n828>, number of controlling flip flops: 8
+Enable signal <controller_inst/uart_tx_inst/n317>, number of controlling flip flops: 9
+Enable signal <ceg_net1760>, number of controlling flip flops: 1
+Enable signal <ceg_net105>, number of controlling flip flops: 2
+Enable signal <ceg_net1785>, number of controlling flip flops: 4
+Enable signal <controller_inst/n11195>, number of controlling flip flops: 2
+Enable signal <ceg_net1776>, number of controlling flip flops: 2
+Enable signal <~controller_inst/n8467>, number of controlling flip flops: 19
+Enable signal <ceg_net70>, number of controlling flip flops: 9
+Enable signal <ceg_net1771>, number of controlling flip flops: 3
+Enable signal <controller_inst/uart_rx_inst/n1065>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1062>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1061>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1060>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1059>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1058>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1057>, number of controlling flip flops: 1
+Enable signal <controller_inst/uart_rx_inst/n1056>, number of controlling flip flops: 1
+Enable signal <controller_inst/n11178>, number of controlling flip flops: 261
+Enable signal <ceg_net84>, number of controlling flip flops: 1
+Enable signal <ceg_net87>, number of controlling flip flops: 1
+Enable signal <ceg_net1945>, number of controlling flip flops: 38
+Enable signal <ceg_net99>, number of controlling flip flops: 65
+Enable signal <ceg_net623>, number of controlling flip flops: 32
+Enable signal <controller_inst/trigger_generator_inst/n2027>, number of controlling flip flops: 32
+Enable signal <ceg_net1944>, number of controlling flip flops: 32
+Enable signal <controller_inst/trigger_generator_inst/n1987>, number of controlling flip flops: 65
+Enable signal <ceg_net115>, number of controlling flip flops: 1
+Enable signal <controller_inst/n14992>, number of controlling flip flops: 32
+Enable signal <ceg_net127>, number of controlling flip flops: 1
+Enable signal <ceg_net132>, number of controlling flip flops: 1
+Enable signal <ceg_net1641>, number of controlling flip flops: 5
+Enable signal <ceg_net141>, number of controlling flip flops: 1
+Enable signal <ceg_net1650>, number of controlling flip flops: 24
+Enable signal <controller_inst/n9506>, number of controlling flip flops: 8
+Enable signal <ceg_net153>, number of controlling flip flops: 1
+Enable signal <~n2075>, number of controlling flip flops: 3
+Enable signal <ceg_net897>, number of controlling flip flops: 32
+Enable signal <ceg_net993>, number of controlling flip flops: 32
+Enable signal <ceg_net1086>, number of controlling flip flops: 32
+Enable signal <ceg_net1176>, number of controlling flip flops: 32
+Enable signal <ceg_net812>, number of controlling flip flops: 32
+Enable signal <ceg_net815>, number of controlling flip flops: 1
+Enable signal <ceg_net820>, number of controlling flip flops: 32
+Enable signal <ceg_net822>, number of controlling flip flops: 1
+Enable signal <controller_inst/n13775>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13783>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13791>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13799>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13807>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13815>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13823>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13831>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13839>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13847>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13855>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13863>, number of controlling flip flops: 8
+Enable signal <controller_inst/n13871>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of enable signals: 2
+SR signal <syspll_LOCKED>, number of controlling flip flops: 8
+SR signal <core_rst_n>, number of controlling flip flops: 902
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: controller_inst/uart_tx_inst/phase[0](=0)
+FF Output: controller_inst/resp_payload[18][0](=0)
+FF Output: controller_inst/uart_tx_inst/frame[9](=1)
+FF Output: controller_inst/uart_rx_inst/phase[0](=0)
+FF Output: controller_inst/uart_rx_inst/phase[7](=0)
+FF Output: controller_inst/uart_rx_inst/phase[6](=0)
+FF Output: controller_inst/uart_rx_inst/phase[5](=0)
+FF Output: controller_inst/uart_rx_inst/phase[4](=0)
+FF Output: controller_inst/uart_rx_inst/phase[3](=0)
+FF Output: controller_inst/uart_rx_inst/phase[2](=0)
+FF Output: controller_inst/uart_rx_inst/phase[1](=0)
+FF Output: controller_inst/uart_tx_inst/phase[1](=0)
+FF Output: controller_inst/uart_tx_inst/phase[2](=0)
+FF Output: controller_inst/uart_tx_inst/phase[3](=0)
+FF Output: controller_inst/uart_tx_inst/phase[4](=0)
+FF Output: controller_inst/uart_tx_inst/phase[5](=0)
+FF Output: controller_inst/uart_tx_inst/phase[6](=0)
+FF Output: controller_inst/uart_tx_inst/phase[7](=0)
+FF Output: controller_inst/resp_payload[17][2](=0)
+FF Output: controller_inst/resp_payload[17][3](=0)
+FF Output: controller_inst/resp_payload[17][4](=0)
+FF Output: controller_inst/resp_payload[17][5](=0)
+FF Output: controller_inst/resp_payload[17][6](=0)
+FF Output: controller_inst/resp_payload[17][7](=0)
+FF Output: controller_inst/resp_payload[18][1](=0)
+FF Output: controller_inst/resp_payload[18][2](=0)
+FF Output: controller_inst/resp_payload[18][3](=0)
+FF Output: controller_inst/resp_payload[18][4](=0)
+FF Output: controller_inst/resp_payload[18][5](=0)
+FF Output: controller_inst/resp_payload[18][6](=0)
+FF Output: controller_inst/resp_payload[18][7](=0)
+FF Output: controller_inst/response_length[5](=0)
+FF Output: controller_inst/response_length[6](=0)
+FF Output: controller_inst/response_length[7](=0)
+FF instance: controller_inst/loopback_clear_delay[0]~FF(unreachable)
+FF instance: controller_inst/parser_error_cmd[7]~FF(unreachable)
+FF instance: controller_inst/loopback_clear_delay[1]~FF(unreachable)
+FF instance: controller_inst/loopback_clear_delay[2]~FF(unreachable)
+FF instance: controller_inst/loopback_clear_delay[3]~FF(unreachable)
+FF instance: controller_inst/loopback_clear_delay[4]~FF(unreachable)
+FF instance: controller_inst/loopback_clear_delay[5]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                     FFs        ADDs        LUTs      RAMs DSP/MULTs
+--------------------------------------------------         ---        ----        ----      ---- ---------
+T35_EXTERNAL_TRIGGER_TOP:T35_EXTERNAL_TRIGGER_TOP      1148(0)       33(0)     2854(0)      0(0)      0(0)
++reset_release_inst:reset_release                         8(8)        0(0)      10(10)      0(0)      0(0)
++controller_inst:external_trigger_controller         1140(592)       33(0)  2844(1205)      0(0)      0(0)
+ +uart_rx_inst:uart_rx                                  49(49)        0(0)    114(114)      0(0)      0(0)
+ +uart_tx_inst:uart_tx                                  34(34)        0(0)      64(64)      0(0)      0(0)
+ +trigger_generator_inst:trigger_generator            267(267)      33(33)    822(822)      0(0)      0(0)
+ +trigger_capture_inst:trigger_capture                198(198)        0(0)    639(639)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+            Clock     Flip-Flops   Memory Ports    Multipliers
+            -----     ----------   ------------    -----------
+ syspll_CLKOUT100           1148              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F324
+project : T35_TEST
+root : T35_EXTERNAL_TRIGGER_TOP
+output-dir : outflow_test
+work-dir : G:\外触发小板子\T35_EXTERNAL_TRIGGER\work_test
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	5
+OUTPUT PORTS    : 	2
+
+EFX_ADD         : 	33
+EFX_LUT4        : 	2854
+   1-2  Inputs  : 	526
+   3    Inputs  : 	867
+   4    Inputs  : 	1461
+EFX_FF          : 	1148
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 18s
+Elapsed synthesis time : 18s

@@ -1,0 +1,13 @@
+Module Resource Usage Distribution Estimates
+Generated at: Sep 01, 2026 12:42:25
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+T35_EXTERNAL_TRIGGER_TOP:T35_EXTERNAL_TRIGGER_TOP 	    1148(0)	      33(0)	    2854(0)	     0(0)	     0(0)	
++reset_release_inst:reset_release                 	       8(8)	       0(0)	     10(10)	     0(0)	     0(0)	
++controller_inst:external_trigger_controller      	  1140(592)	      33(0)	 2844(1205)	     0(0)	     0(0)	
+ +uart_rx_inst:uart_rx                            	     49(49)	       0(0)	   114(114)	     0(0)	     0(0)	
+ +uart_tx_inst:uart_tx                            	     34(34)	       0(0)	     64(64)	     0(0)	     0(0)	
+ +trigger_generator_inst:trigger_generator        	   267(267)	     33(33)	   822(822)	     0(0)	     0(0)	
+ +trigger_capture_inst:trigger_capture            	   198(198)	       0(0)	   639(639)	     0(0)	     0(0)	

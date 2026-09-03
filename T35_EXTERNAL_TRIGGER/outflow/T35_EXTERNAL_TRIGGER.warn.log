@@ -1,0 +1,288 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:41:37
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:43:47
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:66)
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:41)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:46:22
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:47:08
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:51:23
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 13:00:17
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 13:18:00
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 14:21:54
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 14:31:27
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 15:58:06
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 16:26:31
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 

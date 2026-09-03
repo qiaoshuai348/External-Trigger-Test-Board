@@ -1,0 +1,1127 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:41:37
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:43:47
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:66)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0011 VERI-WARNING] expression size 33 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:41)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:47)
+[EFX-0031 INFO] 'mux_1132' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:660)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1206 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 969 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2768, ed: 9139, lv: 9, pw: 4121.98
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1150 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2757
+[EFX-0000 INFO] EFX_FF          : 	1150
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:46:22
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1132' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:660)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 1s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1206 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 979 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2857, ed: 9342, lv: 9, pw: 4019.85
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 1150 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2846
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:47:08
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1132' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:660)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:108)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1206 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 983 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2863, ed: 9478, lv: 9, pw: 4162.13
+[EFX-0000 INFO] ... LUT mapping end (Real time : 16s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1150 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2852
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 12:51:23
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 13:00:17
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 13:18:00
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 14:21:54
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (G:/外触发小板子\T35_EXTERNAL_TRIGGER\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 1s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 16s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 14:31:27
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (C:/T35_ET\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (C:/T35_ET\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (C:/T35_ET\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (C:/T35_ET\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (C:/T35_ET\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (C:/T35_ET\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (C:/T35_ET\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 15:58:06
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (C:/T35_ET\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (C:/T35_ET\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (C:/T35_ET\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (C:/T35_ET\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (C:/T35_ET\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (C:/T35_ET\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (C:/T35_ET\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 01, 2026 16:26:31
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2021.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'T35_EXTERNAL_TRIGGER_TOP' (VERI-1018) (C:/T35_ET\rtl\T35_EXTERNAL_TRIGGER_TOP.v:3)
+[EFX-0012 VERI-INFO] compiling module 'reset_release' (VERI-1018) (C:/T35_ET\rtl\reset_release.v:3)
+[EFX-0012 VERI-INFO] compiling module 'external_trigger_controller' (VERI-1018) (C:/T35_ET\rtl\external_trigger_controller.v:3)
+[EFX-0012 VERI-INFO] compiling module 'uart_rx' (VERI-1018) (C:/T35_ET\rtl\uart_rx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'uart_tx' (VERI-1018) (C:/T35_ET\rtl\uart_tx.v:4)
+[EFX-0012 VERI-INFO] compiling module 'trigger_generator' (VERI-1018) (C:/T35_ET\rtl\trigger_generator.v:3)
+[EFX-0012 VERI-INFO] compiling module 'trigger_capture' (VERI-1018) (C:/T35_ET\rtl\trigger_capture.v:3)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:6)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:19)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:36)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:46)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IDDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:55)
+[EFX-0012 VERI-INFO] compiling module 'EFX_ODDR' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:69)
+[EFX-0012 VERI-INFO] compiling module 'EFX_IOBUF' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:85)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:97)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:105)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:140)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:196)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:249)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:302)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:362)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:434)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:539)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:601)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:693)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:794)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2021.2/sim_models/maplib/efinix_maplib.v:924)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0031 INFO] 'Mux_28' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\uart_tx.v:48)
+[EFX-0031 INFO] 'mux_1141' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:/T35_ET\rtl\external_trigger_controller.v:667)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[15]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[14]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[13]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[12]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[11]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[10]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[9]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[8]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[7]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[6]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[5]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[4]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[3]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[2]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[1]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte[0]. (C:/T35_ET\rtl\external_trigger_controller.v:109)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[15]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[14]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[13]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0200 WARNING] Removing redundant signal : crc16_byte.crc_in[12]. (C:/T35_ET\rtl\external_trigger_controller.v:110)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "T35_EXTERNAL_TRIGGER_TOP"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_release" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_capture" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "external_trigger_controller" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 564 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "T35_EXTERNAL_TRIGGER_TOP" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network syspll_CLKOUT100 with 1207 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 970 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 2808, ed: 9326, lv: 9, pw: 4046.54
+[EFX-0000 INFO] ... LUT mapping end (Real time : 15s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1151 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 2 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0012 VERI-INFO] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	33
+[EFX-0000 INFO] EFX_LUT4        : 	2797
+[EFX-0000 INFO] EFX_FF          : 	1149
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

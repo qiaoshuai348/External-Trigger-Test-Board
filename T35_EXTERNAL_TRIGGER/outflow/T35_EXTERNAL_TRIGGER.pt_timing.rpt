@@ -1,0 +1,58 @@
+
+Efinity Interface Designer Timing Report
+Version: 2021.2.323.2.18
+Date: 2026-09-01 16:26
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T35F324
+Project: T35_EXTERNAL_TRIGGER
+Timing Model: I4 (final)
+
+---------- 1. PLL Timing Report (begin) ----------
+
++------------------+-------------+-----------------------+
+|      Clock       | Period (ns) | Phase Shift (degrees) |
++------------------+-------------+-----------------------+
+| syspll_CLKOUT100 |    10.00    |           0           |
++------------------+-------------+-----------------------+
+
+---------- PLL Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Clock Network Delay:
+=====================
+
++-----------+----------+----------+
+| Clock Pin | Max (ns) | Min (ns) |
++-----------+----------+----------+
+|   sysclk  |  4.310   |  2.155   |
++-----------+----------+----------+
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-------------+----------+----------+
+| Instance Name | Pin Name |  Parameter  | Max (ns) | Min (ns) |
++---------------+----------+-------------+----------+----------+
+|     sysclk    |  sysclk  | GPIO_CLK_IN |  1.275   |  0.637   |
++---------------+----------+-------------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 3. LVDS Rx Timing Report (begin) ----------
+
+Non-registered LVDS GPIO Configuration:
+========================================
+
++---------------+---------------+-----------+----------+----------+
+| Instance Name |    Pin Name   | Parameter | Max (ns) | Min (ns) |
++---------------+---------------+-----------+----------+----------+
+|   MUX_GPIO1   |  MUX_GPIO1_IN |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO3   |  MUX_GPIO3_IN |  GPIO_IN  |  1.714   |  0.857   |
+|   MUX_GPIO2   | MUX_GPIO2_OUT |  GPIO_OUT |  3.272   |  1.636   |
+|   MUX_GPIO4   | MUX_GPIO4_OUT |  GPIO_OUT |  3.272   |  1.636   |
++---------------+---------------+-----------+----------+----------+
+
+---------- LVDS Rx Timing Report (end) ----------

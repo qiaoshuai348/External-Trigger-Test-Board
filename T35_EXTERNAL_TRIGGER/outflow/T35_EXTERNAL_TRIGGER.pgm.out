@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2021.2.323.2.18 
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+Compiled: Mar 16 2022.
+
+Using source file "C:\T35_ET\work_pnr\T35_EXTERNAL_TRIGGER.lbf"
+Generating HEX programming file for device "T35F324", family "Trion"
+Using periphery source file "outflow\T35_EXTERNAL_TRIGGER.lpf"
+Generating bit file: "outflow\T35_EXTERNAL_TRIGGER.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = off
+	oscillator_clock_divider                 = DIV4
+	io_weak_pullup                           = off
+	release_tri_then_reset                   = on
+Finished generating "outflow\T35_EXTERNAL_TRIGGER.hex"
+Efinity Bitstream Generator took 2.26387 seconds.
+	Efinity Bitstream Generator took 1.23438 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.544 MB, end = 5.892 MB, delta = 3.348 MB
+	Efinity Bitstream Generator peak virtual memory usage = 75.708 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7.888 MB, end = 13.156 MB, delta = 5.268 MB
+	Efinity Bitstream Generator peak resident set memory usage = 66.296 MB

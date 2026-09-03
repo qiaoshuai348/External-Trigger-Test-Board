@@ -1,0 +1,24 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323.2.18 
+Date: Tue Sep 01 16:26:58 2026
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F324
+Top-level Entity Name: T35_EXTERNAL_TRIGGER
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 5 / 979 (0.51%)
+Outputs: 2 / 1116 (0.18%)
+Clocks: 2 / 16 (12.50%)
+Logic Elements: 3137 / 31680 (9.90%)
+	LE: LUTs/Adders: 2832 / 31680 (8.94%)
+	LE: Registers: 1149 / 30720 (3.74%)
+Memory Blocks: 0 / 288 (0.00%)
+Multipliers: 0 / 120 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 22 seconds
