@@ -1,0 +1,53 @@
+{
+    "args": [
+        "-o",
+        "GPS_FIFO",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "1.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH": "7",
+        "DATA_WIDTH": "1",
+        "MODE": "0",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "16",
+        "PROGRAMMABLE_FULL": "0",
+        "PROG_FULL_NEGATE": "16",
+        "PROG_EMPTY_ASSERT": "2",
+        "PROG_EMPTY_NEGATE": "3",
+        "PROGRAMMABLE_EMPTY": "0",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "0",
+        "DEVICE_FAMILY": "0",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\GPS_FIFO_tmpl.vhd",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\GPS_FIFO_tmpl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\GPS_FIFO_define.vh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\GPS_FIFO.v"
+        ],
+        "external_testbench": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\fifo_tb.sv",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\xrun.sh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\msim.sh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\flist",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\modelsim.do",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\GPS_FIFO.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\GPS_FIFO\\Testbench\\GPS_FIFO_define.vh"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-05-30T09:16:11.838668"
+}

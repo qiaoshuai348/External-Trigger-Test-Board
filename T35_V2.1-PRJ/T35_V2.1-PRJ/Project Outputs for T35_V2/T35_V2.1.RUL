@@ -1,0 +1,14 @@
+DRC Rules Export File for PCB: D:\WORKSPACE\DOCUMENTS\PCB\EFINIX_T35\T35_V2.1\T35_V2.1-PRJ\T35_V2.1.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_INPOLY|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_INPOLY_U1|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width_u1|Scope=Board|Minimum=3.50
+RuleKind=Clearance|RuleName=Clearance_u1|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=CF100|Scope=Board|Minimum=3.60
+RuleKind=Width|RuleName=CF90|Scope=Board|Minimum=4.50
+RuleKind=Width|RuleName=POWER|Scope=Board|Minimum=3.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.50
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_inpoly_T_B|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_room|Scope=Board|Minimum=4.00

@@ -1,0 +1,316 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Aug 28, 2026 10:46:04
+///////////////////////////////////
+
+[EFX-0034 WARNING] Project XML file specified. Source files specified in the command line are ignored.
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:369)
+[EFX-0011 VERI-WARNING] redeclaration of ANSI port 'trigin_or_idle' is not allowed (VERI-1372) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:108)
+[EFX-0011 VERI-WARNING] data object 'xhs_in' is already declared (VERI-2170) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:111)
+[EFX-0011 VERI-WARNING] second declaration of 'xhs_in' is ignored (VERI-1329) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:111)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosCtrl_Switch.v:103)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosCtrl_Switch.v:104)
+[EFX-0011 VERI-WARNING] root scope declaration is not allowed in Verilog 95/2K mode (VERI-1791) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2445)
+[EFX-0011 VERI-WARNING] parameter 'IDLE_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2550)
+[EFX-0011 VERI-WARNING] parameter 'START_GEN0_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2551)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT0_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2552)
+[EFX-0011 VERI-WARNING] parameter 'START_GEN1_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2553)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT1_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2554)
+[EFX-0011 VERI-WARNING] parameter 'RESTART_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2555)
+[EFX-0011 VERI-WARNING] parameter 'WRITE_DAT2_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2556)
+[EFX-0011 VERI-WARNING] parameter 'STOP_GEN_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2557)
+[EFX-0011 VERI-WARNING] parameter 'DONE_ST' becomes localparam in 'i2c_master_ctl_3304c18ab41b423f9d2fd3d1fa31287d' with formal parameter declaration list (VERI-1199) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr3_calibration\ddr3_calibration.v:2558)
+[EFX-0011 VERI-WARNING] port 'reg33' remains unconnected for this instance (VERI-1927) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1124)
+[EFX-0011 VERI-WARNING] expression size 40 truncated to fit in target size 32 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:383)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 2 for port 'TrigModeA' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:173)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\Trigin_set.v:85)
+[EFX-0011 VERI-WARNING] net 'xhs_in' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:110)
+[EFX-0011 VERI-WARNING] net 'xvs_in' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:163)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:450)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'hsync_stled' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:478)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'hsync_edled' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:479)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'm6inline_leden' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:480)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'm6inline_st' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:481)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 16 for port 'm6inline_ed' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:482)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:369)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:116)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:323)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:324)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:326)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\mipicsi_rxctrl.v:445)
+[EFX-0011 VERI-WARNING] using initial value of 'timer_stamp' since it is never assigned (VERI-1220) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\data_process.v:72)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] concatenation with an unsized literal will be treated as 32 bits (VERI-1320) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 48 differs from formal bit length 18 for port 'A' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'B' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 24 differs from formal bit length 36 for port 'O' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:82)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'A' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:80)
+[EFX-0011 VERI-WARNING] actual bit length 40 differs from formal bit length 18 for port 'B' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 16 differs from formal bit length 36 for port 'O' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\unsigned_reg_mult.v:82)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\data_process.v:596)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:585)
+[EFX-0011 VERI-WARNING] expression size 64 truncated to fit in target size 20 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/ddr_reset_control\ddr_reset_control.v:163)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 16 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:155)
+[EFX-0011 VERI-WARNING] expression size 30 truncated to fit in target size 29 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:236)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:362)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:94)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:1169)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:1170)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:91)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 13 differs from formal bit length 9 for port 'rd_datacount_o' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:813)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:94)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:1163)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:1164)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 9 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 13 differs from formal bit length 8 for port 'wr_datacount_o' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\DDR3\ddr3_state.v:831)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:94)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 10 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:1163)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 11 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:1164)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 10 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 9 differs from formal bit length 11 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0011 VERI-WARNING] port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:94)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:1169)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:1170)
+[EFX-0011 VERI-WARNING] actual bit length 7 differs from formal bit length 8 for port 'wr_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:91)
+[EFX-0011 VERI-WARNING] actual bit length 7 differs from formal bit length 8 for port 'rd_datacount_o' (VERI-1330) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:92)
+[EFX-0011 VERI-WARNING] input port 'a_wr_rst_i' is not connected on this instance (VDB-1013) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/GPS_FIFO\GPS_FIFO.v:81)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'gps_rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:771)
+[EFX-0011 VERI-WARNING] latch inferred for net 'GPSBOX_DataReceived' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:101)
+[EFX-0011 VERI-WARNING] latch inferred for net 'HSYNC_SlaveIn' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:123)
+[EFX-0011 VERI-WARNING] latch inferred for net 'VSYNC_SlaveIn' (VERI-2580) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MuxGpio_SignalSwitch.v:145)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 1 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2242)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2637)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2663)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2686)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2690)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2691)
+[EFX-0011 VERI-WARNING] expression size 25 truncated to fit in target size 24 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2693)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 8 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:2807)
+[EFX-0011 VERI-WARNING] expression size 10 truncated to fit in target size 9 (VERI-1209) (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/asmi_flash_ctl\asmi_flash_ctl.v:1209)
+[EFX-0011 VERI-WARNING] net 'miso_1' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:308)
+[EFX-0011 VERI-WARNING] net 'miso_2' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:309)
+[EFX-0011 VERI-WARNING] net 'miso_3' does not have a driver (VDB-1002) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\FLASH\flash_ctrl.v:310)
+[EFX-0011 VERI-WARNING] expression size 19 truncated to fit in target size 18 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\watchdogs.v:93)
+[EFX-0011 VERI-WARNING] expression size 24 truncated to fit in target size 23 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\LED_state.v:48)
+[EFX-0011 VERI-WARNING] expression size 28 truncated to fit in target size 27 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\LED_state.v:56)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'rst' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:910)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 8 for port 'fpga_satte2' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:914)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 8 for port 'fpga_state3' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:915)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:477)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:522)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:530)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:561)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:562)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\registerInterface.v:568)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 1 for port 'reg1X41' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:517)
+[EFX-0011 VERI-WARNING] actual bit length 8 differs from formal bit length 1 for port 'reg1X52' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\I2CSLAVE\i2cSlave.v:525)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 8 for port 'reg54' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1021)
+[EFX-0011 VERI-WARNING] actual bit length 5 differs from formal bit length 8 for port 'reg68' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1035)
+[EFX-0011 VERI-WARNING] actual bit length 2 differs from formal bit length 8 for port 'reg1X32' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1088)
+[EFX-0011 VERI-WARNING] actual bit length 2 differs from formal bit length 8 for port 'reg1X33' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1089)
+[EFX-0011 VERI-WARNING] actual bit length 1 differs from formal bit length 8 for port 'reg1X52' (VERI-1330) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:1103)
+[EFX-0011 VERI-WARNING] input port 'clk_low' is not connected on this instance (VDB-1013) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:653)
+[EFX-0011 VERI-WARNING] input port 'ShutterMessure_IN' remains unconnected for this instance (VDB-1053) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:788)
+[EFX-0011 VERI-WARNING] input port 'myreg28[7]' remains unconnected for this instance (VDB-1053) (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\T35_TOP.v:924)
+[EFX-0256 WARNING] The primary output port 'TP_GPIO6_OUT' wire 'TP_GPIO6_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO6_OE' wire 'TP_GPIO6_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO7_OUT' wire 'TP_GPIO7_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO7_OE' wire 'TP_GPIO7_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO8_OUT' wire 'TP_GPIO8_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'TP_GPIO8_OE' wire 'TP_GPIO8_OE' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[7]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[6]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[5]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[4]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[3]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : AMPV_MODE[2]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:28)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[15]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[14]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[13]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[12]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[11]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[10]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[9]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[8]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[7]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[6]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[5]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[4]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[3]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0200 WARNING] Removing redundant signal : hsync_stled[2]. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\SlaveControl_2022.v:38)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'xhs_in'. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:110)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'xvs_in'. (G:/外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\SRC\MasterSlaveControl\CmosControl.v:163)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/wrddr3_fifo\wrddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.clk_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/rdddr3_fifo\rdddr3_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_wr_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_fifo_top.a_rd_rst_i'. (G:\外触发小板子\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3_241225\T35_FRAMEWORK_V3\ip/fx3tx_fifo\fx3tx_fifo.v:81)
+[EFX-0266 WARNING] Module Instance 'u_fx3tx_fifo' input pin tied to constant (a_rst_i=0).
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (wr_en_i=1).
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (rd_en_i=1).
+[EFX-0266 WARNING] Module Instance 'u_GPS_FIFO' input pin tied to constant (a_rst_i=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (locked=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[0]=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[4]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (w_burst_size[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[0]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[1]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[2]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[3]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[4]=1).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[5]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[6]=0).
+[EFX-0266 WARNING] Module Instance 'u_efx_spi_shifter' input pin tied to constant (r_burst_size[7]=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (fast_read_dual=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_fast_read=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_io_fast_read=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_page_write=0).
+[EFX-0266 WARNING] Module Instance 'asmi_flash_ctl_inst' input pin tied to constant (quad_enable=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_stled[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (hsync_edled[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_leden=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_st[15]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[0]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[1]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[2]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[3]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[4]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[5]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[6]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[7]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[8]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[9]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[10]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[11]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[12]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[13]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[14]=0).
+[EFX-0266 WARNING] Module Instance 'CmosControl_inst' input pin tied to constant (m6inline_ed[15]=0).
+[EFX-0266 WARNING] Module Instance 'data_process_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'Ddr3Mig_Top_inst' input pin tied to constant (rddr3_en=1).
+[EFX-0266 WARNING] Module Instance 'gps_decoder_inst' input pin tied to constant (gps_rst=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (rst=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[0]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[1]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[2]=0).
+[EFX-0266 WARNING] Module Instance 'LED_state_inst' input pin tied to constant (fpga_satte2[3]=0).
+[EFX-0011 VERI-WARNING] Input/Inout Port sysclk is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port ddrrefclk is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port USB_RESET is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO1_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO3_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port MUX_GPIO4_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO5_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO6_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO7_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port TP_GPIO8_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl6 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl4 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl5 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port fx3_ctl7 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL1_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL2_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL3_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL4_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_CTL5_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XHS_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XVS_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_AMPV_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_TECEN_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XCLR_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XMASTER_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOS_XTRIG_IN is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port syspll_LOCKED is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOSPLL_LOCKED is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port CMOSPLL_CMOSCLKOUT is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_CNT[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[8] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ERROR[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_ULPS_CLK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port mipi_rx_inst1_VC[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BID_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_BVALID_0 is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[7] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[6] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[5] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[4] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RID_0[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RRESP_0[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port DDR_CTRL_RRESP_0[0] is unconnected and will be removed 

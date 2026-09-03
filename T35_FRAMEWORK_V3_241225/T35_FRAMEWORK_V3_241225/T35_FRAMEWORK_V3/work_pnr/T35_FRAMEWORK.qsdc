@@ -1,0 +1,4467 @@
+clock {
+  name: "sysclk_in"
+  period: 20000
+  target_pin {
+    cell: "sysclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "ddrrefclk"
+  period: 10000
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+clock {
+  name: "syspll_CLKOUT100"
+  period: 10000
+  target_pin {
+    cell: "syspll_CLKOUT100"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_VSYNC[3]"
+      port: "INPAD"
+    }
+    arrival: 5394
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_VSYNC[2]"
+      port: "INPAD"
+    }
+    arrival: 5394
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_VSYNC[1]"
+      port: "INPAD"
+    }
+    arrival: 5394
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_VSYNC[0]"
+      port: "INPAD"
+    }
+    arrival: 5394
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_HSYNC[3]"
+      port: "INPAD"
+    }
+    arrival: 5388
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_HSYNC[2]"
+      port: "INPAD"
+    }
+    arrival: 5388
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_HSYNC[1]"
+      port: "INPAD"
+    }
+    arrival: 5388
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_HSYNC[0]"
+      port: "INPAD"
+    }
+    arrival: 5388
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_VALID"
+      port: "INPAD"
+    }
+    arrival: 5242
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[63]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[62]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[61]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[60]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[59]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[58]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[57]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[56]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[55]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[54]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[53]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[52]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[51]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[50]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[49]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[48]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[47]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[46]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[45]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[44]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[43]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[42]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[41]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[40]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[39]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[38]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[37]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[36]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[35]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[34]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[33]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[32]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[31]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[30]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[29]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[28]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[27]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[26]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[25]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[24]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[23]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[22]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[21]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[20]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[19]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[18]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[17]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[16]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[15]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[14]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[13]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[12]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[11]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[10]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[9]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[8]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[7]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[6]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[5]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[4]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[3]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[2]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[1]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_DATA[0]"
+      port: "INPAD"
+    }
+    arrival: 5340
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[17]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[16]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[15]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[14]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[13]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[12]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[11]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[10]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[9]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[5]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[4]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[3]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[2]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[1]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "mipi_rx_inst1_ERROR[0]"
+      port: "INPAD"
+    }
+    arrival: 5256
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_AREADY_0"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[127]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[126]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[125]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[124]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[123]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[122]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[121]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[120]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[119]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[118]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[117]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[116]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[115]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[114]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[113]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[112]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[111]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[110]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[109]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[108]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[107]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[106]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[105]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[104]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[103]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[102]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[101]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[100]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[99]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[98]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[97]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[96]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[95]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[94]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[93]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[92]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[91]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[90]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[89]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[88]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[87]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[86]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[85]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[84]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[83]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[82]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[81]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[80]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[79]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[78]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[77]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[76]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[75]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[74]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[73]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[72]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[71]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[70]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[69]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[68]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[67]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[66]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[65]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[64]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[63]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[62]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[61]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[60]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[59]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[58]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[57]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[56]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[55]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[54]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[53]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[52]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[51]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[50]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[49]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[48]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[47]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[46]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[45]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[44]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[43]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[42]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[41]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[40]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[39]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[38]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[37]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[36]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[35]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[34]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[33]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[32]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[31]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[30]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[29]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[28]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[27]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[26]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[25]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[24]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[23]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[22]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[21]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[20]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[19]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[18]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[17]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[16]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[15]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[14]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[13]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[12]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[11]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[10]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[9]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[8]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[7]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[6]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[5]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[4]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[3]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[2]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[1]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RDATA_0[0]"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RLAST_0"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_RVALID_0"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  input_delay {
+    pin {
+      cell: "DDR_CTRL_WREADY_0"
+      port: "INPAD"
+    }
+    arrival: 7309
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mipi_rx_inst1_VC_ENA[3]"
+      port: "OUTPAD"
+    }
+    setup: -3746
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mipi_rx_inst1_VC_ENA[2]"
+      port: "OUTPAD"
+    }
+    setup: -3746
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mipi_rx_inst1_VC_ENA[1]"
+      port: "OUTPAD"
+    }
+    setup: -3746
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mipi_rx_inst1_VC_ENA[0]"
+      port: "OUTPAD"
+    }
+    setup: -3746
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mipi_rx_inst1_CLEAR"
+      port: "OUTPAD"
+    }
+    setup: -4197
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[31]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[30]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[29]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[28]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[27]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[26]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[25]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[24]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[23]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[22]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[21]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[20]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[19]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[18]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[17]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[16]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[15]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[14]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[13]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[12]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[11]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[10]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[9]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[8]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AADDR_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ABURST_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ABURST_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AID_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALEN_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALOCK_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ALOCK_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ASIZE_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ASIZE_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ASIZE_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_ATYPE_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_AVALID_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_BREADY_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_RREADY_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[127]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[126]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[125]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[124]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[123]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[122]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[121]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[120]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[119]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[118]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[117]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[116]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[115]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[114]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[113]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[112]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[111]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[110]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[109]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[108]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[107]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[106]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[105]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[104]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[103]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[102]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[101]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[100]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[99]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[98]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[97]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[96]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[95]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[94]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[93]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[92]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[91]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[90]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[89]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[88]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[87]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[86]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[85]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[84]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[83]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[82]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[81]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[80]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[79]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[78]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[77]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[76]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[75]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[74]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[73]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[72]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[71]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[70]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[69]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[68]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[67]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[66]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[65]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[64]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[63]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[62]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[61]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[60]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[59]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[58]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[57]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[56]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[55]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[54]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[53]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[52]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[51]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[50]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[49]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[48]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[47]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[46]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[45]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[44]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[43]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[42]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[41]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[40]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[39]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[38]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[37]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[36]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[35]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[34]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[33]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[32]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[31]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[30]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[29]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[28]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[27]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[26]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[25]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[24]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[23]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[22]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[21]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[20]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[19]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[18]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[17]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[16]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[15]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[14]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[13]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[12]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[11]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[10]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[9]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[8]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WDATA_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WID_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WLAST_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[15]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[14]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[13]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[12]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[11]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[10]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[9]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[8]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[7]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[6]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[5]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[4]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[3]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[2]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[1]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WSTRB_0[0]"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "DDR_CTRL_WVALID_0"
+      port: "OUTPAD"
+    }
+    setup: -1810
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_ctl11"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_ctl12"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[31]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[30]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[29]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[28]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[27]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[26]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[25]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[24]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[23]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[22]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[21]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[20]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[19]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[18]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[17]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[16]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[15]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[14]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[13]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[12]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[11]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[10]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[9]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[8]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[7]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[6]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[5]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[4]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[3]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[2]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[1]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "fx3_data[0]"
+      port: "OUTPAD"
+    }
+    setup: 1000
+    analysis: BOTH
+    ref_clock_edge: RISING
+  }
+}
+clock {
+  name: "syspll_CLKOUT25"
+  period: 40000
+  target_pin {
+    cell: "syspll_CLKOUT25"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+  input_delay {
+    pin {
+      cell: "miso"
+      port: "INPAD"
+    }
+    arrival: 5168
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "CS0"
+      port: "OUTPAD"
+    }
+    setup: -3700
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "HOLD_N"
+      port: "OUTPAD"
+    }
+    setup: -3700
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "sclk"
+      port: "OUTPAD"
+    }
+    setup: -3700
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "WP_N"
+      port: "OUTPAD"
+    }
+    setup: -3700
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "mosi_OUT"
+      port: "OUTPAD"
+    }
+    setup: -3700
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_CBSEL[0]"
+      port: "OUTPAD"
+    }
+    setup: -3360
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_CBSEL[1]"
+      port: "OUTPAD"
+    }
+    setup: -3360
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+  output_delay {
+    pin {
+      cell: "cfg_ENA"
+      port: "OUTPAD"
+    }
+    setup: -3410
+    analysis: MAX
+    ref_clock_edge: RISING
+  }
+}
+clock {
+  name: "CMOSPLL_CMOSCLKOUT"
+  period: 166670
+  target_pin {
+    cell: "CMOSPLL_CMOSCLKOUT"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 120
+  }
+}
+exception {
+  type: MULTICYCLE_PATH
+  from {
+    clock: "syspll_CLKOUT100"
+  }
+  to {
+    clock: "syspll_CLKOUT25"
+  }
+  multicycle {
+    cycles: 4
+    reference: START
+  }
+  analysis: MAX
+}
+exception {
+  type: MULTICYCLE_PATH
+  from {
+    clock: "syspll_CLKOUT100"
+  }
+  to {
+    clock: "syspll_CLKOUT25"
+  }
+  multicycle {
+    cycles: 3
+    reference: START
+  }
+  analysis: MIN
+}
+exception {
+  type: MULTICYCLE_PATH
+  from {
+    clock: "syspll_CLKOUT25"
+  }
+  to {
+    clock: "syspll_CLKOUT100"
+  }
+  multicycle {
+    cycles: 4
+    reference: END
+  }
+  analysis: MAX
+}
+exception {
+  type: MULTICYCLE_PATH
+  from {
+    clock: "syspll_CLKOUT25"
+  }
+  to {
+    clock: "syspll_CLKOUT100"
+  }
+  multicycle {
+    cycles: 3
+    reference: END
+  }
+  analysis: MIN
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "CMOSPLL_CMOSCLKOUT"
+  }
+  to {
+    clock: "sysclk_in"
+    clock: "ddrrefclk"
+    clock: "syspll_CLKOUT100"
+    clock: "syspll_CLKOUT25"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "sysclk_in"
+    clock: "ddrrefclk"
+    clock: "syspll_CLKOUT100"
+    clock: "syspll_CLKOUT25"
+  }
+  to {
+    clock: "CMOSPLL_CMOSCLKOUT"
+  }
+  analysis: BOTH
+}

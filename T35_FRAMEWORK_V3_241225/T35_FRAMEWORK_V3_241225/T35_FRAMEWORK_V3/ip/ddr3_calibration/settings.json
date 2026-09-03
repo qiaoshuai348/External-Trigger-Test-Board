@@ -1,0 +1,33 @@
+{
+    "args": [
+        "-o",
+        "ddr3_calibration",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_ddr_calibration",
+            "version": "2.0"
+        }
+    ],
+    "conf": {
+        "DDR_TYPE": "1",
+        "DDR_X16": "1"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\ddr3_calibration_define.vh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\ddr3_calibration.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\rom0_ddr3_x16.hex",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\rom1_ddr3_x16.hex",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\rom2_ddr3_x16.hex",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\rom3_ddr3_x16.hex",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\ddr3_calibration_tmpl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr3_calibration\\ddr3_calibration_tmpl.vhd"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-05-13T07:34:35.783794"
+}

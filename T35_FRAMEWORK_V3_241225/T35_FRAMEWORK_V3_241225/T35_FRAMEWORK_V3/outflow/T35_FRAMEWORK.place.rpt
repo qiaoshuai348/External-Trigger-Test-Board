@@ -1,0 +1,150 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.2.323.2.18 
+Date: Fri Aug 28 10:46:39 2026
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F324
+Top-level Entity Name: T35_FRAMEWORK
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 241 / 979 (24.62%)
+Outputs: 319 / 1116 (28.58%)
+Clocks: 4 / 16 (25.00%)
+Logic Elements: 7065 / 31680 (22.30%)
+	LE: LUTs/Adders: 5473 / 31680 (17.28%)
+	LE: Registers: 3443 / 30720 (11.21%)
+Memory Blocks: 26 / 288 (9.03%)
+Multipliers: 12 / 120 (10.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Block Information (begin) ----------
+
++------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+|                      NAME                      | A_REG | B_REG | O_REG | RSTA_SYNC | RSTA_VALUE | RSTB_SYNC | RSTB_VALUE | RSTO_SYNC | RSTO_VALUE |
++------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+| data_process_inst/unsigned_reg_mult_instA/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_instB/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_instC/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_instD/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst0/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst1/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst2/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst3/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst4/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst5/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst6/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
+| data_process_inst/unsigned_reg_mult_inst7/mult | true  | true  | true  |   false   |    true    |   false   |    true    |   false   |    true    |
++------------------------------------------------+-------+-------+-------+-----------+------------+-----------+------------+-----------+------------+
+
+----------- DSP Block Information (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++-----------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                               NAME                                                                | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++-----------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                        | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_wrddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                       | SDP  |     16     |      8      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                        | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                       Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                      Ddr3Mig_Top_inst/ddr3_state_inst/u_rdddr3_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                       | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c1                                  | SDP  |     10     |     20      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12                                 | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                  fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$02                                  | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                  fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$32                                  | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$312                                  | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c1                                  | SDP  |     10     |     20      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$012                                  | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                 fx3_tx_inst/u_fx3tx_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12                                 | SDP  |     8      |     16      |  READ_FIRST  |   false    |
+|                                   gps_decoder_inst/u_GPS_FIFO/u_efx_fifo_top/xefx_fifo_ram/ram                                    | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+| flash_ctrl_inst/asmi_flash_ctl_inst/u_efx_flash_controller_top/u_wfifo/genblk1.inst_dual_clock_fifo/inst_simple_dual_port_ram/ram | SDP  |     8      |      8      |  READ_FIRST  |   false    |
++-----------------------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|     syspll_LOCKED      |    Input     |
+|      MUX_GPIO1_IN      |    Input     |
+|       USB_RESET        |    Input     |
+|      MUX_GPIO4_IN      |    Input     |
+|      MUX_GPIO3_IN      |    Input     |
+|        fx3_ctl6        |    Input     |
+|      TP_GPIO6_IN       |    Input     |
+|      TP_GPIO5_IN       |    Input     |
+|        fx3_ctl5        |    Input     |
+|      TP_GPIO7_IN       |    Input     |
+|      TP_GPIO8_IN       |    Input     |
+|        fx3_ctl7        |    Input     |
+|      CMOS_CTL2_IN      |    Input     |
+|     CMOS_XTRIG_IN      |    Input     |
+|      CMOS_XVS_IN       |    Input     |
+|        fx3_ctl4        |    Input     |
+|      CMOS_XHS_IN       |    Input     |
+|      CMOS_XCLR_IN      |    Input     |
+|    CMOS_XMASTER_IN     |    Input     |
+|      CMOS_CTL3_IN      |    Input     |
+|      CMOS_CTL4_IN      |    Input     |
+|      CMOS_CTL1_IN      |    Input     |
+|     CMOS_TECEN_IN      |    Input     |
+|      CMOS_CTL5_IN      |    Input     |
+|      CMOS_AMPV_IN      |    Input     |
+|     CMOSPLL_LOCKED     |    Input     |
+|   DDR_CTRL_BID_0[0]    |    Input     |
+|   DDR_CTRL_BID_0[1]    |    Input     |
+|   DDR_CTRL_BID_0[2]    |    Input     |
+|   DDR_CTRL_BID_0[3]    |    Input     |
+|   DDR_CTRL_BID_0[4]    |    Input     |
+|   DDR_CTRL_BID_0[5]    |    Input     |
+|   DDR_CTRL_BID_0[6]    |    Input     |
+|   DDR_CTRL_BID_0[7]    |    Input     |
+|   DDR_CTRL_BVALID_0    |    Input     |
+|   DDR_CTRL_RID_0[0]    |    Input     |
+|   DDR_CTRL_RID_0[1]    |    Input     |
+|   DDR_CTRL_RID_0[2]    |    Input     |
+|   DDR_CTRL_RID_0[3]    |    Input     |
+|   DDR_CTRL_RID_0[4]    |    Input     |
+|   DDR_CTRL_RID_0[5]    |    Input     |
+|   DDR_CTRL_RID_0[6]    |    Input     |
+|   DDR_CTRL_RID_0[7]    |    Input     |
+|  DDR_CTRL_RRESP_0[0]   |    Input     |
+|  DDR_CTRL_RRESP_0[1]   |    Input     |
+| mipi_rx_inst1_ULPS[3]  |    Input     |
+| mipi_rx_inst1_ULPS[2]  |    Input     |
+| mipi_rx_inst1_ULPS[1]  |    Input     |
+| mipi_rx_inst1_ULPS[0]  |    Input     |
+| mipi_rx_inst1_ULPS_CLK |    Input     |
+| mipi_rx_inst1_ERROR[8] |    Input     |
+| mipi_rx_inst1_ERROR[7] |    Input     |
+| mipi_rx_inst1_ERROR[6] |    Input     |
+|  mipi_rx_inst1_VC[1]   |    Input     |
+|  mipi_rx_inst1_CNT[3]  |    Input     |
+|  mipi_rx_inst1_CNT[2]  |    Input     |
+|  mipi_rx_inst1_CNT[1]  |    Input     |
+|  mipi_rx_inst1_CNT[0]  |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 27 seconds

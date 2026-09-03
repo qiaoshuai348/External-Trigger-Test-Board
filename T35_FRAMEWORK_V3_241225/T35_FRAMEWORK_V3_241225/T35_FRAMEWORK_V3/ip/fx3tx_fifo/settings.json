@@ -1,0 +1,44 @@
+{
+    "args": [
+        "-o",
+        "fx3tx_fifo",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "1.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH": "9",
+        "DATA_WIDTH": "66",
+        "MODE": "0",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "0",
+        "PROG_FULL_NEGATE": "127",
+        "PROG_EMPTY_ASSERT": "2",
+        "PROG_EMPTY_NEGATE": "3",
+        "PROGRAMMABLE_EMPTY": "0",
+        "OPTIONAL_FLAGS": "0",
+        "PIPELINE_REG": "1",
+        "DEVICE_FAMILY": "0",
+        "ASYM_WIDTH_RATIO": "3",
+        "BYPASS_RESET_SYNC": "0"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\fx3tx_fifo\\fx3tx_fifo_tmpl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\fx3tx_fifo\\fx3tx_fifo.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\fx3tx_fifo\\fx3tx_fifo_define.vh",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\fx3tx_fifo\\fx3tx_fifo_tmpl.vhd"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-05-11T05:34:01.789457"
+}

@@ -1,0 +1,1485 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "d8f9eec28fbb494eac04864e52d442d6",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "mipicsi_rxctrl_inst/line_ed",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/line_st",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxhsyncvld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxvsyncvld",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/lineflag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "mipicsi_rxctrl_inst/mipi_rxvld_o",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/frame_drop",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/ddr_pfull",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "isddr",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/Data64Wr_f",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/EnableBurstMode",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/framecount",
+                    "width": 32,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/BurstStart",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "data_process_inst/BurstEnd",
+                    "width": 16,
+                    "probe_type": 2
+                },
+                {
+                    "name": "data_process_inst/single_patch_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/isFrameEndPatch",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/frame_stt1",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/frame_ed",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/ResetFrameCount",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "data_process_inst/counterEnd",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "data_process_inst/PatchVNumber",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "data_process_inst/speed_cut_flag",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "CmosControl_inst/SlaveControl_2022_inst/XTRIG",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "T35_TOP",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "syspll_CLKOUT100",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "line_ed",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "line_st",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "mipi_rxhsyncvld",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "mipi_rxvsyncvld",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "lineflag",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "mipi_rxvld_o",
+                        "path": [
+                            "mipicsi_rxctrl_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "frame_drop",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "ddr_pfull",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "isddr",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "Data64Wr_f",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "EnableBurstMode",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[0]",
+                        "net": "framecount[0]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[1]",
+                        "net": "framecount[1]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[2]",
+                        "net": "framecount[2]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[3]",
+                        "net": "framecount[3]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[4]",
+                        "net": "framecount[4]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[5]",
+                        "net": "framecount[5]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[6]",
+                        "net": "framecount[6]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[7]",
+                        "net": "framecount[7]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[8]",
+                        "net": "framecount[8]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[9]",
+                        "net": "framecount[9]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[10]",
+                        "net": "framecount[10]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[11]",
+                        "net": "framecount[11]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[12]",
+                        "net": "framecount[12]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[13]",
+                        "net": "framecount[13]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[14]",
+                        "net": "framecount[14]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[15]",
+                        "net": "framecount[15]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[16]",
+                        "net": "framecount[16]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[17]",
+                        "net": "framecount[17]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[18]",
+                        "net": "framecount[18]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[19]",
+                        "net": "framecount[19]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[20]",
+                        "net": "framecount[20]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[21]",
+                        "net": "framecount[21]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[22]",
+                        "net": "framecount[22]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[23]",
+                        "net": "framecount[23]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[24]",
+                        "net": "framecount[24]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[25]",
+                        "net": "framecount[25]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[26]",
+                        "net": "framecount[26]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[27]",
+                        "net": "framecount[27]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[28]",
+                        "net": "framecount[28]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[29]",
+                        "net": "framecount[29]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[30]",
+                        "net": "framecount[30]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11[31]",
+                        "net": "framecount[31]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[0]",
+                        "net": "BurstStart[0]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[1]",
+                        "net": "BurstStart[1]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[2]",
+                        "net": "BurstStart[2]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[3]",
+                        "net": "BurstStart[3]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[4]",
+                        "net": "BurstStart[4]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[5]",
+                        "net": "BurstStart[5]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[6]",
+                        "net": "BurstStart[6]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12[7]",
+                        "net": "BurstStart[7]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[0]",
+                        "net": "BurstEnd[0]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[1]",
+                        "net": "BurstEnd[1]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[2]",
+                        "net": "BurstEnd[2]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[3]",
+                        "net": "BurstEnd[3]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[4]",
+                        "net": "BurstEnd[4]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[5]",
+                        "net": "BurstEnd[5]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[6]",
+                        "net": "BurstEnd[6]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[7]",
+                        "net": "BurstEnd[7]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[8]",
+                        "net": "BurstEnd[8]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[9]",
+                        "net": "BurstEnd[9]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[10]",
+                        "net": "BurstEnd[10]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[11]",
+                        "net": "BurstEnd[11]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[12]",
+                        "net": "BurstEnd[12]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[13]",
+                        "net": "BurstEnd[13]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[14]",
+                        "net": "BurstEnd[14]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13[15]",
+                        "net": "BurstEnd[15]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14",
+                        "net": "single_patch_flag",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15",
+                        "net": "isFrameEndPatch",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "frame_stt1",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "frame_ed",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "ResetFrameCount",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[0]",
+                        "net": "counterEnd[0]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[1]",
+                        "net": "counterEnd[1]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[2]",
+                        "net": "counterEnd[2]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[3]",
+                        "net": "counterEnd[3]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[4]",
+                        "net": "counterEnd[4]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[5]",
+                        "net": "counterEnd[5]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[6]",
+                        "net": "counterEnd[6]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[7]",
+                        "net": "counterEnd[7]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[8]",
+                        "net": "counterEnd[8]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[9]",
+                        "net": "counterEnd[9]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[10]",
+                        "net": "counterEnd[10]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[11]",
+                        "net": "counterEnd[11]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[12]",
+                        "net": "counterEnd[12]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[13]",
+                        "net": "counterEnd[13]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[14]",
+                        "net": "counterEnd[14]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[15]",
+                        "net": "counterEnd[15]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[16]",
+                        "net": "counterEnd[16]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[17]",
+                        "net": "counterEnd[17]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[18]",
+                        "net": "counterEnd[18]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[19]",
+                        "net": "counterEnd[19]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[20]",
+                        "net": "counterEnd[20]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[21]",
+                        "net": "counterEnd[21]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[22]",
+                        "net": "counterEnd[22]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[23]",
+                        "net": "counterEnd[23]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[24]",
+                        "net": "counterEnd[24]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[25]",
+                        "net": "counterEnd[25]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[26]",
+                        "net": "counterEnd[26]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[27]",
+                        "net": "counterEnd[27]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[28]",
+                        "net": "counterEnd[28]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[29]",
+                        "net": "counterEnd[29]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[30]",
+                        "net": "counterEnd[30]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe19[31]",
+                        "net": "counterEnd[31]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[0]",
+                        "net": "PatchVNumber[0]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[1]",
+                        "net": "PatchVNumber[1]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[2]",
+                        "net": "PatchVNumber[2]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[3]",
+                        "net": "PatchVNumber[3]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[4]",
+                        "net": "PatchVNumber[4]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[5]",
+                        "net": "PatchVNumber[5]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[6]",
+                        "net": "PatchVNumber[6]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[7]",
+                        "net": "PatchVNumber[7]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[8]",
+                        "net": "PatchVNumber[8]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[9]",
+                        "net": "PatchVNumber[9]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[10]",
+                        "net": "PatchVNumber[10]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[11]",
+                        "net": "PatchVNumber[11]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[12]",
+                        "net": "PatchVNumber[12]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[13]",
+                        "net": "PatchVNumber[13]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[14]",
+                        "net": "PatchVNumber[14]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[15]",
+                        "net": "PatchVNumber[15]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[16]",
+                        "net": "PatchVNumber[16]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[17]",
+                        "net": "PatchVNumber[17]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[18]",
+                        "net": "PatchVNumber[18]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[19]",
+                        "net": "PatchVNumber[19]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[20]",
+                        "net": "PatchVNumber[20]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[21]",
+                        "net": "PatchVNumber[21]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[22]",
+                        "net": "PatchVNumber[22]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[23]",
+                        "net": "PatchVNumber[23]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[24]",
+                        "net": "PatchVNumber[24]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[25]",
+                        "net": "PatchVNumber[25]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[26]",
+                        "net": "PatchVNumber[26]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[27]",
+                        "net": "PatchVNumber[27]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[28]",
+                        "net": "PatchVNumber[28]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[29]",
+                        "net": "PatchVNumber[29]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[30]",
+                        "net": "PatchVNumber[30]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe20[31]",
+                        "net": "PatchVNumber[31]",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe21",
+                        "net": "speed_cut_flag",
+                        "path": [
+                            "data_process_inst"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe22",
+                        "net": "XTRIG",
+                        "path": [
+                            "CmosControl_inst",
+                            "SlaveControl_2022_inst"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 1024,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "line_ed",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "line_st",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxhsyncvld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxvsyncvld",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "lineflag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "mipi_rxvld_o",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "mipicsi_rxctrl_inst"
+                    ]
+                },
+                {
+                    "name": "frame_drop",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "ddr_pfull",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "isddr",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "Data64Wr_f",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "EnableBurstMode",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "framecount",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "BurstStart",
+                    "width": 8,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "BurstEnd",
+                    "width": 16,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "single_patch_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "isFrameEndPatch",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "frame_stt1",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "frame_ed",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "ResetFrameCount",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "counterEnd",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "PatchVNumber",
+                    "width": 32,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "speed_cut_flag",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "data_process_inst"
+                    ]
+                },
+                {
+                    "name": "XTRIG",
+                    "width": 1,
+                    "clk_domain": "syspll_CLKOUT100",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "CmosControl_inst",
+                        "SlaveControl_2022_inst"
+                    ]
+                }
+            ],
+            "top_module": "T35_TOP",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

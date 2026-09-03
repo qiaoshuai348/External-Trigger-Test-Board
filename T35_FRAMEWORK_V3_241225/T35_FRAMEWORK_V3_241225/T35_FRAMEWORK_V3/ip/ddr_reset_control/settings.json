@@ -1,0 +1,34 @@
+{
+    "args": [
+        "-o",
+        "ddr_reset_control",
+        "--base_path",
+        "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_ddr_reset_controller",
+            "version": "1.0"
+        }
+    ],
+    "conf": {
+        "FREQ": "100"
+    },
+    "output": {
+        "external_source": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\ddr_reset_control_tmpl.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\ddr_reset_control_tmpl.vhd",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\ddr_reset_control.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\ddr_reset_control_define.vh"
+        ],
+        "external_testbench": [
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\Testbench\\ddr_reset_sequencer_tb.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\Testbench\\modelsim.do",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\Testbench\\ddr_reset_control.v",
+            "D:\\work\\TRION_FPGA\\proj\\T35_FRAMEWORK\\ip\\ddr_reset_control\\Testbench\\ddr_reset_control_define.vh"
+        ]
+    },
+    "sw_version": "2021.2.323",
+    "generated_date": "2022-05-13T09:23:54.730739"
+}
