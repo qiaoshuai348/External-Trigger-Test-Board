@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2712ACDF-4707-4DCC-9F1C-CEEC4CDECD27}|SDKDemo08.csproj|g:\\\u5916\u89E6\u53D1\u6C47\u603B\\external_triggering_software_260407\\external_triggering_software\\sdkdemo08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2712ACDF-4707-4DCC-9F1C-CEEC4CDECD27}|SDKDemo08.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2712ACDF-4707-4DCC-9F1C-CEEC4CDECD27}|SDKDemo08.csproj|G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2712ACDF-4707-4DCC-9F1C-CEEC4CDECD27}|SDKDemo08.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAALoEAAAAAAAAAAAYwOQEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T05:40:47.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "G:\\\u5916\u89E6\u53D1\u6C47\u603B\\External_triggering_software_260407\\External_triggering_software\\SdkDemo08\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T05:40:47.514Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

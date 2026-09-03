@@ -1,0 +1,55 @@
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.AssemblyReference.cache
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.cache
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.CoreCompileInputs.cache
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\Desktop\work_doc\DEBUG\ERIS_FRAMEWORK_DEBUG_p\ERIS_FRAMEWORK_DEBUG\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.AssemblyReference.cache
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.cache
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.CoreCompileInputs.cache
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\Desktop\ERIS_FRAMEWORK_DEBUG\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.AssemblyReference.cache
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.cache
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.CoreCompileInputs.cache
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\Desktop\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\Desktop\External triggering software\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\Desktop\External triggering software\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.AssemblyReference.cache
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.cache
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.CoreCompileInputs.cache
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\External triggering software\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.AssemblyReference.cache
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.cache
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.CoreCompileInputs.cache
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\Desktop\work_doc\DEBUG\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\bin\x64\Debug\SdkDemo08.exe
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\bin\x64\Debug\SdkDemo08.pdb
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.Form1.resources
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.Properties.Resources.resources
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SDKDemo08.csproj.GenerateResource.Cache
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.exe
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SdkDemo08.pdb
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\x64\Debug\SDKDemo08.csprojResolveAssemblyReference.cache
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\ui_layout_verify\SdkDemo08.exe
+G:\外触发汇总\External_triggering_software_260407\External_triggering_software\SdkDemo08\obj\ui_layout_verify\SdkDemo08.pdb
